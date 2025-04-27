@@ -178,7 +178,7 @@ export default function Footer() {
       {/* Bottom Line */}
       <div className="mt-12 border-t border-teal-700 pt-6 text-center text-sm text-teal-100">
         <p>© {new Date().getFullYear()} Dr. Yousuf Memon. All Rights Reserved.</p>
-        <p className="mt-1 text-xs">Providing quality healthcare services across Pakistan</p>
+        <p className="mt-1 text-lgs">Develop By Muskan Nisar 03182325757</p>
       </div>
     </footer>
   );

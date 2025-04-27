@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaArrowRight, FaClinicMedical, FaHeartbeat, FaProcedures, FaPhone, FaCalendarAlt } from 'react-icons/fa';
+import { FaArrowRight, FaClinicMedical, FaHeartbeat, FaProcedures, FaPhone, FaCalendarAlt, FaUserMd, FaHospital, FaMicroscope, FaStethoscope, FaMedal, FaAward, FaRegHospital } from 'react-icons/fa';
+import Link from 'next/link';
 
 const HomePage = () => {
   // Animation variants
@@ -22,100 +23,157 @@ const HomePage = () => {
 
   const services = [
     {
-      title: "Uterine Fibroid Embolization",
-      description: "A minimally invasive procedure used to treat fibroids by blocking their blood supply.",
-      icon: <FaProcedures className="text-blue-600 text-xl" />
+      title: "Fibroid Treatment",
+      description: "Minimally invasive Uterine Fibroid Embolization (UFE) with 90% success rate and quick recovery.",
+      icon: <FaProcedures className="text-teal-500 text-2xl" />,
+      link: "/services/uterine-fibroid-embolization"
     },
     {
-      title: "Liver Cancer Due to Liver Cirrhosis", 
-      description: "Advanced treatments for liver cancer developing from cirrhotic conditions.",
-      icon: <FaHeartbeat className="text-blue-600 text-xl" />
+      title: "Liver Cancer Care", 
+      description: "Transarterial Chemoembolization (TACE) and Radioembolization (Y90) for liver tumors.",
+      icon: <FaHeartbeat className="text-teal-500 text-2xl" />,
+      link: "/services/liver-cancer"
     },
     {
-      title: "Hemorrhoid (Piles) Embolization",
-      description: "Non-surgical treatment for hemorrhoids by blocking their blood vessels.",
-      icon: <FaProcedures className="text-blue-600 text-xl" />
+      title: "Hemorrhoid Relief",
+      description: "Painless hemorrhoid embolization with 95% success rate and no hospital stay.",
+      icon: <FaProcedures className="text-teal-500 text-2xl" />,
+      link: "/services/hemorrhoid-embolization"
     },
     {
-      title: "Embolization for Bleeding",
-      description: "Controls bleeding from various sources through vessel occlusion.",
-      icon: <FaHeartbeat className="text-blue-600 text-xl" />
+      title: "Bleeding Control",
+      description: "Emergency embolization for GI bleeding, postpartum hemorrhage, and trauma cases.",
+      icon: <FaHeartbeat className="text-teal-500 text-2xl" />,
+      link: "/services/bleeding-embolization"
     },
     {
-      title: "Embolization of Brain Tumors",
-      description: "Pre-surgical procedure to reduce tumor blood flow and size.",
-      icon: <FaProcedures className="text-blue-600 text-xl" />
+      title: "Brain Tumor Care",
+      description: "Pre-operative tumor embolization to reduce surgical risks and blood loss.",
+      icon: <FaMicroscope className="text-teal-500 text-2xl" />,
+      link: "/services/brain-tumor-embolization"
     },
     {
-      title: "Diabetic Foot Angioplasty",
-      description: "Restores blood flow in lower limbs affected by diabetic complications.",
-      icon: <FaHeartbeat className="text-blue-600 text-xl" />
+      title: "Diabetic Foot Care",
+      description: "Angioplasty and stenting to prevent amputations in diabetic patients.",
+      icon: <FaClinicMedical className="text-teal-500 text-2xl" />,
+      link: "/services/lower-limb-angioplasty"
     }
   ];
 
   const treatments = [
     {
-      title: "Ozone Treatment for Disc Herniation",
-      description: "Non-surgical relief for herniated discs using medical ozone therapy.",
-      image: "/images/oz11.png"
+      title: "Ozone Disc Therapy",
+      description: "Non-surgical treatment for herniated discs with 85% success rate.",
+      image: "/images/oz11.png",
+      icon: <FaClinicMedical className="text-white text-3xl" />,
+      link: "/services/ozone-disc-therapy"
     },
     {
-      title: "Ozone Joint Treatment",
-      description: "Effective therapy for knee, shoulder, and back pain using ozone injections.",
-      image: "/images/oz2.png"
+      title: "Joint Regeneration",
+      description: "Ozone injections for arthritis with significant pain relief in 3 sessions.",
+      image: "/images/oz2.png",
+      icon: <FaHeartbeat className="text-white text-3xl" />,
+      link: "/services/joint-regeneration"
     },
     {
-      title: "Ozone for Dry Eyes & Wrinkles",
-      description: "Innovative cosmetic and therapeutic applications of ozone medicine.",
-      image: "/images/oz3.png"
+      title: "Aesthetic Ozone",
+      description: "Facial rejuvenation and dark circle treatment with ozone therapy.",
+      image: "/images/oz3.png",
+      icon: <FaUserMd className="text-white text-3xl" />,
+      link: "/services/aesthetic-ozone"
     }
+  ];
+
+  const stats = [
+    { value: "20+", label: "Years Experience", icon: <FaMedal className="text-teal-500" /> },
+    { value: "5000+", label: "Procedures Performed", icon: <FaStethoscope className="text-teal-500" /> },
+    { value: "95%", label: "Success Rate", icon: <FaHeartbeat className="text-teal-500" /> },
+    { value: "3", label: "Hospital Affiliations", icon: <FaRegHospital className="text-teal-500" /> }
+  ];
+
+  const specializations = [
+    "Uterine Fibroid Embolization (UFE)",
+    "Prostate Artery Embolization (PAE)",
+    "Liver Cancer Interventions (TACE/Y90)",
+    "Varicocele Embolization",
+    "Hemorrhoid Artery Embolization",
+    "Peripheral Vascular Interventions",
+    "Ozone Therapy Specialist",
+    "Non-Surgical Disc Treatments"
   ];
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20 md:py-32">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      {/* Modern Hero Section - Improved */}
+      <section className="relative bg-gradient-to-br from-teal-900 to-teal-700 text-white py-20 md:py-28 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 left-0 w-full h-full bg-[url('/images/doctor1.png')] bg-repeat opacity-20"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center relative z-10">
           <div className="md:w-1/2 mb-12 md:mb-0">
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              className="flex items-center mb-4"
+            >
+              <div className="w-12 h-1 bg-teal-300 mr-4"></div>
+              <span className="text-teal-300 font-medium tracking-wider">INTERVENTIONAL RADIOLOGY SPECIALIST</span>
+            </motion.div>
+            
             <motion.h1 
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
             >
-              <span className="block">Good Health Is</span>
-              <span className="block">The Root Of All</span>
-              <span className="block text-blue-200">Happiness</span>
+              <span className="block">Precision</span>
+              <span className="block">Minimally Invasive</span>
+              <span className="block text-teal-200">Treatments</span>
             </motion.h1>
             
-            <motion.div
+            <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 1 }}
-              className="bg-white/20 backdrop-blur-sm p-6 rounded-lg inline-block"
+              transition={{ delay: 0.3, duration: 0.8 }}
+              className="text-lg text-teal-100 mb-8 max-w-lg"
             >
-              <h2 className="text-2xl md:text-3xl font-bold mb-2">Endovascular Surgical &</h2>
-              <h3 className="text-xl md:text-2xl font-semibold text-blue-200">Interventional Radiology Specialist</h3>
-            </motion.div>
+              Advanced image-guided procedures for complex conditions with faster recovery, less pain, and better outcomes than traditional surgery.
+            </motion.p>
+
+            <div className="flex items-center mb-8">
+              <div className="mr-4">
+                <img 
+                  src="/images/doctor1.png" 
+                  alt="Dr. Yousuf Memon"
+                  className="w-16 h-16 rounded-full border-2 border-white object-cover"
+                />
+              </div>
+              <div>
+                <p className="font-medium">Dr. Yousuf Memon</p>
+                <p className="text-teal-200 text-sm">MBBS, FCPS (Radiology)</p>
+              </div>
+            </div>
 
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-              className="flex flex-wrap gap-4 mt-8"
+              transition={{ delay: 0.5 }}
+              className="flex flex-wrap gap-4"
             >
-              <a 
+              <Link 
                 href="#appointment" 
-                className="bg-white text-blue-700 hover:bg-blue-50 font-medium py-3 px-6 rounded-lg flex items-center transition"
+                className="bg-white text-teal-700 hover:bg-teal-50 font-medium py-3 px-6 rounded-lg flex items-center transition shadow-lg hover:shadow-xl"
               >
-                <FaCalendarAlt className="mr-2" /> Book Appointment
-              </a>
-              <a 
-                href="tel:+923367889143" 
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg flex items-center transition"
+                <FaCalendarAlt className="mr-2" /> Schedule Consultation
+              </Link>
+              <Link 
+                href="#services" 
+                className="border-2 border-white text-white hover:bg-white/10 font-medium py-3 px-6 rounded-lg flex items-center transition"
               >
-                <FaPhone className="mr-2" /> Emergency Call
-              </a>
+                <FaArrowRight className="mr-2" /> Explore Services
+              </Link>
             </motion.div>
           </div>
           
@@ -126,28 +184,66 @@ const HomePage = () => {
             className="md:w-1/2 flex justify-center"
           >
             <div className="relative w-full max-w-md">
-              <div className="bg-white/20 p-2 rounded-xl backdrop-blur-sm shadow-2xl">
+              <div className="relative overflow-hidden rounded-2xl shadow-2xl border-4 border-white/20">
                 <img 
                   src="/images/doctor1.png" 
-                  alt="Interventional Radiology Specialist"
-                  className="w-full h-auto rounded-lg border-4 border-white/30"
+                  alt="Dr. Yousuf Memon - Interventional Radiologist"
+                  className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
+                  style={{ minHeight: '500px' }}
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent"></div>
               </div>
+              
               <motion.div 
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ delay: 0.8 }}
-                className="absolute -bottom-6 -right-6 bg-blue-600 p-4 rounded-lg shadow-lg"
+                className="absolute -bottom-6 -left-6 bg-teal-600 p-4 rounded-xl shadow-lg border border-white/20"
               >
                 <div className="text-white font-bold text-xl">20+ Years</div>
-                <div className="text-blue-100">of Experience</div>
+                <div className="text-teal-100">Clinical Excellence</div>
+              </motion.div>
+              
+              <motion.div 
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ delay: 1 }}
+                className="absolute -top-6 -right-6 bg-white p-4 rounded-xl shadow-lg border border-teal-200"
+              >
+                <div className="text-teal-800 font-bold text-xl">MBBS, FCPS</div>
+                <div className="text-teal-600 text-sm">Interventional Radiologist</div>
               </motion.div>
             </div>
           </motion.div>
         </div>
       </section>
 
-      {/* Healthcare Solutions */}
+      {/* Stats Section */}
+      <section className="py-12 bg-white relative -mt-8 z-10">
+        <div className="container mx-auto px-4">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white rounded-xl shadow-lg p-6"
+          >
+            {stats.map((stat, index) => (
+              <div key={index} className="text-center p-4">
+                <div className="flex justify-center mb-3">
+                  <div className="bg-teal-100 p-3 rounded-full">
+                    {stat.icon}
+                  </div>
+                </div>
+                <h3 className="text-3xl font-bold text-teal-800 mb-2">{stat.value}</h3>
+                <p className="text-gray-600 text-sm md:text-base">{stat.label}</p>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Services Section */}
       <section className="py-20 bg-white" id="services">
         <div className="container mx-auto px-4">
           <motion.div
@@ -156,10 +252,10 @@ const HomePage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Health Care Solutions</h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Specialized Medical Solutions</h2>
+            <div className="w-24 h-1.5 bg-teal-500 mx-auto mb-6 rounded-full"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Comprehensive interventional radiology services for advanced patient care
+              Our comprehensive range of minimally invasive procedures designed for optimal patient outcomes
             </p>
           </motion.div>
 
@@ -174,28 +270,131 @@ const HomePage = () => {
               <motion.div 
                 key={index}
                 variants={item}
-                whileHover={{ y: -5 }}
-                className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:border-blue-300 transition-all"
+                whileHover={{ y: -10 }}
+                className="bg-white rounded-xl p-8 border border-gray-100 hover:border-teal-300 transition-all shadow-sm hover:shadow-md group relative overflow-hidden"
               >
-                <div className="flex items-start mb-4">
-                  <div className="bg-blue-100 p-3 rounded-full mr-4">
+                <div className="absolute -right-10 -top-10 w-28 h-28 bg-teal-50 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                <div className="relative z-10">
+                  <div className="bg-teal-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                     {service.icon}
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+                  <p className="text-gray-600 mb-6">{service.description}</p>
+                  <Link 
+                    href={service.link}
+                    className="text-teal-600 font-medium hover:text-teal-700 flex items-center"
+                  >
+                    <span>Discover treatment options</span>
+                    <FaArrowRight className="ml-2 transition-transform group-hover:translate-x-1" />
+                  </Link>
                 </div>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <button className="text-blue-600 font-medium hover:text-blue-700 flex items-center">
-                  Learn more
-                  <FaArrowRight className="ml-2" />
-                </button>
               </motion.div>
             ))}
           </motion.div>
         </div>
       </section>
 
-      {/* Latest Treatments */}
-      <section className="py-20 bg-blue-50" id="treatments">
+      {/* Specializations Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col lg:flex-row gap-12 items-center">
+            <div className="lg:w-1/2">
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+              >
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Areas of Specialization</h2>
+                <div className="w-24 h-1.5 bg-teal-500 mb-6 rounded-full"></div>
+                <p className="text-lg text-gray-600 mb-8">
+                  Dr. Yousuf Memon is a fellowship-trained interventional radiologist with expertise in:
+                </p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                  {specializations.map((item, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      transition={{ delay: index * 0.1 }}
+                      viewport={{ once: true }}
+                      className="flex items-start gap-3"
+                    >
+                      <div className="bg-teal-100 p-1 rounded-full mt-1 flex-shrink-0">
+                        <FaAward className="text-teal-600 text-sm" />
+                      </div>
+                      <span className="text-gray-700">{item}</span>
+                    </motion.div>
+                  ))}
+                </div>
+                
+                <Link 
+                  href="/specializations" 
+                  className="inline-flex items-center text-teal-600 font-medium hover:text-teal-700"
+                >
+                  View complete list of specializations
+                  <FaArrowRight className="ml-2" />
+                </Link>
+              </motion.div>
+            </div>
+            
+            <div className="lg:w-1/2">
+              <motion.div
+                initial={{ opacity: 0, x: 20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                className="bg-white p-8 rounded-xl shadow-lg border border-gray-100"
+              >
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Choose Minimally Invasive Procedures?</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-teal-100 p-2 rounded-full mt-1 flex-shrink-0">
+                      <FaHeartbeat className="text-teal-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-gray-800">Less Pain</h4>
+                      <p className="text-gray-600">Small incisions mean less post-procedure discomfort</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <div className="bg-teal-100 p-2 rounded-full mt-1 flex-shrink-0">
+                      <FaHospital className="text-teal-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-gray-800">Faster Recovery</h4>
+                      <p className="text-gray-600">Most patients go home the same day and resume normal activities within days</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <div className="bg-teal-100 p-2 rounded-full mt-1 flex-shrink-0">
+                      <FaUserMd className="text-teal-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-gray-800">Lower Risk</h4>
+                      <p className="text-gray-600">Reduced complications compared to traditional surgery</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <div className="bg-teal-100 p-2 rounded-full mt-1 flex-shrink-0">
+                      <FaStethoscope className="text-teal-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-gray-800">Proven Results</h4>
+                      <p className="text-gray-600">High success rates comparable to surgical alternatives</p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Innovative Treatments */}
+      <section className="py-20 bg-white" id="treatments">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -203,10 +402,10 @@ const HomePage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Latest Treatments</h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Breakthrough Therapies</h2>
+            <div className="w-24 h-1.5 bg-teal-500 mx-auto mb-6 rounded-full"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Cutting-edge medical therapies for improved patient outcomes
+              Pioneering medical treatments that redefine patient care and recovery
             </p>
           </motion.div>
 
@@ -222,21 +421,29 @@ const HomePage = () => {
                 key={index}
                 variants={item}
                 whileHover={{ scale: 1.03 }}
-                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all"
+                className="relative group overflow-hidden rounded-xl shadow-lg"
               >
-                <div className="h-48 overflow-hidden">
+                <div className="h-64 overflow-hidden">
                   <img 
                     src={treatment.image} 
                     alt={treatment.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">{treatment.title}</h3>
-                  <p className="text-gray-600 mb-4">{treatment.description}</p>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition">
-                    View Details
-                  </button>
+                <div className="absolute -top-6 -right-6 bg-teal-500 w-16 h-16 rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform">
+                  {treatment.icon}
+                </div>
+                <div className="absolute bottom-0 left-0 p-6 text-white">
+                  <h3 className="text-xl font-bold mb-2">{treatment.title}</h3>
+                  <p className="text-teal-100 mb-4">{treatment.description}</p>
+                  <Link 
+                    href={treatment.link}
+                    className="inline-flex items-center bg-teal-500 hover:bg-teal-600 text-white font-medium py-2 px-4 rounded-lg transition"
+                  >
+                    Learn More
+                    <FaArrowRight className="ml-2" />
+                  </Link>
                 </div>
               </motion.div>
             ))}
@@ -244,90 +451,117 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Pain Management Section */}
-      <section className="py-20 bg-white" id="pain-management">
+      {/* Doctor Profile Section */}
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="flex flex-col lg:flex-row items-center gap-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Pain Management</h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="bg-blue-50 rounded-xl p-8 md:p-12 max-w-4xl mx-auto"
-          >
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-1/3 mb-6 md:mb-0 flex justify-center">
-                <div className="bg-blue-100 p-6 rounded-full">
-                  <FaClinicMedical className="text-blue-600 text-5xl" />
+            <div className="lg:w-1/2">
+              <div className="relative">
+                <div className="overflow-hidden rounded-xl shadow-2xl">
+                  <img 
+                    src="/images/doc2.jpg" 
+                    alt="Dr. Yousuf Memon at work"
+                    className="w-full h-auto transition-transform hover:scale-105 duration-500"
+                  />
+                </div>
+                <div className="absolute -bottom-6 -right-6 bg-teal-600 text-white p-6 rounded-xl shadow-lg max-w-xs">
+                  <h3 className="font-bold text-xl mb-2">Dr. Yousuf Memon</h3>
+                  <p className="text-teal-100">MBBS, FCPS (Radiology)</p>
+                  <p className="text-teal-100 mt-2">Interventional Radiologist</p>
                 </div>
               </div>
-              <div className="md:w-2/3 md:pl-8">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">Alpha Blocks</h3>
-                <p className="text-gray-600 mb-4">
-                  Specialized treatment for arm, forearm, and shoulder pain (brachialgia and cervicalgia) using advanced nerve block techniques.
-                </p>
-                <ul className="text-gray-600 space-y-2 mb-6">
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>Targeted pain relief</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>Minimally invasive procedure</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>Quick recovery time</span>
-                  </li>
-                </ul>
-                <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition">
-                  Learn About Pain Solutions
-                </button>
+            </div>
+            
+            <div className="lg:w-1/2 mt-12 lg:mt-0">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About Our Specialist</h2>
+              <div className="w-24 h-1.5 bg-teal-500 mb-6 rounded-full"></div>
+              <p className="text-lg text-gray-600 mb-6">
+                Dr. Yousuf Memon is a board-certified interventional radiologist with over 20 years of experience in performing minimally invasive, image-guided procedures. He completed his FCPS in Radiology from the College of Physicians and Surgeons Pakistan and has received specialized training in advanced interventional techniques.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start gap-4">
+                  <div className="bg-teal-100 p-2 rounded-full mt-1 flex-shrink-0">
+                    <FaAward className="text-teal-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-800">Education & Training</h4>
+                    <p className="text-gray-600">MBBS from Dow Medical College, FCPS in Radiology, specialized fellowship training in vascular interventions</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="bg-teal-100 p-2 rounded-full mt-1 flex-shrink-0">
+                    <FaHospital className="text-teal-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-800">Hospital Affiliations</h4>
+                    <p className="text-gray-600">Practicing at leading hospitals in Karachi with state-of-the-art angiography suites</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="bg-teal-100 p-2 rounded-full mt-1 flex-shrink-0">
+                    <FaHeartbeat className="text-teal-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-800">Patient Philosophy</h4>
+                    <p className="text-gray-600">Compassionate care focused on providing the least invasive treatment option with optimal outcomes</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex flex-wrap gap-4">
+                <Link 
+                  href="/about" 
+                  className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-medium py-3 px-6 rounded-lg transition shadow hover:shadow-md"
+                >
+                  Learn More About Dr. Memon
+                </Link>
+                <Link 
+                  href="/contact" 
+                  className="inline-block border border-teal-600 text-teal-600 hover:bg-teal-50 font-medium py-3 px-6 rounded-lg transition"
+                >
+                  Contact 
+                </Link>
               </div>
             </div>
           </motion.div>
         </div>
       </section>
 
-      {/* Appointment CTA */}
-      <section className="py-16 bg-blue-700 text-white" id="appointment">
+      {/* CTA Section */}
+      <section className="py-20 bg-gradient-to-r from-teal-800 to-teal-600 text-white" id="appointment">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
+            className="max-w-3xl mx-auto"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready for Your Consultation?</h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Schedule an appointment with our specialist today for personalized care
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Take the First Step Toward Better Health</h2>
+            <div className="w-24 h-1.5 bg-teal-300 mx-auto mb-8 rounded-full"></div>
+            <p className="text-xl mb-8">
+              Schedule a consultation to discuss your condition and explore minimally invasive treatment options.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex flex-wrap justify-center gap-6">
               <a 
                 href="tel:+923367889143" 
-                className="bg-white text-blue-700 hover:bg-blue-50 font-medium py-3 px-8 rounded-lg flex items-center transition"
+                className="bg-white text-teal-700 hover:bg-teal-50 font-medium py-4 px-8 rounded-lg flex items-center transition shadow-lg hover:shadow-xl text-lg"
               >
-                <FaPhone className="mr-2" /> Call Now
+                <FaPhone className="mr-3" /> Call Our Clinic
               </a>
-              <a 
-                href="#contact" 
-                className="bg-transparent border-2 border-white hover:bg-white/10 font-medium py-3 px-8 rounded-lg flex items-center transition"
+              <Link 
+                href="/contact" 
+                className="bg-transparent border-2 border-white hover:bg-white/10 font-medium py-4 px-8 rounded-lg flex items-center transition text-lg"
               >
-                <FaCalendarAlt className="mr-2" /> Book Online
-              </a>
+                <FaCalendarAlt className="mr-3" /> Book Online Appointment
+              </Link>
             </div>
           </motion.div>
         </div>

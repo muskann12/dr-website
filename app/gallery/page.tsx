@@ -54,7 +54,7 @@ const Gallery = () => {
       </Head>
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
+      <div className="relative bg-gradient-to-r from-teal-800 to-teal-400 text-white py-20">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Clinic Gallery</h1>
           <p className="text-xl md:text-2xl">Explore our facility, treatments, and patient experiences</p>
@@ -65,7 +65,7 @@ const Gallery = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><a href="/" className="hover:text-teal-600">Home</a></li>
             <li><span>/</span></li>
             <li className="text-blue-600">Gallery</li>
           </ol>
@@ -82,7 +82,7 @@ const Gallery = () => {
             }}
             className={`px-4 py-2 rounded-full transition ${
               activeFilter === 'all' 
-                ? 'bg-blue-600 text-white' 
+                ? 'bg-teal-600 text-white' 
                 : 'bg-white border border-gray-300 hover:bg-gray-100'
             }`}
           >
@@ -108,7 +108,7 @@ const Gallery = () => {
             }}
             className={`px-4 py-2 rounded-full transition ${
               activeFilter === 'videos' 
-                ? 'bg-blue-600 text-white' 
+                ? 'bg-teal-600 text-white' 
                 : 'bg-white border border-gray-300 hover:bg-gray-100'
             }`}
           >
@@ -134,7 +134,7 @@ const Gallery = () => {
             }}
             className={`px-4 py-2 rounded-full transition ${
               activeFilter === 'treatments' 
-                ? 'bg-blue-600 text-white' 
+                ? 'bg-teal-600 text-white' 
                 : 'bg-white border border-gray-300 hover:bg-gray-100'
             }`}
           >
@@ -209,7 +209,7 @@ const Gallery = () => {
         <div className="container mx-auto px-6 py-12 text-center">
           <button 
             onClick={loadMore}
-            className="px-8 py-3 bg-white border border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition font-medium"
+            className="px-8 py-3 bg-white border border-slate-600 text-blue-600 rounded-full hover:bg-blue-50 transition font-medium"
           >
             Load More
           </button>

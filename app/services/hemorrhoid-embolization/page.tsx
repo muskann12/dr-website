@@ -49,12 +49,12 @@ const HemorrhoidEmbolization = () => {
           <div className="lg:w-2/3">
             {/* Overview Section */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">What are Hemorrhoids (Piles)?</h2>
+              <h2 className="text-3xl font-bold text-black mb-6">What are Hemorrhoids (Piles)?</h2>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-                <p className="text-gray-700 mb-4">
+                <p className="text-black mb-4">
                   Hemorrhoids, commonly known as piles, are swollen and inflamed veins in the rectum and anus that cause discomfort, itching, pain, and sometimes bleeding. They can be internal (inside the rectum) or external (under the skin around the anus).
                 </p>
-                <p className="text-gray-700">
+                <p className="text-black">
                   Hemorrhoids are common and often result from straining during bowel movements, chronic constipation or diarrhea, pregnancy, or aging.
                 </p>
               </div>
@@ -62,7 +62,7 @@ const HemorrhoidEmbolization = () => {
               {/* Image Placeholder */}
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg mb-6">
                 <Image
-                  src="/images/hemorrhoid-embolization.jpg"
+                  src="/images/piles.png"
                   alt="Hemorrhoid embolization procedure"
                   layout="fill"
                   objectFit="cover"

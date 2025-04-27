@@ -62,7 +62,7 @@ const LiverCancerCirrhosis = () => {
               {/* Image Placeholder */}
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg mb-6">
                 <Image
-                  src="/images/liver-cirrhosis-cancer.jpg"
+                  src="/images/liver.png"
                   alt="Liver cirrhosis leading to cancer"
                   layout="fill"
                   objectFit="cover"

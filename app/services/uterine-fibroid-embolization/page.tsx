@@ -62,7 +62,7 @@ const UterineFibroidEmbolization = () => {
               {/* Image Placeholder - Replace with your actual image */}
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg mb-6">
                 <Image
-                  src="/images/ufe-procedure.jpg" // Replace with your image path
+                  src="/images/urine1.png" // Replace with your image path
                   alt="Uterine Fibroid Embolization procedure"
                   layout="fill"
                   objectFit="cover"

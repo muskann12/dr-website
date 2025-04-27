@@ -46,7 +46,7 @@ const HemoptysisEmbolization = () => {
                 </p>
               </div>
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
-                <Image src="/images/hemoptysis-embolization.jpg" alt="Hemoptysis embolization" layout="fill" objectFit="cover" />
+                <Image src="/images/hemo1.png" alt="Hemoptysis embolization" layout="fill" objectFit="cover" />
               </div>
             </section>
 

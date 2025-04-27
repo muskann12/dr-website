@@ -85,7 +85,7 @@ const InterventionalTreatments = () => {
                   </div>
                   <div className="md:w-1/3 relative h-64">
                     <Image 
-                      src="/images/ir-procedure.jpg" 
+                      src="/images/ir.png" 
                       alt="Interventional radiology procedure" 
                       layout="fill" 
                       objectFit="cover" 

@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link 
               href="/" 
-              className="text-2xl font-extrabold text-blue-900 hover:text-blue-700 transition-colors"
+              className="text-2xl font-extrabold text-teal-700 hover:text-green-700 transition-colors"
               onClick={closeMobileMenu}
             >
               Dr. Yousuf Memon
@@ -76,13 +76,13 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <Link 
               href="/" 
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-2 py-1 rounded"
+              className="text-gray-700 hover:text-teal-800font-medium transition-colors px-2 py-1 rounded"
             >
               Home
             </Link>
             <Link 
               href="/about" 
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-2 py-1 rounded"
+              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
             >
               About
             </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
             {/* Services Dropdown */}
             <div className="relative">
               <button 
-                className="text-gray-700 hover:text-blue-600 font-medium flex items-center px-2 py-1 rounded transition-colors"
+                className="text-gray-700 hover:text-teal-800 font-medium flex items-center px-2 py-1 rounded transition-colors"
                 onClick={toggleServices}
               >
                 Services
@@ -127,7 +127,7 @@ const Navbar = () => {
                   <Link 
                     key={index}
                     href={item.href}
-                    className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-teal-800 transition-colors"
                   >
                     {item.text}
                   </Link>
@@ -138,7 +138,7 @@ const Navbar = () => {
             {/* Latest Treatment Dropdown */}
             <div className="relative">
               <button 
-                className="text-gray-700 hover:text-blue-600 font-medium flex items-center px-2 py-1 rounded transition-colors"
+                className="text-gray-700 hover:text-teal-800 font-medium flex items-center px-2 py-1 rounded transition-colors"
                 onClick={toggleTreatments}
               >
                 Latest Treatment
@@ -165,7 +165,7 @@ const Navbar = () => {
                   <Link 
                     key={index}
                     href={item.href}
-                    className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-teal-800 transition-colors"
                   >
                     {item.text}
                   </Link>
@@ -175,13 +175,13 @@ const Navbar = () => {
             
             <Link 
               href="/gallery" 
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-2 py-1 rounded"
+              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
             >
               Gallery
             </Link>
             <Link 
               href="/contact" 
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-2 py-1 rounded"
+              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
             >
               Contact
             </Link>
@@ -191,7 +191,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleNav}
-              className="text-gray-700 hover:text-blue-600 focus:outline-none p-2 rounded-md transition-colors"
+              className="text-gray-700 hover:text-teal-800 focus:outline-none p-2 rounded-md transition-colors"
               aria-label="Toggle menu"
             >
               {isOpen ? (
@@ -222,7 +222,7 @@ const Navbar = () => {
             <Link 
               key={index}
               href={item.href}
-              className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors"
+              className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-teal-800 hover:bg-blue-50 transition-colors"
               onClick={closeMobileMenu}
             >
               {item.text}
@@ -233,7 +233,7 @@ const Navbar = () => {
           <div className="border-b border-gray-100 pb-2">
             <button 
               onClick={toggleServices}
-              className="w-full flex justify-between items-center px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors"
+              className="w-full flex justify-between items-center px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-teal-800 hover:bg-blue-50 transition-colors"
             >
               Services
               <svg 
@@ -269,7 +269,7 @@ const Navbar = () => {
                 <Link 
                   key={index}
                   href={item.href}
-                  className="block px-4 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-colors"
+                  className="block px-4 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-teal-800 hover:bg-blue-50 transition-colors"
                   onClick={closeMobileMenu}
                 >
                   {item.text}
@@ -308,7 +308,7 @@ const Navbar = () => {
                 <Link 
                   key={index}
                   href={item.href}
-                  className="block px-4 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-colors"
+                  className="block px-4 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-teal-800 hover:bg-blue-50 transition-colors"
                   onClick={closeMobileMenu}
                 >
                   {item.text}
@@ -324,7 +324,7 @@ const Navbar = () => {
             <Link 
               key={index}
               href={item.href}
-              className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors"
+              className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-teal-800 hover:bg-blue-50 transition-colors"
               onClick={closeMobileMenu}
             >
               {item.text}

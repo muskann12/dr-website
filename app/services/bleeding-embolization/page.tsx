@@ -47,7 +47,7 @@ const GIBleedingEmbolization = () => {
               </div>
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/gi-bleeding-embolization.jpg" 
+                  src="/images/gi.png" 
                   alt="GI bleeding embolization procedure" 
                   layout="fill" 
                   objectFit="cover" 

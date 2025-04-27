@@ -55,7 +55,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
               
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/lower-limb-angioplasty.jpg" 
+                  src="/images/limb.png" 
                   alt="Lower limb angioplasty procedure" 
                   layout="fill" 
                   objectFit="cover" 

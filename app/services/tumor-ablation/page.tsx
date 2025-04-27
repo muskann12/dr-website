@@ -59,7 +59,7 @@ const MicrowaveAblation = () => {
                   </div>
                   <div className="md:w-1/3 relative h-48">
                     <Image 
-                      src="/images/mwa-procedure.jpg" 
+                      src="/images/microwave.png" 
                       alt="MWA procedure diagram" 
                       layout="fill" 
                       objectFit="cover" 

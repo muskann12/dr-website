@@ -48,7 +48,7 @@ const PermacathPlacement = () => {
                     </p>
                     <div className="relative h-48 rounded-lg overflow-hidden">
                       <Image 
-                        src="/images/permacath-diagram.jpg" 
+                        src="/images/permath.png" 
                         alt="Permacath placement diagram" 
                         layout="fill" 
                         objectFit="cover" 

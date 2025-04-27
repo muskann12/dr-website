@@ -47,7 +47,7 @@ const BrainTumorEmbolization = () => {
               </div>
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/brain-tumor-embolization.jpg" 
+                  src="/images/braintumor.png" 
                   alt="Brain tumor embolization procedure" 
                   layout="fill" 
                   objectFit="cover" 

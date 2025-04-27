@@ -66,21 +66,21 @@ const HomePage = () => {
       description: "Non-surgical treatment for herniated discs with 85% success rate.",
       image: "/images/oz11.png",
       icon: <FaClinicMedical className="text-white text-3xl" />,
-      link: "/services/ozone-disc-therapy"
+      link: "/treatments/ozone-disc-herniation"
     },
     {
       title: "Joint Regeneration",
       description: "Ozone injections for arthritis with significant pain relief in 3 sessions.",
       image: "/images/oz2.png",
       icon: <FaHeartbeat className="text-white text-3xl" />,
-      link: "/services/joint-regeneration"
+      link: "/treatments/ozone-joint-treatment"
     },
     {
       title: "Aesthetic Ozone",
       description: "Facial rejuvenation and dark circle treatment with ozone therapy.",
       image: "/images/oz3.png",
       icon: <FaUserMd className="text-white text-3xl" />,
-      link: "/services/aesthetic-ozone"
+      link: "/treatments/eye-treatment"
     }
   ];
 

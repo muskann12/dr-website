@@ -6,7 +6,7 @@ const OzoneJointTherapy = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Ozone Therapy for Joint Pain | Your Clinic Name</title>
+        <title>Ozone Therapy for Joint Pain </title>
         <meta name="description" content="Non-surgical ozone treatment for knee, shoulder, and back pain. Reduce inflammation and improve mobility." />
         <meta name="keywords" content="ozone therapy, joint pain relief, knee pain treatment, shoulder therapy, back pain solutions" />
       </Head>
@@ -459,10 +459,7 @@ const OzoneJointTherapy = () => {
                     <h4 className="font-semibold text-gray-700 mb-1">Treatment Series</h4>
                     <p className="text-gray-600">3-5 sessions recommended</p>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-700 mb-1">Cost Range</h4>
-                    <p className="text-gray-600">$150-$400 per session</p>
-                  </div>
+                  
                 </div>
               </div>
 

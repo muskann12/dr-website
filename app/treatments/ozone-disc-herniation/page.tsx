@@ -420,10 +420,7 @@ const OzoneDiscTreatment = () => {
                     <h4 className="font-semibold text-gray-700 mb-1">Treatment Series</h4>
                     <p className="text-gray-600">1-3 sessions typically needed</p>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-700 mb-1">Cost Range</h4>
-                    <p className="text-gray-600">$200-$500 per session</p>
-                  </div>
+                 
                 </div>
               </div>
 

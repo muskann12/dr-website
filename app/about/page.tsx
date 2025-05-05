@@ -132,7 +132,7 @@ const AboutPage = () => {
             </h3>
             <p className="text-gray-700 leading-relaxed">
               Currently, I practice as an Interventional Radiologist at various hospitals across 
-              Karachi, Hyderabad, and Rahim Yar Khan. My focus is on treating numerous diseases 
+              Karachi, Hyderabad, Lahore and Rahim Yar Khan. My focus is on treating numerous diseases 
               without the need for surgery, anesthesia, or long hospital stays. Most procedures 
               I perform are day-care, outpatient, and clinic-based, ensuring minimal disruption 
               to patients' lives.
@@ -204,11 +204,11 @@ const AboutPage = () => {
           <p className="text-gray-600 font-medium">Fellowships</p>
         </div>
         <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
-          <div className="text-4xl font-bold text-teal-600 mb-2">10+</div>
+          <div className="text-4xl font-bold text-teal-600 mb-2">4</div>
           <p className="text-gray-600 font-medium">Hospitals</p>
         </div>
         <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
-          <div className="text-4xl font-bold text-teal-600 mb-2">1000+</div>
+          <div className="text-4xl font-bold text-teal-600 mb-2">5000+</div>
           <p className="text-gray-600 font-medium">Procedures</p>
         </div>
       </motion.div>

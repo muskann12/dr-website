@@ -29,13 +29,19 @@ const HomePage = () => {
       link: "/services/uterine-fibroid-embolization"
     },
     {
-      title: "Liver Cancer Care", 
-      description: "Transarterial Chemoembolization (TACE) and Radioembolization (Y90) for liver tumors.",
-      icon: <FaHeartbeat className="text-teal-500 text-2xl" />,
-      link: "/services/liver-cancer"
+      title: "Varicose Vein Treatment", 
+      description: "Advanced endovenous treatments for painful varicose veins with minimal downtime.",
+      icon: <FaHeartbeat className="text-teal-500 text-2xl" />, // Using heartbeat as circulation representation
+      link: "/services/varicose-vein-treatment"
     },
     {
-      title: "Hemorrhoid Relief",
+      title: "Varicocele Treatment",
+      description: "Non-surgical embolization for varicoceles to improve fertility and relieve pain.",
+      icon: <FaUserMd className="text-teal-500 text-2xl" />, // Using doctor icon
+      link: "/services/varicocele-embolization"
+    },
+    {
+      title: "Hemorrhoid Treatment",
       description: "Painless hemorrhoid embolization with 95% success rate and no hospital stay.",
       icon: <FaProcedures className="text-teal-500 text-2xl" />,
       link: "/services/hemorrhoid-embolization"
@@ -47,16 +53,16 @@ const HomePage = () => {
       link: "/services/bleeding-embolization"
     },
     {
-      title: "Brain Tumor Care",
-      description: "Pre-operative tumor embolization to reduce surgical risks and blood loss.",
-      icon: <FaMicroscope className="text-teal-500 text-2xl" />,
-      link: "/services/brain-tumor-embolization"
+      title: "Brain Aneurysm Coiling",
+      description: "Endovascular coiling to prevent aneurysm rupture without open brain surgery.",
+      icon: <FaHospital className="text-teal-500 text-2xl" />, // Using hospital as brain/neuro representation
+      link: "/services/aneurysm-coiling"
     },
     {
       title: "Diabetic Foot Care",
       description: "Angioplasty and stenting to prevent amputations in diabetic patients.",
       icon: <FaClinicMedical className="text-teal-500 text-2xl" />,
-      link: "/services/lower-limb-angioplasty"
+      link: "/services/#"
     }
   ];
 
@@ -88,7 +94,7 @@ const HomePage = () => {
     { value: "20+", label: "Years Experience", icon: <FaMedal className="text-teal-500" /> },
     { value: "5000+", label: "Procedures Performed", icon: <FaStethoscope className="text-teal-500" /> },
     { value: "95%", label: "Success Rate", icon: <FaHeartbeat className="text-teal-500" /> },
-    { value: "3", label: "Hospital Affiliations", icon: <FaRegHospital className="text-teal-500" /> }
+    { value: "4", label: "Hospital Affiliations", icon: <FaRegHospital className="text-teal-500" /> }
   ];
 
   const specializations = [
@@ -152,7 +158,7 @@ const HomePage = () => {
               </div>
               <div>
                 <p className="font-medium">Dr. Yousuf Memon</p>
-                <p className="text-teal-200 text-sm">MBBS, FCPS (Radiology)</p>
+                <p className="text-teal-200 text-sm">MBBS, FRCR LONDON</p>
               </div>
             </div>
 
@@ -210,7 +216,7 @@ const HomePage = () => {
                 transition={{ delay: 1 }}
                 className="absolute -top-6 -right-6 bg-white p-4 rounded-xl shadow-lg border border-teal-200"
               >
-                <div className="text-teal-800 font-bold text-xl">MBBS, FCPS</div>
+                <div className="text-teal-800 font-bold text-xl">MBBS, FRCR LONDON</div>
                 <div className="text-teal-600 text-sm">Interventional Radiologist</div>
               </motion.div>
             </div>
@@ -471,7 +477,7 @@ const HomePage = () => {
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-teal-600 text-white p-6 rounded-xl shadow-lg max-w-xs">
                   <h3 className="font-bold text-xl mb-2">Dr. Yousuf Memon</h3>
-                  <p className="text-teal-100">MBBS, FCPS (Radiology)</p>
+                  <p className="text-teal-100">MBBS</p>
                   <p className="text-teal-100 mt-2">Interventional Radiologist</p>
                 </div>
               </div>

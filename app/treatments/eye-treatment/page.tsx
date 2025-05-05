@@ -415,10 +415,7 @@ const OzoneDryEyesSinusesWrinkles = () => {
                     <h4 className="font-semibold text-gray-700">Results Duration</h4>
                     <p className="text-gray-600">Varies; maintenance sessions may be needed</p>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-700">Cost Range</h4>
-                    <p className="text-gray-600">$100-$300 per session</p>
-                  </div>
+                  
                 </div>
               </div>
 

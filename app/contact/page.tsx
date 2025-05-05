@@ -20,17 +20,6 @@ const ContactPage = (): JSX.Element => {
             </p>
           </div>
 
-          {/* Rahim Yar Khan */}
-          <div className="bg-gray-200 p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold mb-2 text-black">Rahim Yar Khan | رحیم یار خان</h2>
-            <h3 className="text-lg font-medium mb-2 text-black">Diagnostic Interventional Radiology & Cardiac Center</h3>
-            <p className="mb-2 text-black">Near Govt. Technical College, Thali Road</p>
-            <p className="mb-2 text-right text-black">گورنمنٹ ٹیکنیکل کالج کے قریب، تھالی روڈ</p>
-            <p className="text-gray-600">
-              <strong className="text-black">Timings:</strong> Sat | 12:00 PM - 5:00 PM | ہفتہ
-            </p>
-          </div>
-
           {/* Hyderabad */}
           <div className="bg-gray-200 p-6 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold mb-2 text-black">Hyderabad | حیدرآباد</h2>
@@ -47,6 +36,17 @@ const ContactPage = (): JSX.Element => {
             <h3 className="text-lg font-medium mb-2 text-black">Ihsan Mumtaz Hospital | احسان ممتاز ہسپتال</h3>
             <p className="mb-2 text-black">71-E Jauhar Town, Maulana Shaukat Ali Road, Lahore</p>
             <p className="mb-2 text-right text-black">71-E جوہر ٹاؤن مولانا شوکت علی روڈ لاہور</p>
+          </div>
+
+          {/* Rahim Yar Khan */}
+          <div className="bg-gray-200 p-6 rounded-lg shadow-md">
+            <h2 className="text-xl font-semibold mb-2 text-black">Rahim Yar Khan | رحیم یار خان</h2>
+            <h3 className="text-lg font-medium mb-2 text-black">Diagnostic Interventional Radiology & Cardiac Center</h3>
+            <p className="mb-2 text-black">Near Govt. Technical College, Thali Road</p>
+            <p className="mb-2 text-right text-black">گورنمنٹ ٹیکنیکل کالج کے قریب، تھالی روڈ</p>
+            <p className="text-gray-600">
+              <strong className="text-black">Timings:</strong> Sat | 12:00 PM - 5:00 PM | ہفتہ
+            </p>
           </div>
 
           {/* Contact Details */}

@@ -82,12 +82,13 @@ const HomePage = () => {
       link: "/treatments/ozone-joint-treatment"
     },
     {
-      title: "Aesthetic Ozone",
-      description: "Facial rejuvenation and dark circle treatment with ozone therapy.",
-      image: "/images/oz3.png",
+      title: "Major Autohemotherapy",
+      description: "A modern alternative therapy using your own ozonated blood to boost immunity and detoxify the body.",
+      image: "/images/ozz.png",
       icon: <FaUserMd className="text-white text-3xl" />,
-      link: "/treatments/eye-treatment"
+      link: "/treatments/major-autohemotherapy"
     }
+    
   ];
 
   const stats = [
@@ -477,7 +478,7 @@ const HomePage = () => {
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-teal-600 text-white p-6 rounded-xl shadow-lg max-w-xs">
                   <h3 className="font-bold text-xl mb-2">Dr. Yousuf Memon</h3>
-                  <p className="text-teal-100">MBBS</p>
+                  <p className="text-teal-100">MBBS, FCPS (Radiology)</p>
                   <p className="text-teal-100 mt-2">Interventional Radiologist</p>
                 </div>
               </div>

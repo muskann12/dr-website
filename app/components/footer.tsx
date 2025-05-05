@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock, FaWhatsapp, FaYoutube, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -46,22 +46,37 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://www.facebook.com/doctor.yousuf.memon" 
                 aria-label="Facebook" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-teal-800 hover:bg-teal-700 p-3 rounded-full transition-colors"
               >
                 <FaFacebookF size={16} />
               </a>
               <a 
-                href="#" 
-                aria-label="Instagram" 
+                href="https://www.youtube.com/@Dr.YousufMemon" 
+                aria-label="YouTube" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-teal-800 hover:bg-teal-700 p-3 rounded-full transition-colors"
               >
-                <FaInstagram size={16} />
+                <FaYoutube size={16} />
               </a>
               <a 
-                href="#" 
+                href="https://twitter.com/dr_yousuf_memon" 
+                aria-label="Twitter" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-teal-800 hover:bg-teal-700 p-3 rounded-full transition-colors"
+              >
+                <FaTwitter size={16} />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/dr-yousuf-memon-b9208b362" 
                 aria-label="LinkedIn" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-teal-800 hover:bg-teal-700 p-3 rounded-full transition-colors"
               >
                 <FaLinkedinIn size={16} />
@@ -70,6 +85,7 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Rest of your footer content remains the same */}
         {/* Karachi */}
         <div className="space-y-6">
           <div className="bg-teal-800/30 p-4 rounded-lg hover:bg-teal-800/40 transition-colors">

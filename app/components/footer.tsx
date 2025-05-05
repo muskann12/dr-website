@@ -46,7 +46,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
             <div className="flex gap-4">
               <a 
-                href="https://www.facebook.com/doctor.yousuf.memon" 
+                href="https://www.facebook.com/share/15ynPLZRA9/" 
                 aria-label="Facebook" 
                 target="_blank"
                 rel="noopener noreferrer"

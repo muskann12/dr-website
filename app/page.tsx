@@ -100,6 +100,7 @@ const HomePage = () => {
 
   const specializations = [
     "Uterine Fibroid Embolization (UFE)",
+    "Varicose veins",
     "Prostate Artery Embolization (PAE)",
     "Liver Cancer Interventions (TACE/Y90)",
     "Varicocele Embolization",

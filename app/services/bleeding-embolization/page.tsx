@@ -2,14 +2,44 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Script from 'next/script';
 
-const GIBleedingEmbolization = () => {
+export default function GIBleedingEmbolization() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <>
       <Head>
-        <title>GI Bleeding Embolization | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive treatment for severe bleeding from the anus or mouth. Learn about procedures, benefits, and risks." />
+        <title>
+          GI Bleeding Embolization Treatment | Minimally Invasive GI Bleeding Procedure | Dr Yousuf Memon
+        </title>
+        <meta
+          name="description"
+          content="Discover GI Bleeding Embolization — a minimally invasive procedure to stop severe gastrointestinal bleeding. Learn about causes, procedure steps, benefits, risks, and patient eligibility."
+        />
+        <meta
+          name="keywords"
+          content="GI bleeding embolization, gastrointestinal bleeding treatment, interventional radiology, minimally invasive GI bleeding, embolization procedure"
+        />
       </Head>
+
+      {/* Add schema markup for medical procedure */}
+      <Script type="application/ld+json" strategy="afterInteractive">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "MedicalProcedure",
+            "name": "GI Bleeding Embolization",
+            "description": "Minimally invasive procedure to stop severe gastrointestinal bleeding by blocking blood vessels.",
+            "procedureType": "Minimally invasive",
+            "bodyLocation": "Gastrointestinal tract",
+            "howPerformed": "Catheter insertion, embolic agents injection under imaging guidance",
+            "recognizingAuthority": {
+              "@type": "Organization",
+              "name": "Your Clinic Name"
+            }
+          }
+        `}
+      </Script>
+
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-green-800 to-teal-700 text-white py-20">
@@ -264,8 +294,7 @@ const GIBleedingEmbolization = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
-export default GIBleedingEmbolization;

@@ -1,4 +1,3 @@
-'use client';
 
 import Image from 'next/image';
 import { FaAward, FaCheckCircle, FaClinicMedical, FaHospital, FaUserMd } from 'react-icons/fa';

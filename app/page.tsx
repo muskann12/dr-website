@@ -1,26 +1,8 @@
-'use client';
 
-import { motion } from 'framer-motion';
 import { FaArrowRight, FaClinicMedical, FaHeartbeat, FaProcedures, FaPhone, FaCalendarAlt, FaUserMd, FaHospital, FaMicroscope, FaStethoscope, FaMedal, FaAward, FaRegHospital } from 'react-icons/fa';
 import Link from 'next/link';
 
 const HomePage = () => {
-  // Animation variants
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  };
-
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 }
-  };
-
   const services = [
     {
       title: "Fibroid Treatment",
@@ -31,13 +13,13 @@ const HomePage = () => {
     {
       title: "Varicose Vein Treatment", 
       description: "Advanced endovenous treatments for painful varicose veins with minimal downtime.",
-      icon: <FaHeartbeat className="text-teal-500 text-2xl" />, // Using heartbeat as circulation representation
+      icon: <FaHeartbeat className="text-teal-500 text-2xl" />,
       link: "/services/varicose-vein-treatment"
     },
     {
       title: "Varicocele Treatment",
       description: "Non-surgical embolization for varicoceles to improve fertility and relieve pain.",
-      icon: <FaUserMd className="text-teal-500 text-2xl" />, // Using doctor icon
+      icon: <FaUserMd className="text-teal-500 text-2xl" />,
       link: "/services/varicocele-embolization"
     },
     {
@@ -55,7 +37,7 @@ const HomePage = () => {
     {
       title: "Brain Aneurysm Coiling",
       description: "Endovascular coiling to prevent aneurysm rupture without open brain surgery.",
-      icon: <FaHospital className="text-teal-500 text-2xl" />, // Using hospital as brain/neuro representation
+      icon: <FaHospital className="text-teal-500 text-2xl" />,
       link: "/services/aneurysm-coiling"
     },
     {
@@ -88,7 +70,6 @@ const HomePage = () => {
       icon: <FaUserMd className="text-white text-3xl" />,
       link: "/treatments/major-autohemotherapy"
     }
-    
   ];
 
   const stats = [
@@ -120,35 +101,20 @@ const HomePage = () => {
         
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center relative z-10">
           <div className="md:w-1/2 mb-12 md:mb-0">
-            <motion.div 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="flex items-center mb-4"
-            >
+            <div className="flex items-center mb-4">
               <div className="w-12 h-1 bg-teal-300 mr-4"></div>
               <span className="text-teal-300 font-medium tracking-wider">INTERVENTIONAL RADIOLOGY SPECIALIST</span>
-            </motion.div>
+            </div>
             
-            <motion.h1 
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
-            >
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               <span className="block">Precision</span>
               <span className="block">Minimally Invasive</span>
               <span className="block text-teal-200">Treatments</span>
-            </motion.h1>
+            </h1>
             
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.3, duration: 0.8 }}
-              className="text-lg text-teal-100 mb-8 max-w-lg"
-            >
+            <p className="text-lg text-teal-100 mb-8 max-w-lg">
               Advanced image-guided procedures for complex conditions with faster recovery, less pain, and better outcomes than traditional surgery.
-            </motion.p>
+            </p>
 
             <div className="flex items-center mb-8">
               <div className="mr-4">
@@ -164,12 +130,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
-              className="flex flex-wrap gap-4"
-            >
+            <div className="flex flex-wrap gap-4">
               <Link 
                 href="#appointment" 
                 className="bg-white text-teal-700 hover:bg-teal-50 font-medium py-3 px-6 rounded-lg flex items-center transition shadow-lg hover:shadow-xl"
@@ -182,15 +143,10 @@ const HomePage = () => {
               >
                 <FaArrowRight className="mr-2" /> Explore Services
               </Link>
-            </motion.div>
+            </div>
           </div>
           
-          <motion.div 
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="md:w-1/2 flex justify-center"
-          >
+          <div className="md:w-1/2 flex justify-center">
             <div className="relative w-full max-w-md">
               <div className="relative overflow-hidden rounded-2xl shadow-2xl border-4 border-white/20">
                 <img 
@@ -202,40 +158,24 @@ const HomePage = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent"></div>
               </div>
               
-              <motion.div 
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 0.8 }}
-                className="absolute -bottom-6 -left-6 bg-teal-600 p-4 rounded-xl shadow-lg border border-white/20"
-              >
+              <div className="absolute -bottom-6 -left-6 bg-teal-600 p-4 rounded-xl shadow-lg border border-white/20">
                 <div className="text-white font-bold text-xl">20+ Years</div>
                 <div className="text-teal-100">Clinical Excellence</div>
-              </motion.div>
+              </div>
               
-              <motion.div 
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 1 }}
-                className="absolute -top-6 -right-6 bg-white p-4 rounded-xl shadow-lg border border-teal-200"
-              >
+              <div className="absolute -top-6 -right-6 bg-white p-4 rounded-xl shadow-lg border border-teal-200">
                 <div className="text-teal-800 font-bold text-xl">MBBS, FRCR LONDON</div>
                 <div className="text-teal-600 text-sm">Interventional Radiologist</div>
-              </motion.div>
+              </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Stats Section */}
       <section className="py-12 bg-white relative -mt-8 z-10">
         <div className="container mx-auto px-4">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white rounded-xl shadow-lg p-6"
-          >
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white rounded-xl shadow-lg p-6">
             {stats.map((stat, index) => (
               <div key={index} className="text-center p-4">
                 <div className="flex justify-center mb-3">
@@ -247,38 +187,25 @@ const HomePage = () => {
                 <p className="text-gray-600 text-sm md:text-base">{stat.label}</p>
               </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Services Section */}
       <section className="py-20 bg-white" id="services">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+          <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Specialized Medical Solutions</h2>
             <div className="w-24 h-1.5 bg-teal-500 mx-auto mb-6 rounded-full"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Our comprehensive range of minimally invasive procedures designed for optimal patient outcomes
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <motion.div 
+              <div 
                 key={index}
-                variants={item}
-                whileHover={{ y: -10 }}
                 className="bg-white rounded-xl p-8 border border-gray-100 hover:border-teal-300 transition-all shadow-sm hover:shadow-md group relative overflow-hidden"
               >
                 <div className="absolute -right-10 -top-10 w-28 h-28 bg-teal-50 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
@@ -296,9 +223,9 @@ const HomePage = () => {
                     <FaArrowRight className="ml-2 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -307,11 +234,7 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2">
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-              >
+              <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Areas of Specialization</h2>
                 <div className="w-24 h-1.5 bg-teal-500 mb-6 rounded-full"></div>
                 <p className="text-lg text-gray-600 mb-8">
@@ -320,19 +243,15 @@ const HomePage = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                   {specializations.map((item, index) => (
-                    <motion.div
+                    <div
                       key={index}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      transition={{ delay: index * 0.1 }}
-                      viewport={{ once: true }}
                       className="flex items-start gap-3"
                     >
                       <div className="bg-teal-100 p-1 rounded-full mt-1 flex-shrink-0">
                         <FaAward className="text-teal-600 text-sm" />
                       </div>
                       <span className="text-gray-700">{item}</span>
-                    </motion.div>
+                    </div>
                   ))}
                 </div>
                 
@@ -343,16 +262,11 @@ const HomePage = () => {
                   View complete list of specializations
                   <FaArrowRight className="ml-2" />
                 </Link>
-              </motion.div>
+              </div>
             </div>
             
             <div className="lg:w-1/2">
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="bg-white p-8 rounded-xl shadow-lg border border-gray-100"
-              >
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Choose Minimally Invasive Procedures?</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
@@ -395,7 +309,7 @@ const HomePage = () => {
                     </div>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             </div>
           </div>
         </div>
@@ -404,31 +318,18 @@ const HomePage = () => {
       {/* Innovative Treatments */}
       <section className="py-20 bg-white" id="treatments">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+          <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Breakthrough Therapies</h2>
             <div className="w-24 h-1.5 bg-teal-500 mx-auto mb-6 rounded-full"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Pioneering medical treatments that redefine patient care and recovery
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8"
-          >
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {treatments.map((treatment, index) => (
-              <motion.div 
+              <div 
                 key={index}
-                variants={item}
-                whileHover={{ scale: 1.03 }}
                 className="relative group overflow-hidden rounded-xl shadow-lg"
               >
                 <div className="h-64 overflow-hidden">
@@ -453,21 +354,16 @@ const HomePage = () => {
                     <FaArrowRight className="ml-2" />
                   </Link>
                 </div>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Doctor Profile Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="flex flex-col lg:flex-row items-center gap-12"
-          >
+          <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
               <div className="relative">
                 <div className="overflow-hidden rounded-xl shadow-2xl">
@@ -539,19 +435,14 @@ const HomePage = () => {
                 </Link>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-teal-800 to-teal-600 text-white" id="appointment">
         <div className="container mx-auto px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="max-w-3xl mx-auto"
-          >
+          <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Take the First Step Toward Better Health</h2>
             <div className="w-24 h-1.5 bg-teal-300 mx-auto mb-8 rounded-full"></div>
             <p className="text-xl mb-8">
@@ -571,7 +462,7 @@ const HomePage = () => {
                 <FaCalendarAlt className="mr-3" /> Book Online Appointment
               </Link>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
     </div>

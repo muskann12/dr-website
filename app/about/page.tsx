@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { FaAward, FaCheckCircle, FaClinicMedical, FaHospital, FaUserMd } from 'react-icons/fa';
 
@@ -8,11 +7,7 @@ const AboutPage = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Header Section */}
-      <motion.div 
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="text-center mb-16"
-      >
+      <div className="text-center mb-16">
         <div className="relative inline-block">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-4 relative z-10">
             About <span className="text-teal-600">Dr. Yousuf Memon</span>
@@ -25,18 +20,13 @@ const AboutPage = () => {
         <div className="mt-6 flex justify-center">
           <div className="w-32 h-1 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full"></div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Main Content */}
       <div className="grid md:grid-cols-2 gap-12 items-start">
         {/* Left Column - Images */}
         <div className="space-y-8">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300"
-          >
+          <div className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <Image
               src="/images/doctor1.png"
               alt="Dr. Yousuf Memon"
@@ -53,14 +43,9 @@ const AboutPage = () => {
                 <span className="text-blue-100 text-sm">20+ Years Experience</span>
               </div>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="grid grid-cols-2 gap-4"
-          >
+          <div className="grid grid-cols-2 gap-4">
             <div className="relative rounded-xl overflow-hidden shadow-md h-48">
               <Image
                 src="/images/doc2.png"
@@ -95,16 +80,11 @@ const AboutPage = () => {
                 <FaClinicMedical className="text-white text-2xl" />
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
 
         {/* Right Column - Bio */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="space-y-8"
-        >
+        <div className="space-y-8">
           <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 relative">
               <span className="relative z-10">Who is Dr. Muhammad Yousuf Memon?</span>
@@ -185,16 +165,11 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
 
       {/* Stats Section */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.4 }}
-        className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6"
-      >
+      <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
         <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
           <div className="text-4xl font-bold text-teal-600 mb-2">20+</div>
           <p className="text-gray-600 font-medium">Years Experience</p>
@@ -211,7 +186,7 @@ const AboutPage = () => {
           <div className="text-4xl font-bold text-teal-600 mb-2">5000+</div>
           <p className="text-gray-600 font-medium">Procedures</p>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };

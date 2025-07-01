@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 // app/page.tsx
 export const metadata: Metadata = {
-  title: "Dr. Yousuf Memon – Interventional Radiologist in Pakistan",
+  title: "Dr. Yousuf Memon –  Interventional Radiologist in Pakistan",
   description:
     "Dr. Yousuf Memon offers advanced interventional radiology treatments including embolizations, ozone therapy, and minimally invasive procedures across Pakistan.",
   keywords: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Liver Cancer Embolization",
     "Hemorrhoid Embolization",
     "Hemoptysis Treatment",
-    
+
     "Anal Bleeding Embolization",
     "Brain Tumor Embolization",
     "Diabetic Foot Angioplasty",

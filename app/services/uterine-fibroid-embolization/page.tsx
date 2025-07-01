@@ -7,8 +7,8 @@ const UterineFibroidEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Uterine Fibroid Embolization (UFE) | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive treatment for uterine fibroids that preserves the uterus. Learn about the UFE procedure, benefits, and recovery." />
+        <title>Uterine Fibroid Embolization (UFE) | Dr Yousuf Memon</title>
+        <meta name="description" content="Non-surgical Uterine Fibroid Embolization (UFE) in Pakistan by Dr. Yousuf Memon. 85-90% success rate, minimal scarring, 1-2 week recovery. Book a consultation today." />
       </Head>
 
       {/* Hero Section */}
@@ -48,134 +48,197 @@ const UterineFibroidEmbolization = () => {
           {/* Main Content */}
           <div className="lg:w-2/3">
             {/* Overview Section */}
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">What is Uterine Fibroid Embolization (UFE)?</h2>
-              <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-                <p className="text-gray-700 mb-4">
-                  Uterine fibroid embolization (UFE) is a minimally invasive procedure used to treat uterine fibroids—non-cancerous growths in the uterus. UFE works by blocking the blood supply to the fibroids, causing them to shrink and eventually die.
-                </p>
-                <p className="text-gray-700">
-                  It is considered an alternative to surgical options like hysterectomy or myomectomy, offering shorter recovery times and uterus preservation.
-                </p>
-              </div>
-              
-              {/* Image Placeholder - Replace with your actual image */}
-              <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg mb-6">
-                <Image
-                  src="/images/urine1.png" // Replace with your image path
-                  alt="Uterine Fibroid Embolization procedure"
-                  layout="fill"
-                  objectFit="cover"
-                  className="transition-opacity duration-300 hover:opacity-90"
+            <main className="max-w-4xl mx-auto px-4 py-10">
+              <h1 className="text-4xl font-bold text-blue-900 mb-6">Uterine Fibroid Embolization (UFE) in Pakistan</h1>
+
+              <section className="mb-10">
+                <p className="mb-4">Uterine fibroids affect a significant number of women in Pakistan, often leading to symptoms such as heavy menstrual bleeding, pelvic pain, frequent urination, and abdominal bloating. For years, the primary treatment options available to women were surgical—most commonly hysterectomy or myomectomy. However, a highly effective, minimally invasive solution now offers relief without surgery: Uterine Fibroid Embolization (UFE), also known as Uterine Artery Embolization (UAE).</p>
+                <p>At the forefront of this advanced medical treatment in Pakistan is Dr. Yousuf Memon, a distinguished interventional radiologist known for his expertise, precision, and commitment to patient-centered care.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">What is Uterine Fibroid Embolization (UFE)?: A Minimally Invasive Breakthrough by Dr. Yousuf Memon</h2>
+                <Image 
+                  src="/images/urine1.png" 
+                  alt="Diagram of UFE procedure for fibroid treatment" 
+                  width={600} 
+                  height={400} 
+                  className="my-4 rounded-lg shadow-md"
                 />
-              </div>
-            </section>
-
-            {/* Procedure Details */}
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Procedure Details</h2>
-              
-              <div className="space-y-6">
-                {/* Pre-Procedure */}
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-blue-700 mb-3">Pre-Procedure</h3>
-                  <p className="text-gray-700">
-                    Patients typically undergo imaging tests (like MRI or ultrasound) to determine the size and location of the fibroids. A consultation with an interventional radiologist is usually conducted to discuss the procedure, risks, and expected outcomes.
-                  </p>
-                </div>
-                
-                {/* During Procedure */}
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-blue-700 mb-3">During the Procedure</h3>
-                  <p className="text-gray-700 mb-4">
-                    The procedure is usually done under local anesthesia with sedation, though general anesthesia may be used in some cases. A small incision is made in the groin or wrist to access the femoral or radial artery, respectively.
-                  </p>
-                  <p className="text-gray-700">
-                    A catheter is threaded through the artery to the uterine artery, which supplies blood to the fibroids. Tiny particles (embolic agents) are then injected through the catheter to block the blood flow to the fibroids. The procedure typically takes 1-2 hours.
-                  </p>
-                </div>
-                
-                {/* Post-Procedure */}
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-blue-700 mb-3">Post-Procedure</h3>
-                  <p className="text-gray-700 mb-4">
-                    Patients usually stay in the hospital for a few hours to overnight for observation. Common symptoms post-UFE include cramping, pelvic pain, and mild fever, often referred to as post-embolization syndrome.
-                  </p>
-                  <p className="text-gray-700">
-                    Recovery generally takes 1-2 weeks, with most women returning to normal activities within this time.
-                  </p>
-                </div>
-              </div>
-            </section>
-
-            {/* Benefits Section */}
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Benefits of UFE</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Minimally Invasive</h3>
-                  <p className="text-gray-700">No large incisions are needed, reducing recovery time and risk of complications.</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Uterus Preservation</h3>
-                  <p className="text-gray-700">The uterus remains intact, which is important for women who wish to retain their fertility.</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Symptom Relief</h3>
-                  <p className="text-gray-700">Most women experience significant relief from symptoms like heavy menstrual bleeding, pelvic pain, and pressure.</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-orange-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Shorter Recovery</h3>
-                  <p className="text-gray-700">Compared to traditional surgery, UFE typically has a faster recovery period.</p>
-                </div>
-              </div>
-            </section>
-
-            {/* Risks and Considerations */}
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Risks and Considerations</h2>
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Post-Embolization Syndrome:</strong> This includes pain, fever, and malaise following the procedure, which is usually managed with medications.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Fibroid Recurrence:</strong> While UFE is effective, there is a possibility that fibroids could recur or new ones could develop.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Fertility Concerns:</strong> Although UFE preserves the uterus, its impact on fertility is still being studied, and some women may experience complications if they attempt to conceive after the procedure.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Complications:</strong> As with any medical procedure, there is a risk of infection, bleeding, or damage to the uterus, though these are rare.</span>
-                  </li>
+                <p className="mb-4">UFE is a non-surgical procedure used to treat uterine fibroids—non-cancerous growths that form in the muscular wall of the uterus. During UFE, a specialized radiologist like Dr. Yousuf Memon inserts a catheter through a small incision in the groin or wrist. Using real-time imaging, the catheter is guided to the uterine arteries, where tiny embolic particles are released to block the blood supply to the fibroids. As a result, the fibroids shrink over time, alleviating the symptoms.</p>
+                <ul className="bg-blue-50 border-l-4 border-blue-600 p-4 list-disc pl-6 space-y-1">
+                  <li>Minimally invasive, with no large surgical cuts</li>
+                  <li>Shorter recovery time (typically 1 to 2 weeks)</li>
+                  <li>Preservation of the uterus and potential fertility</li>
+                  <li>Reduced risk of complications and infections</li>
                 </ul>
-              </div>
-            </section>
+              </section>
 
-            {/* Candidate Section */}
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Who is a Candidate?</h2>
-              <div className="bg-blue-50 rounded-lg shadow-md p-6 border border-blue-200">
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
-                    <span className="text-gray-700">Women with symptomatic fibroids who wish to avoid surgery</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
-                    <span className="text-gray-700">Those who are not ideal candidates for surgery due to medical conditions</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
-                    <span className="text-gray-700">Women who prefer a uterus-sparing procedure</span>
-                  </li>
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Who is a Candidate for UFE?</h2>
+                <p className="mb-4">UFE may be the right option for women who:</p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Have been diagnosed with symptomatic uterine fibroids</li>
+                  <li>Are experiencing heavy menstrual bleeding, pelvic pressure, or urinary frequency</li>
+                  <li>Wish to avoid hysterectomy or other invasive surgeries</li>
+                  <li>Are not currently pregnant</li>
+                  <li>Seek to preserve their uterus for personal or reproductive reasons</li>
                 </ul>
-              </div>
-            </section>
+                <p className="mt-4">A thorough evaluation including imaging tests such as MRI or pelvic ultrasound is required to confirm eligibility for the procedure.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">The UFE Procedure: Step-by-Step</h2>
+                <div className="space-y-4">
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">Initial Consultation</h3>
+                    <p>A comprehensive consultation with Dr. Yousuf Memon includes discussion of symptoms, medical history, and imaging review.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">Imaging & Diagnosis</h3>
+                    <p>MRI or ultrasound helps determine the size, location, and number of fibroids.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">Procedure Day</h3>
+                    <p>Performed under local anesthesia and mild sedation. The entire process typically takes 1 to 2 hours.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">Post-Procedure Monitoring</h3>
+                    <p>Most patients are monitored for a few hours and may go home the same day or stay overnight.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">Recovery</h3>
+                    <p>Most women return to regular activities within 7 to 14 days.</p>
+                  </div>
+                </div>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Benefits of UFE Compared to Surgical Options</h2>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-disc pl-6">
+                  <li>No general anesthesia required</li>
+                  <li>Outpatient procedure</li>
+                  <li>Minimal blood loss</li>
+                  <li>No abdominal scars</li>
+                  <li>Significant symptom relief in 85-90% of patients</li>
+                </ul>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Risks and Considerations</h2>
+                <p className="mb-4">As with any medical procedure, there are risks involved:</p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Mild to moderate pelvic pain and cramping post-procedure</li>
+                  <li>Low-grade fever (post-embolization syndrome)</li>
+                  <li>Rare risk of infection or injury to surrounding tissues</li>
+                  <li>Fibroid recurrence in some patients over time</li>
+                </ul>
+                <p className="mt-4">However, under the care of an experienced interventional radiologist like Dr. Yousuf Memon, the procedure is safe, effective, and well-tolerated by the majority of patients.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Uterine Fibroid Embolization in Karachi</h2>
+                <p><strong>Orthopaedic and Medical Institute (OMI)</strong><br />
+                Depot Lines, Muhammad Ali Jinnah Road, Saddar, Karachi<br />
+                <strong>Clinic Days:</strong> Monday and Thursday<br />
+                <strong>Timings:</strong> 2:00 PM – 4:00 PM</p>
+                <p className="mt-2">Dr. Yousuf Memon regularly consults in Karachi. Patients in Karachi can schedule both their outpatient consultation and procedure through his clinic. The facilities used in Karachi are fully equipped with modern angiographic suites and advanced imaging tools to ensure accurate diagnosis and successful outcomes.</p>
+                <p className="mt-2">Booking an appointment in advance is highly recommended due to the growing demand for UFE. Dr. Yousuf Memon also offers appointments in Lahore for those unable to travel to Karachi.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Uterine Fibroid Embolization in Lahore</h2>
+                <p><strong>Ihsan Mumtaz Hospital</strong><br />
+                71-E, Jauhar Town, Maulana Shaukat Ali Road, Lahore</p>
+                <p className="mt-2">While Dr. Yousuf Memon primarily practices in Karachi, he visits Lahore once or twice per month to accommodate patients in the region. You can book your outpatient consultation or schedule your procedure by contacting the hospital directly or through Dr. Memon's official booking channel.</p>
+                <p className="mt-2">Patients in Lahore benefit from the same international-standard care with access to full diagnostic services and postoperative support.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Uterine Fibroid Embolization in Hyderabad</h2>
+                <p><strong>Isra Hospital – Cath Lab Cardiology</strong><br />
+                <strong>Clinic Day:</strong> Friday<br />
+                <strong>Timings:</strong> 12:00 PM – 2:00 PM</p>
+                <p className="mt-2">Patients can receive expert consultation and evaluation for UFE. Advanced facilities at Isra Hospital support high-precision, image-guided procedures under Dr. Memon's supervision.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Uterine Fibroid Embolization in Rahim Yar Khan</h2>
+                <p><strong>Diagnostic Interventional Radiology & Cardiac Center</strong><br />
+                Near Government Technical College, Thali Road, Rahim Yar Khan<br />
+                <strong>Clinic Day:</strong> Saturday<br />
+                <strong>Timings:</strong> 12:00 PM – 5:00 PM</p>
+                <p className="mt-2">This location provides local access to high-quality care for women who would otherwise have to travel to larger cities. Consultations and procedures are performed with the same level of expertise and patient support.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Why Choose Dr. Yousuf Memon?</h2>
+                <p className="mb-4">Dr. Yousuf Memon is a trusted name in interventional radiology in Pakistan. With years of experience and a focus on patient-first care, his approach combines cutting-edge technology with a deep understanding of women's health. His ability to offer UFE across multiple cities ensures greater accessibility for women nationwide.</p>
+                <p>His practices emphasize:</p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Precision and safety in every procedure</li>
+                  <li>Clear patient education and communication</li>
+                  <li>Minimal wait times and efficient care coordination</li>
+                </ul>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Book Your Appointment</h2>
+                <p>To learn if UFE is right for you or to schedule your consultation with Dr. Yousuf Memon:</p>
+                <p>Visit the official website: <a href="https://dryousufmemon.pk" className="text-blue-600 underline">dryousufmemon.pk</a><br />
+                Call or WhatsApp to book your consultation in Karachi, Lahore, Hyderabad, or Rahim Yar Khan.</p>
+                <p className="mt-2">Early diagnosis and timely intervention can help you avoid unnecessary surgery and reclaim your comfort and quality of life.</p>
+              </section>
+
+              <section className="mb-10">
+                <h2 className="text-2xl font-semibold mb-4">Quick Facts</h2>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <li><strong>Procedure Time:</strong> 1–2 hours</li>
+                  <li><strong>Recovery Time:</strong> 1–2 weeks</li>
+                  <li><strong>Success Rate:</strong> 85–90%</li>
+                  <li><strong>Hospital Stay:</strong> Outpatient</li>
+                </ul>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
+                <div className="space-y-4">
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">Is UFE painful?</h3>
+                    <p>The procedure is not painful due to anesthesia. Mild pain and cramping may occur afterward and are manageable with medication.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">When will I see results?</h3>
+                    <p>Results usually begin within a few menstrual cycles and continue improving for 3–6 months.</p>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-md p-6">
+                    <h3 className="text-xl font-bold text-gray-800 mb-4">Quick Facts</h3>
+                    <div className="space-y-4">
+                      <div>
+                        <h4 className="font-semibold text-gray-700">Procedure Time</h4>
+                        <p className="text-gray-600">1-2 hours</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-700">Recovery Time</h4>
+                        <p className="text-gray-600">1-2 weeks</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-700">Success Rate</h4>
+                        <p className="text-gray-600">85-90% symptom relief</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-700">Hospital Stay</h4>
+                        <p className="text-gray-600">Typically outpatient</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-blue-700">Can fibroids return after UFE?</h3>
+                    <p>Yes, though recurrence is uncommon (10–15% over years). New fibroids may develop in some patients.</p>
+                  </div>
+                </div>
+              </section>
+            </main>
 
             {/* Follow-Up Section */}
             <section>

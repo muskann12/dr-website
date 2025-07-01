@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     "Liver Cancer Embolization",
     "Hemorrhoid Embolization",
     "Hemoptysis Treatment",
+    
     "Anal Bleeding Embolization",
     "Brain Tumor Embolization",
     "Diabetic Foot Angioplasty",

@@ -2,44 +2,14 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Script from 'next/script';
 
-export default function GIBleedingEmbolization() {
+const GIBleedingEmbolization = () => {
   return (
-    <>
+    <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>
-          GI Bleeding Embolization Treatment | Minimally Invasive GI Bleeding Procedure | Dr Yousuf Memon
-        </title>
-        <meta
-          name="description"
-          content="Discover GI Bleeding Embolization — a minimally invasive procedure to stop severe gastrointestinal bleeding. Learn about causes, procedure steps, benefits, risks, and patient eligibility."
-        />
-        <meta
-          name="keywords"
-          content="GI bleeding embolization, gastrointestinal bleeding treatment, interventional radiology, minimally invasive GI bleeding, embolization procedure"
-        />
+        <title>GI Bleeding Embolization | Interventional Radiology Center</title>
+        <meta name="description" content="Minimally invasive treatment for severe bleeding from the anus or mouth. Learn about procedures, benefits, and risks." />
       </Head>
-
-      {/* Add schema markup for medical procedure */}
-      <Script type="application/ld+json" strategy="afterInteractive">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "MedicalProcedure",
-            "name": "GI Bleeding Embolization",
-            "description": "Minimally invasive procedure to stop severe gastrointestinal bleeding by blocking blood vessels.",
-            "procedureType": "Minimally invasive",
-            "bodyLocation": "Gastrointestinal tract",
-            "howPerformed": "Catheter insertion, embolic agents injection under imaging guidance",
-            "recognizingAuthority": {
-              "@type": "Organization",
-              "name": "Your Clinic Name"
-            }
-          }
-        `}
-      </Script>
-
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-green-800 to-teal-700 text-white py-20">
@@ -72,7 +42,7 @@ export default function GIBleedingEmbolization() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">What is GI Bleeding Embolization?</h2>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <p className="text-gray-700 mb-4">
-                  Embolization is a minimally invasive procedure to stop severe bleeding in the gastrointestinal (GI) tract by blocking blood vessels. It’s used when endoscopy or medications fail.
+                  Embolization is a minimally invasive procedure to stop severe bleeding in the gastrointestinal (GI) tract by blocking blood vessels. It's used when endoscopy or medications fail.
                 </p>
               </div>
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
@@ -252,7 +222,7 @@ export default function GIBleedingEmbolization() {
                   </li>
                 </ul>
                 <button className="w-full bg-white text-green-800 font-semibold py-3 px-4 rounded-lg hover:bg-green-50 transition">
-                  Call Emergency
+                  Contact Emergency Services
                 </button>
               </div>
 
@@ -294,7 +264,8 @@ export default function GIBleedingEmbolization() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
+export default GIBleedingEmbolization;

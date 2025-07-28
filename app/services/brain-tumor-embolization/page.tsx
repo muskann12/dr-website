@@ -7,7 +7,7 @@ const BrainTumorEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Brain Tumor Embolization | Your Clinic Name</title>
+        <title>Brain Tumor Embolization | NeuroInterventional Center</title>
         <meta name="description" content="Minimally invasive treatment to reduce blood supply to brain tumors. Learn about procedures, benefits, and risks." />
       </Head>
 
@@ -23,7 +23,7 @@ const BrainTumorEmbolization = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><a href="/" className="hover:text-blue-600">Homme</a></li>
             <li><span>/</span></li>
             <li><a href="/services" className="hover:text-blue-600">Services</a></li>
             <li><span>/</span></li>
@@ -219,7 +219,7 @@ const BrainTumorEmbolization = () => {
                   </li>
                 </ul>
                 <button className="w-full bg-white text-blue-800 font-semibold py-3 px-4 rounded-lg hover:bg-blue-50 transition">
-                  Call Emergency
+                  Contact Emergency Services
                 </button>
               </div>
 

@@ -1,33 +1,29 @@
-// pages/services/microwave-ablation.js
+// pages/services/uterine-fibroid-embolization.js
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
-const MicrowaveAblation = () => {
+const UterineFibroidEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Microwave Ablation (MWA) | Minimally Invasive Tumor Treatment</title>
+        <title>Uterine Fibroid Embolization (UFE) | Minimally Invasive Fibroid Treatment</title>
         <meta 
           name="description" 
-          content="Microwave Tumor Ablation (MWA) is a non-surgical treatment that destroys tumors with heat. Learn about MWA for liver, kidney, lung, breast & thyroid tumors."
+          content="Uterine Fibroid Embolization (UFE) is a non-surgical treatment for fibroids that preserves your uterus. Learn about benefits, risks, recovery & find a specialist."
         />
-        <meta name="keywords" content="microwave ablation, MWA, tumor ablation, non-surgical cancer treatment, liver tumor treatment, breast tumor treatment" />
-        <link rel="canonical" href="https://yourclinic.com/services/microwave-ablation" />
-        
-        {/* Schema Markup */}
         <script type="application/ld+json">
           {`
           {
             "@context": "https://schema.org",
             "@type": "MedicalProcedure",
-            "name": "Microwave Tumor Ablation (MWA)",
-            "description": "Minimally invasive treatment that uses microwave energy to destroy tumors",
-            "bodyLocation": "Various (liver, kidney, lung, breast, thyroid)",
-            "howPerformed": "Image-guided insertion of microwave antenna into tumor",
+            "name": "Uterine Fibroid Embolization (UFE)",
+            "description": "Minimally invasive treatment for uterine fibroids that blocks blood flow to shrink fibroids",
+            "bodyLocation": "Uterus",
+            "howPerformed": "Catheter-based procedure performed by interventional radiologist",
             "preparation": "Imaging tests and consultation required",
-            "procedureOutcome": "Tumor destruction with minimal damage to surrounding tissue",
-            "risks": "Bleeding, infection, thermal injury to nearby structures",
+            "procedureOutcome": "Reduction in fibroid symptoms in 85-90% of patients",
+            "risks": "Post-embolization syndrome, infection, fibroid recurrence",
             "medicalSpecialty": {
               "@type": "MedicalSpecialty",
               "name": "Interventional Radiology"
@@ -35,13 +31,47 @@ const MicrowaveAblation = () => {
           }
           `}
         </script>
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is UFE painful?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The procedure itself is not painful as it's performed under anesthesia. After the procedure, patients may experience cramping and pelvic pain, which can be managed with pain medications."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How soon will I see results from UFE?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Most women begin to see improvement in their symptoms within the first few menstrual cycles after the procedure, with maximum benefits typically seen after 3-6 months."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can fibroids come back after UFE?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "While UFE is effective at treating existing fibroids, it doesn't prevent new fibroids from developing. The recurrence rate is about 10-15% over several years."
+                }
+              }
+            ]
+          }
+          `}
+        </script>
       </Head>
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-purple-800 to-indigo-700 text-white py-16">
+      <div className="relative bg-gradient-to-r from-blue-900 to-purple-800 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Microwave Tumor Ablation (MWA)</h1>
-          <p className="text-lg md:text-xl">Precision heat treatment for tumors without major surgery</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Uterine Fibroid Embolization</h1>
+          <p className="text-xl md:text-2xl">A minimally invasive alternative to surgery for uterine fibroids</p>
         </div>
       </div>
 
@@ -49,11 +79,21 @@ const MicrowaveAblation = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-purple-600">Home</a></li>
-            <li><span>/</span></li>
-            <li><a href="/services" className="hover:text-purple-600">Services</a></li>
-            <li><span>/</span></li>
-            <li className="text-purple-600">Microwave Ablation</li>
+            <li>
+              <a href="/" className="hover:text-blue-600">Home</a>
+            </li>
+            <li>
+              <span>/</span>
+            </li>
+            <li>
+              <a href="/services" className="hover:text-blue-600">Services</a>
+            </li>
+            <li>
+              <span>/</span>
+            </li>
+            <li className="text-blue-600" aria-current="page">
+              Uterine Fibroid Embolization
+            </li>
           </ol>
         </nav>
       </div>
@@ -64,380 +104,367 @@ const MicrowaveAblation = () => {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-6 py-8">
-        <div className="flex flex-col lg:flex-row gap-8">
+      <div className="container mx-auto px-6 py-12">
+        <div className="flex flex-col lg:flex-row gap-12">
           {/* Main Content */}
           <div className="lg:w-2/3">
-            {/* Overview */}
-            <section className="mb-8">
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">About Microwave Ablation</h2>
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-2/3">
-                    <p className="text-gray-700 mb-4">
-                      Microwave Ablation (MWA) is an advanced <strong>minimally invasive tumor treatment</strong> that uses targeted microwave energy to heat and destroy tumor cells while sparing healthy tissue. This image-guided technique offers precise treatment with minimal recovery time compared to traditional surgery.
-                    </p>
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <div className="bg-purple-50 p-4 rounded">
-                        <h3 className="font-semibold text-purple-700">How It Works</h3>
-                        <p className="text-sm text-gray-700">Microwaves create friction in water molecules, generating heat (50-100°C) that destroys tumor cells through coagulative necrosis</p>
-                      </div>
-                      <div className="bg-indigo-50 p-4 rounded">
-                        <h3 className="font-semibold text-indigo-700">Treatment Areas</h3>
-                        <p className="text-sm text-gray-700">Liver, kidney, lung, breast, thyroid, and bone tumors (both primary and metastatic)</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="md:w-1/3 relative h-48">
-                    <Image 
-                      src="/images/microwave.png" 
-                      alt="MWA procedure diagram showing antenna placement in tumor" 
-                      layout="fill" 
-                      objectFit="cover" 
-                      className="rounded-lg"
-                      priority
-                    />
-                  </div>
-                </div>
+            {/* Overview Section */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">What is Uterine Fibroid Embolization (UFE)?</h2>
+              <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+                <p className="text-gray-700 mb-4">
+                  Uterine fibroid embolization (UFE) is a minimally invasive procedure used to treat uterine fibroids—non-cancerous growths in the uterus. UFE works by blocking the blood supply to the fibroids, causing them to shrink and eventually die.
+                </p>
+                <p className="text-gray-700">
+                  It is considered an alternative to surgical options like hysterectomy or myomectomy, offering shorter recovery times and uterus preservation. UFE is often the preferred <strong>non-surgical fibroid treatment</strong> for women who want to avoid major surgery.
+                </p>
+              </div>
+              
+              {/* Image */}
+              <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg mb-6">
+                <Image
+                  src="/images/urine1.png"
+                  alt="Uterine Fibroid Embolization procedure diagram showing catheter placement"
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-opacity duration-300 hover:opacity-90"
+                  priority
+                />
               </div>
             </section>
 
-            {/* Treatment Areas */}
-            <section className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">Common Treatment Applications</h2>
-              <div className="grid md:grid-cols-3 gap-4">
-                {/* Liver */}
-                <div className="bg-white rounded-lg shadow-md p-4 border-t-4 border-blue-500">
-                  <h3 className="font-semibold text-gray-800 mb-2">Liver Tumors</h3>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Hepatocellular carcinoma (HCC)</li>
-                    <li>• Metastatic liver tumors (colorectal, breast, etc.)</li>
-                    <li>• Tumors ≤5cm in diameter</li>
-                    <li>• Patients not eligible for surgery</li>
-                  </ul>
-                </div>
-                {/* Breast */}
-                <div className="bg-white rounded-lg shadow-md p-4 border-t-4 border-pink-500">
-                  <h3 className="font-semibold text-gray-800 mb-2">Breast Tumors</h3>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Early-stage breast cancer</li>
-                    <li>• Benign fibroadenomas</li>
-                    <li>• ≤2cm tumors</li>
-                    <li>• Patients preferring non-surgical options</li>
-                  </ul>
-                </div>
-                {/* Thyroid */}
-                <div className="bg-white rounded-lg shadow-md p-4 border-t-4 border-green-500">
-                  <h3 className="font-semibold text-gray-800 mb-2">Thyroid Nodules</h3>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Benign symptomatic nodules</li>
-                    <li>• Small papillary thyroid cancers</li>
-                    <li>• Recurrent nodules post-surgery</li>
-                    <li>• Patients with high surgical risk</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-            {/* Procedure */}
-            <section className="mb-8">
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">The MWA Procedure: Step-by-Step</h2>
-                <div className="space-y-6">
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mr-4">
-                      1
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-800 mb-2">Preparation & Imaging</h3>
-                      <p className="text-gray-700">
-                        CT, ultrasound, or MRI precisely locates the tumor. Local anesthesia is administered at the insertion site. Some patients may receive mild sedation for comfort.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mr-4">
-                      2
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-800 mb-2">Probe Placement</h3>
-                      <p className="text-gray-700">
-                        A thin (1-2mm) microwave antenna is inserted through a small skin nick directly into the tumor under continuous image guidance. Multiple probes may be used for larger tumors.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mr-4">
-                      3
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-800 mb-2">Ablation Process</h3>
-                      <p className="text-gray-700">
-                        Microwave energy (915MHz or 2450MHz) is delivered for 5-10 minutes, creating a precise 3-5cm sphere of ablation at temperatures reaching 60-100°C that destroys the tumor cells.
-                      </p>
-                    </div>
-                  </div>
+            {/* Procedure Details */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">UFE Procedure: How It Works</h2>
+              
+              <div className="space-y-6">
+                {/* Pre-Procedure */}
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-blue-700 mb-3">Pre-Procedure</h3>
+                  <p className="text-gray-700">
+                    Patients typically undergo imaging tests (like MRI or ultrasound) to determine the size and location of the fibroids. A consultation with an interventional radiologist is usually conducted to discuss the procedure, risks, and expected outcomes.
+                  </p>
                 </div>
                 
-                {/* Procedure Image */}
-                <div className="mt-8 relative w-full h-64 rounded-lg overflow-hidden">
-                  <Image
-                    src="/images/mwa-procedure-detail.jpg"
-                    alt="Detailed diagram of microwave ablation process showing heat distribution"
-                    layout="fill"
-                    objectFit="cover"
-                  />
+                {/* During Procedure */}
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-blue-700 mb-3">During the Procedure</h3>
+                  <p className="text-gray-700 mb-4">
+                    The procedure is usually done under local anesthesia with sedation, though general anesthesia may be used in some cases. A small incision is made in the groin or wrist to access the femoral or radial artery, respectively.
+                  </p>
+                  <p className="text-gray-700">
+                    A catheter is threaded through the artery to the uterine artery, which supplies blood to the fibroids. Tiny particles (embolic agents) are then injected through the catheter to block the blood flow to the fibroids. The procedure typically takes 1-2 hours.
+                  </p>
+                </div>
+                
+                {/* Post-Procedure */}
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-blue-700 mb-3">UFE Recovery: What to Expect</h3>
+                  <p className="text-gray-700 mb-4">
+                    Patients usually stay in the hospital for a few hours to overnight for observation. Common symptoms post-UFE include cramping, pelvic pain, and mild fever, often referred to as post-embolization syndrome.
+                  </p>
+                  <p className="text-gray-700">
+                    Recovery generally takes 1-2 weeks, with most women returning to normal activities within this time—significantly faster than the 6-8 week recovery for hysterectomy.
+                  </p>
                 </div>
               </div>
             </section>
 
-            {/* Success Rates */}
-            <section className="mb-8 bg-blue-50 p-6 rounded-lg">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">MWA Success Rates & Outcomes</h2>
-              <div className="grid md:grid-cols-3 gap-4">
-                <div className="bg-white p-4 rounded shadow">
-                  <p className="text-3xl font-bold text-blue-600 mb-1">90-95%</p>
-                  <p className="text-sm text-gray-700">Complete ablation rate for small tumors (&lt;3cm)</p>
-                </div>
-                <div className="bg-white p-4 rounded shadow">
-                  <p className="text-3xl font-bold text-blue-600 mb-1">1-3%</p>
-                  <p className="text-sm text-gray-700">Major complication rate (lower than surgery)</p>
-                </div>
-                <div className="bg-white p-4 rounded shadow">
-                  <p className="text-3xl font-bold text-blue-600 mb-1">2-3 days</p>
-                  <p className="text-sm text-gray-700">Average return to normal activities</p>
-                </div>
-              </div>
-              <p className="mt-4 text-gray-700 text-sm">
-                *Results based on clinical studies of microwave ablation for liver tumors. Individual results may vary.
-              </p>
-            </section>
-
-            {/* Benefits/Risks */}
-            <section className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">Benefits vs. Surgical Alternatives</h2>
+            {/* Statistics Section */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">UFE Success Rates & Statistics</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-green-600 mb-3">Advantages of MWA</h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      <span><strong>Minimally invasive</strong> - No large incisions, just a small skin puncture</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      <span><strong>Tissue preservation</strong> - Spares healthy organ tissue unlike surgical resection</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      <span><strong>Outpatient procedure</strong> - Most patients go home the same day</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      <span><strong>Repeatable</strong> - Can be performed multiple times if new tumors develop</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      <span><strong>Faster recovery</strong> - Return to normal activities in days vs. weeks with surgery</span>
-                    </li>
-                  </ul>
+                  <p className="text-4xl font-bold text-blue-600 mb-2">90%</p>
+                  <p className="text-gray-700">of women experience significant symptom improvement</p>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-red-600 mb-3">Limitations & Risks</h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <span className="text-red-500 mr-2">•</span>
-                      <span><strong>Tumor size limits</strong> - Most effective for tumors ≤5cm (multiple probes may be needed for larger tumors)</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-red-500 mr-2">•</span>
-                      <span><strong>Location constraints</strong> - Tumors near major blood vessels or bile ducts may be harder to treat</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-red-500 mr-2">•</span>
-                      <span><strong>Post-procedure pain</strong> - Some patients experience moderate pain for 1-2 days</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-red-500 mr-2">•</span>
-                      <span><strong>Follow-up required</strong> - Imaging needed to confirm complete tumor destruction</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-red-500 mr-2">•</span>
-                      <span><strong>Rare complications</strong> - Infection, bleeding, or thermal injury to nearby structures (&lt;5% risk)</span>
-                    </li>
-                  </ul>
+                  <p className="text-4xl font-bold text-blue-600 mb-2">85%</p>
+                  <p className="text-gray-700">reduction in heavy menstrual bleeding</p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <p className="text-4xl font-bold text-blue-600 mb-2">3-6</p>
+                  <p className="text-gray-700">months for full results to be visible</p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <p className="text-4xl font-bold text-blue-600 mb-2">1-2</p>
+                  <p className="text-gray-700">week recovery vs 6-8 weeks for hysterectomy</p>
                 </div>
               </div>
             </section>
 
-            {/* Patient Stories */}
-            <section className="mb-8 bg-purple-50 p-6 rounded-lg">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Patient Success Stories</h2>
+            {/* Benefits Section */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Benefits of UFE</h2>
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white p-6 rounded-lg shadow">
-                  <p className="text-gray-700 italic mb-4">"After being told I needed major liver surgery for my 4cm tumor, my doctor recommended MWA instead. The procedure took less than an hour, and I was back to work in 3 days. My follow-up scans show no evidence of the tumor!"</p>
-                  <p className="font-semibold">- Michael R., Liver Tumor Patient</p>
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Minimally Invasive</h3>
+                  <p className="text-gray-700">No large incisions are needed, reducing recovery time and risk of complications compared to traditional <strong>fibroid treatment without surgery</strong>.</p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow">
-                  <p className="text-gray-700 italic mb-4">"As a breast cancer survivor, I wanted to avoid another surgery when my cancer recurred. Microwave ablation treated my small tumor without scars or lengthy recovery. I'm so grateful for this option."</p>
-                  <p className="font-semibold">- Sarah L., Breast Cancer Patient</p>
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-600">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Uterus Preservation</h3>
+                  <p className="text-gray-700">The uterus remains intact, which is important for women who wish to retain their fertility—a key advantage of this <strong>uterine sparing fibroid treatment</strong>.</p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Symptom Relief</h3>
+                  <p className="text-gray-700">Most women experience significant relief from symptoms like heavy menstrual bleeding, pelvic pain, and pressure.</p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-orange-600">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Shorter Recovery</h3>
+                  <p className="text-gray-700">Compared to traditional surgery, UFE typically has a faster recovery period of just 1-2 weeks.</p>
                 </div>
               </div>
             </section>
 
-            {/* FAQ Section */}
-            <section className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
-              <div className="space-y-4">
-                <div className="bg-white p-4 rounded shadow">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">How does MWA compare to radiofrequency ablation (RFA)?</h3>
-                  <p className="text-gray-700">
-                    MWA generates higher temperatures (60-100°C vs. 50-70°C) and is less affected by heat-sink from nearby blood vessels. MWA can treat larger tumors (up to 5cm vs. 3-4cm for RFA) in shorter treatment times.
-                  </p>
+            {/* UFE vs Hysterectomy */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">UFE vs Hysterectomy: Key Differences</h2>
+              <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <table className="min-w-full">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Factor</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">UFE</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Hysterectomy</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr>
+                      <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">Invasiveness</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">Minimally invasive</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">Major surgery</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">Recovery Time</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">1-2 weeks</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">6-8 weeks</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">Uterus Preservation</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">Yes</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">No</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">Hospital Stay</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">Outpatient or 1 night</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">2-3 days</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            {/* Patient Testimonials */}
+            <section className="mb-12 bg-blue-50 p-8 rounded-lg">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Patient Experiences with UFE</h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <p className="text-gray-700 italic mb-4">"After suffering with fibroids for years, UFE gave me my life back. I was back to work in a week with minimal discomfort."</p>
+                  <p className="font-semibold">- Sarah K., Age 42</p>
                 </div>
-                <div className="bg-white p-4 rounded shadow">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">Is MWA painful?</h3>
-                  <p className="text-gray-700">
-                    Most patients report minimal discomfort during the procedure thanks to local anesthesia. Afterward, some experience moderate pain for 1-2 days that is well-controlled with oral medications.
-                  </p>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <p className="text-gray-700 italic mb-4">"I wanted to avoid hysterectomy and UFE was the perfect solution. My heavy periods improved within two cycles."</p>
+                  <p className="font-semibold">- Maria T., Age 38</p>
                 </div>
-                <div className="bg-white p-4 rounded shadow">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">How soon will I know if the treatment worked?</h3>
-                  <p className="text-gray-700">
-                    Follow-up imaging (CT or MRI) is typically done 1 month post-procedure to confirm complete tumor ablation. Blood tests may also be used to monitor tumor markers for certain cancers.
-                  </p>
-                </div>
-                <div className="bg-white p-4 rounded shadow">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">Can MWA be combined with other treatments?</h3>
-                  <p className="text-gray-700">
-                    Yes, MWA is often used alongside chemotherapy, immunotherapy, or radiation therapy. For liver tumors, it may be combined with embolization (TACE/DEB-TACE) for enhanced results.
-                  </p>
-                </div>
+              </div>
+            </section>
+
+            {/* Risks and Considerations */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Risks and Considerations</h2>
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <span className="text-red-500 mr-2">•</span>
+                    <span className="text-gray-700"><strong>Post-Embolization Syndrome:</strong> This includes pain, fever, and malaise following the procedure, which is usually managed with medications.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-500 mr-2">•</span>
+                    <span className="text-gray-700"><strong>Fibroid Recurrence:</strong> While UFE is effective, there is a possibility that fibroids could recur or new ones could develop.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-500 mr-2">•</span>
+                    <span className="text-gray-700"><strong>Fertility Concerns:</strong> Although UFE preserves the uterus, its impact on fertility is still being studied, and some women may experience complications if they attempt to conceive after the procedure.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-500 mr-2">•</span>
+                    <span className="text-gray-700"><strong>Complications:</strong> As with any medical procedure, there is a risk of infection, bleeding, or damage to the uterus, though these are rare.</span>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Candidate Section */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Who is a Candidate for UFE?</h2>
+              <div className="bg-blue-50 rounded-lg shadow-md p-6 border border-blue-200">
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-gray-700">Women with symptomatic fibroids who wish to avoid surgery</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-gray-700">Those who are not ideal candidates for surgery due to medical conditions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-gray-700">Women who prefer a uterus-sparing procedure</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-gray-700">Patients seeking <strong>minimally invasive fibroid removal</strong> with shorter recovery</span>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Follow-Up Section */}
+            <section>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Follow-Up Care After UFE</h2>
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <p className="text-gray-700 mb-4">
+                  Regular follow-up with imaging tests to monitor the size of the fibroids and the resolution of symptoms. Ongoing gynecological care to manage any potential complications or recurrence of fibroids.
+                </p>
+                <p className="text-gray-700 font-medium">
+                  UFE is a well-established procedure with a high success rate for symptom relief, offering an effective alternative to surgical options for many women.
+                </p>
               </div>
             </section>
           </div>
 
           {/* Sidebar */}
-          <div className="lg:w-1/3 space-y-6">
+          <div className="lg:w-1/3">
             <div className="sticky top-6 space-y-6">
-              {/* CTA Box */}
-              <div className="bg-gradient-to-br from-purple-700 to-indigo-700 text-white rounded-lg shadow-xl p-6">
-                <h3 className="text-xl font-bold mb-3">Is MWA Right For You?</h3>
-                <p className="mb-4 text-sm">Schedule a consultation with our interventional radiologists to discuss your treatment options.</p>
-                <button className="w-full bg-white text-purple-800 font-semibold py-2 px-4 rounded-lg hover:bg-purple-100 transition duration-300">
-                  Book a Consultation
+              {/* Consultation CTA */}
+              <div className="bg-gradient-to-br from-blue-600 to-blue-800 text-white rounded-lg shadow-xl p-6">
+                <h3 className="text-xl font-bold mb-4">Schedule a Consultation</h3>
+                <p className="mb-4">Interested in learning if UFE is right for you? Contact us to schedule a consultation with our specialists.</p>
+                <button className="w-full bg-white text-blue-800 font-semibold py-3 px-4 rounded-lg hover:bg-blue-100 transition duration-300">
+                  Book an Appointment
                 </button>
               </div>
 
               {/* Quick Facts */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-3">MWA At a Glance</h3>
-                <div className="space-y-3 text-sm">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Quick Facts</h3>
+                <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-gray-700">Procedure Time</h4>
-                    <p className="text-gray-600">30-90 minutes (depending on tumor size/number)</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-700">Anesthesia</h4>
-                    <p className="text-gray-600">Local with conscious sedation</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-700">Hospital Stay</h4>
-                    <p className="text-gray-600">Outpatient or 1 night observation</p>
+                    <p className="text-gray-600">1-2 hours</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-700">Recovery Time</h4>
-                    <p className="text-gray-600">1-3 days to normal activity</p>
+                    <p className="text-gray-600">1-2 weeks</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-700">Success Rate</h4>
-                    <p className="text-gray-600">90-95% for tumors &lt;3cm</p>
+                    <p className="text-gray-600">85-90% symptom relief</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-700">Hospital Stay</h4>
+                    <p className="text-gray-600">Typically outpatient</p>
                   </div>
                 </div>
-              </div>
-
-              {/* Candidate Criteria */}
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-3">Ideal Candidates</h3>
-                <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">•</span>
-                    <span>Small tumors (typically ≤5cm)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">•</span>
-                    <span>Patients not eligible for surgery</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">•</span>
-                    <span>Limited number of tumors (usually ≤3)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">•</span>
-                    <span>Good organ function (liver/kidney)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">•</span>
-                    <span>Desire for minimally invasive treatment</span>
-                  </li>
-                </ul>
               </div>
 
               {/* Related Services */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-3">Related Treatments</h3>
-                <ul className="space-y-2 text-sm">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Related Services</h3>
+                <ul className="space-y-3">
                   <li>
-                    <a href="/services/radiofrequency-ablation" className="text-purple-600 hover:underline">Radiofrequency Ablation (RFA)</a>
+                    <a href="/services/myomectomy" className="text-blue-600 hover:underline">Myomectomy</a>
                   </li>
                   <li>
-                    <a href="/services/cryoablation" className="text-purple-600 hover:underline">Cryoablation (Freezing Therapy)</a>
+                    <a href="/services/hysterectomy" className="text-blue-600 hover:underline">Hysterectomy</a>
                   </li>
                   <li>
-                    <a href="/services/tumor-embolization" className="text-purple-600 hover:underline">Tumor Embolization (TACE/DEB-TACE)</a>
+                    <a href="/services/endometrial-ablation" className="text-blue-600 hover:underline">Endometrial Ablation</a>
                   </li>
                   <li>
-                    <a href="/services/sbrt" className="text-purple-600 hover:underline">Stereotactic Body Radiation (SBRT)</a>
+                    <a href="/services/pelvic-ultrasound" className="text-blue-600 hover:underline">Pelvic Ultrasound</a>
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-              {/* Recovery Info */}
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-3">Recovery Timeline</h3>
-                <div className="space-y-3 text-sm text-gray-700">
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-2 text-xs">
-                      1
-                    </div>
-                    <span>Day of procedure: Rest, mild pain/discomfort</span>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-2 text-xs">
-                      2
-                    </div>
-                    <span>Next day: Light activity, continue pain meds if needed</span>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-2 text-xs">
-                      3
-                    </div>
-                    <span>Day 3: Most patients resume normal activities</span>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-2 text-xs">
-                      7
-                    </div>
-                    <span>1 week: Follow-up with your doctor</span>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-purple-100 text-purple-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-2 text-xs">
-                      30
-                    </div>
-                    <span>1 month: Imaging to confirm treatment success</span>
-                  </div>
+      {/* FAQ Section */}
+      <div className="bg-gray-100 py-16">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <button className="w-full text-left p-6 focus:outline-none">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold text-gray-800">Is UFE painful?</h3>
+                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
                 </div>
-              </div>
+                <div className="mt-2 text-gray-600">
+                  <p>The procedure itself is not painful as it's performed under anesthesia. After the procedure, patients may experience cramping and pelvic pain, which can be managed with pain medications.</p>
+                </div>
+              </button>
+            </div>
+            
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <button className="w-full text-left p-6 focus:outline-none">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold text-gray-800">How soon will I see results?</h3>
+                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </div>
+                <div className="mt-2 text-gray-600">
+                  <p>Most women begin to see improvement in their symptoms within the first few menstrual cycles after the procedure, with maximum benefits typically seen after 3-6 months.</p>
+                </div>
+              </button>
+            </div>
+            
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <button className="w-full text-left p-6 focus:outline-none">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold text-gray-800">Can fibroids come back after UFE?</h3>
+                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </div>
+                <div className="mt-2 text-gray-600">
+                  <p>While UFE is effective at treating existing fibroids, it doesn't prevent new fibroids from developing. The recurrence rate is about 10-15% over several years.</p>
+                </div>
+              </button>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <button className="w-full text-left p-6 focus:outline-none">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold text-gray-800">Is UFE covered by insurance?</h3>
+                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </div>
+                <div className="mt-2 text-gray-600">
+                  <p>Most insurance plans cover UFE when medically necessary. Our team can help verify your coverage and obtain pre-authorization if required.</p>
+                </div>
+              </button>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <button className="w-full text-left p-6 focus:outline-none">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold text-gray-800">How does UFE compare to other fibroid treatments?</h3>
+                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </div>
+                <div className="mt-2 text-gray-600">
+                  <p>UFE offers a middle ground between medication (which only manages symptoms) and surgery (which is more invasive). It provides lasting relief without removing the uterus, with shorter recovery than surgical options.</p>
+                </div>
+              </button>
             </div>
           </div>
         </div>
@@ -446,4 +473,4 @@ const MicrowaveAblation = () => {
   );
 };
 
-export default MicrowaveAblation;
+export default UterineFibroidEmbolization;

@@ -6,10 +6,10 @@ const OzoneDiscTreatment = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Ozone Therapy for Disc Herniation | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive ozone treatment for herniated discs. Learn about this innovative pain relief option." />
-        <meta name="keywords" content="ozone therapy, herniated disc treatment, back pain relief, non-surgical spine treatment, disc herniation" />
-      </Head>
+  <title>Ozone Disc Herniation Treatment | Dr. Yousuf Memon</title>
+  <meta name="description" content="Relieve back pain with advanced ozone disc herniation treatment in Karachi by Dr. Yousuf Memon. Safe, non-surgical, and highly effective care." />
+</Head>
+
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-700 to-emerald-700 text-white py-20">

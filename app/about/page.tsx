@@ -9,9 +9,9 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <title>About Dr. Yousuf Memon | Interventional Radiology Specialist in Karachi</title>
-        <meta name="description" content="Learn about Dr. Yousuf Memon, a fellowship-trained Interventional Radiologist in Karachi with 20+ years experience in minimally invasive treatments for fibroids, varicose veins, and vascular conditions." />
-        <meta name="keywords" content="interventional radiologist Karachi, Dr. Yousuf Memon, vascular specialist Pakistan, fibroid treatment expert, varicose veins doctor Karachi" />
+         <title>About Dr. Yousuf Memon | Interventional Radiologist</title>
+        <meta name="description" content="Learn about Dr. Yousuf Memon, a leading interventional radiologist in Pakistan, specializing in advanced, minimally invasive medical treatments." />
+       <meta name="keywords" content="interventional radiologist Karachi, Dr. Yousuf Memon, vascular specialist Pakistan, fibroid treatment expert, varicose veins doctor Karachi" />
         <meta property="og:title" content="About Dr. Yousuf Memon | Top Interventional Radiologist in Pakistan" />
         <meta property="og:description" content="MBBS, FRCR London certified specialist in non-surgical treatments with 20+ years experience practicing in Karachi hospitals." />
         <meta property="og:type" content="profile" />

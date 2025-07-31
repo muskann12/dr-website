@@ -7,9 +7,9 @@ const HemorrhoidEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Hemorrhoid Embolization Treatment | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive hemorrhoid artery embolization (HAE) for chronic hemorrhoids. Non-surgical treatment with quick recovery and 90% success rate." />
-        <meta name="keywords" content="hemorrhoid embolization, piles treatment, non-surgical hemorrhoid treatment, HAE procedure, hemorrhoid artery embolization, rectal bleeding treatment" />
+       <title>Dr. Yousaf – Expert Hemorrhoid Embolization in Karachi</title>
+  <meta name="description" content="Minimally invasive hemorrhoid embolization treatment in Karachi by Dr. Yousuf Memon. Safe, effective relief from bleeding and pain without surgery." />
+  <meta name="keywords" content="hemorrhoid embolization, piles treatment, non-surgical hemorrhoid treatment, HAE procedure, hemorrhoid artery embolization, rectal bleeding treatment" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Canonical URL */}

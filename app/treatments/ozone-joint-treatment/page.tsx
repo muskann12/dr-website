@@ -5,10 +5,10 @@ import Head from 'next/head';
 const OzoneJointTherapy = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Head>
-        <title>Ozone Therapy for Joint Pain </title>
-        <meta name="description" content="Non-surgical ozone treatment for knee, shoulder, and back pain. Reduce inflammation and improve mobility." />
-        <meta name="keywords" content="ozone therapy, joint pain relief, knee pain treatment, shoulder therapy, back pain solutions" />
+    <Head>
+  <title>Ozone Joint Treatment in Karachi | Dr. Yousuf Memon</title>
+  <meta name="description" content="Relieve joint pain naturally with Ozone Joint Treatment in Karachi by Dr. Yousuf Memon. Safe, non-surgical therapy for arthritis and joint issues." />
+  <meta name="keywords" content="ozone therapy, joint pain relief, knee pain treatment, shoulder therapy, back pain solutions" />
       </Head>
 
       {/* Hero Section */}

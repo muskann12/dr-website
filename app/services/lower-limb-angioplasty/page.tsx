@@ -7,9 +7,9 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Lower Limb Angioplasty for Diabetic Foot | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive treatment to restore blood flow in diabetic foot patients. Learn about procedures, benefits, and risks." />
-        <meta name="keywords" content="diabetic foot angioplasty, lower limb angioplasty, PAD treatment, diabetic foot care, minimally invasive vascular procedure" />
+ <title>Lower Limb Angioplasty | Dr. Yousuf Memon Karachi</title>
+  <meta name="description" content="Minimally invasive lower limb angioplasty by Dr. Yousuf Memon helps restore blood flow and relieve leg pain. Book your consultation today." />
+  <meta name="keywords" content="diabetic foot angioplasty, lower limb angioplasty, PAD treatment, diabetic foot care, minimally invasive vascular procedure" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Canonical URL */}

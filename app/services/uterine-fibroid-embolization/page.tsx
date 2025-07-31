@@ -7,11 +7,11 @@ const UterineFibroidEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Uterine Fibroid Embolization (UFE) | Minimally Invasive Fibroid Treatment</title>
-        <meta 
-          name="description" 
-          content="Uterine Fibroid Embolization (UFE) is a non-surgical treatment for fibroids that preserves your uterus. Learn about benefits, risks, recovery & find a specialist."
-        />
+       
+  <title>UFE | Minimally Invasive Treatment | Dr. Yousuf Memon</title>
+  <meta name="description" content="Minimally invasive Uterine Fibroid Embolization treatment in Karachi by Dr. Yousuf Memon. Safe, effective relief from fibroids without surgery." />
+
+
         <script type="application/ld+json">
           {`
           {

@@ -1,9 +1,14 @@
 // app/contact/page.tsx
+import Head from 'next/head';
 import React from 'react';
 
 const ContactPage = (): JSX.Element => {
   return (
          <div className="max-w-6xl mx-auto px-4 py-8">
+           <Head>
+        <title>Contact Dr. Yousuf Memon | Book Appointment Online.</title>
+        <meta name="description" content="Get in touch with Dr. Yousuf Memon for expert vascular care. Call or visit our Hyderabad clinic to book your consultation today." />
+      </Head>
       <h1 className="text-3xl font-extrabold text-center mb-8 mt-11 text-black">Contact Us</h1>
 
       <div className="grid md:grid-cols-2 gap-8">

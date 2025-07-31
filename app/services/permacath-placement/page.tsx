@@ -7,11 +7,9 @@ const PermacathPlacement = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Permacath Placement | Long-Term Dialysis Access Solution</title>
-        <meta 
-          name="description" 
-          content="Permacath provides reliable long-term vascular access for hemodialysis patients. Learn about the tunneled catheter placement procedure, benefits, and care."
-        />
+  <title>Permacath Placement in Karachi – Dr. Yousuf Memon</title>
+  <meta name="description" content="Safe and expert Permacath placement in Karachi by Dr. Yousuf Memon. Ensuring reliable dialysis access with minimal discomfort and fast recovery." />
+
         <meta name="keywords" content="Permacath, dialysis catheter, hemodialysis access, tunneled catheter, kidney failure treatment, vascular access" />
         <link rel="canonical" href="https://yourclinic.com/services/permacath-placement" />
         

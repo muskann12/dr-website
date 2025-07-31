@@ -49,8 +49,8 @@ const Gallery = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Gallery | Our Clinic Name</title>
-        <meta name="description" content="View our treatment facility, team, and patient results through our gallery" />
+    <title>Dr. Yousuf Memon Gallery | Patient Cases & Procedures</title>
+        <meta name="description" content="Explore Dr. Yousuf Memon’s gallery featuring real patient cases and treatment results in vascular and interventional radiology." />
       </Head>
 
       {/* Hero Section */}

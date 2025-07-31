@@ -1,6 +1,7 @@
 
 import { FaArrowRight, FaClinicMedical, FaHeartbeat, FaProcedures, FaPhone, FaCalendarAlt, FaUserMd, FaHospital, FaMicroscope, FaStethoscope, FaMedal, FaAward, FaRegHospital } from 'react-icons/fa';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const HomePage = () => {
   const services = [
@@ -93,6 +94,10 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Head>
+        <title>Dr. Yousuf Memon | Interventional Radiologist in Karachi</title>
+        <meta name="description" content="Expert interventional radiologist in Karachi, Dr. Yousuf Memon, offers advanced, non-surgical treatments with trusted care and proven results." />
+      </Head>
       {/* Modern Hero Section - Improved */}
       <section className="relative bg-gradient-to-br from-teal-900 to-teal-700 text-white py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0 opacity-10">

@@ -7,9 +7,9 @@ const LiverCancerCirrhosis = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Liver Cancer & Cirrhosis Treatment (TACE) | Your Clinic Name</title>
-        <meta name="description" content="Specialized TACE treatment for hepatocellular carcinoma (HCC) in cirrhotic patients. Minimally invasive procedure to control tumor growth and improve survival." />
-        <meta name="keywords" content="TACE procedure, liver cancer treatment, hepatocellular carcinoma, cirrhosis treatment, HCC therapy, liver tumor embolization" />
+         <title>Liver Cancer Treatment | Interventional Oncology - Dr Yousuf</title>
+  <meta name="description" content="Get expert liver cancer treatment in Karachi by Dr. Yousuf Memon. Advanced care, accurate diagnosis & personalized therapies. Book your consultation today." />
+  <meta name="keywords" content="TACE procedure, liver cancer treatment, hepatocellular carcinoma, cirrhosis treatment, HCC therapy, liver tumor embolization" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Canonical URL */}

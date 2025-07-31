@@ -5,10 +5,11 @@ import Head from 'next/head';
 const OzoneDryEyesSinusesWrinkles = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Head>
-        <title>Ozone Therapy for Dry Eyes, Sinuses & Wrinkles | Your Clinic Name</title>
-        <meta name="description" content="Ozone treatment for dry eye relief, chronic sinus issues, and facial rejuvenation. Reduce inflammation and improve appearance naturally." />
-      </Head>
+<Head>
+  <title>Advanced Eye Treatment | Dr. Yousuf Memon in Karachi</title>
+  <meta name="description" content="Get expert eye treatment in Karachi by Dr. Yousuf Memon. Advanced care for cataracts, glaucoma & more. Book your consultation today." />
+</Head>
+
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">

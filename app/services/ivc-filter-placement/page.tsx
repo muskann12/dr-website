@@ -7,9 +7,9 @@ const IVCFilterDVT = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>IVC Filter for DVT Prevention | Your Clinic Name</title>
-        <meta name="description" content="IVC filter placement to prevent pulmonary embolism in high-risk DVT patients when anticoagulants can't be used. Learn about indications, procedure details, and long-term management." />
-        <meta name="keywords" content="IVC filter, DVT treatment, pulmonary embolism prevention, blood clot filter, venous thromboembolism, retrievable filter" />
+        <title>Dr. Yousuf Memon – IVC Filter Placement Expert</title>
+  <meta name="description" content="Minimally invasive IVC filter placement in Karachi by Dr. Yousuf Memon. Prevent blood clots and protect your health. Book your consultation today." />
+  <meta name="keywords" content="IVC filter, DVT treatment, pulmonary embolism prevention, blood clot filter, venous thromboembolism, retrievable filter" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Canonical URL */}

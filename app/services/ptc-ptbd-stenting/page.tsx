@@ -7,11 +7,9 @@ const PTCStenting = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>PTC, PTBD & CBD Stenting | Minimally Invasive Bile Duct Treatment</title>
-        <meta 
-          name="description" 
-          content="PTC, PTBD & CBD stenting are minimally invasive procedures for bile duct obstructions. Learn about diagnosis, drainage solutions, and permanent stenting options."
-        />
+        <title>PTC, PTBD & Stenting Services – Dr. Yousuf Memon</title>
+  <meta name="description" content="Minimally invasive PTC, PTBD & stenting procedures in Karachi by Dr. Yousuf Memon. Safe, effective liver and bile duct treatments. Book your appointment now." />
+
         <meta name="keywords" content="PTC, PTBD, CBD stenting, bile duct obstruction, jaundice treatment, minimally invasive biliary procedures" />
         <link rel="canonical" href="https://yourclinic.com/services/ptc-ptbd-cbd-stenting" />
         

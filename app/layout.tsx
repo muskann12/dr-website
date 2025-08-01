@@ -19,11 +19,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Dr. Yousuf - Official Website",
-    template: "%s | Dr. Yousuf",
-  },
-  description: "Book appointments and consult with Dr. Yousuf online.",
+
   keywords: [
     "Dr Yousuf",
     "Orthopaedic",

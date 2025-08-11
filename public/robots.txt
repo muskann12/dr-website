@@ -1,11 +1,19 @@
-# *
+# -----------------------------------------
+# Robots.txt for dryousufmemon.pk
+# Purpose: Control search engine crawling
+# -----------------------------------------
+
+# Allow all search engines
 User-agent: *
 Allow: /
-Disallow: /admin
-Disallow: /api
+Disallow: /admin/
+Disallow: /api/
 
-# Host
-Host: https://dryousufmemon.pk
+# Crawl delay for polite bots (optional)
+Crawl-delay: 10
 
-# Sitemaps
+# Preferred domain
+Host: dryousufmemon.pk
+
+# Sitemap location
 Sitemap: https://dryousufmemon.pk/sitemap.xml

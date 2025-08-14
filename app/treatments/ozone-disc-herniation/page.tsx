@@ -6,16 +6,40 @@ const OzoneDiscTreatment = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Ozone Therapy for Disc Herniation | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive ozone treatment for herniated discs. Learn about this innovative pain relief option." />
-        <meta name="keywords" content="ozone therapy, herniated disc treatment, back pain relief, non-surgical spine treatment, disc herniation" />
+        <title>Ozone Therapy for Disc Herniation in Pakistan | Dr. Yousuf Memon</title>
+        <meta name="description" content="Non-surgical ozone treatment for herniated discs in Karachi, Lahore & Hyderabad. Effective pain relief alternative to surgery at Dr. Yousuf Memon's clinics." />
+        <meta name="keywords" content="ozone therapy Pakistan, disc herniation treatment Karachi, back pain relief Lahore, non-surgical spine treatment Pakistan, slipped disc treatment Hyderabad" />
+        
+        {/* Pakistan-specific schema markup */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "MedicalProcedure",
+              "name": "Ozone Therapy for Disc Herniation",
+              "description": "Minimally invasive ozone treatment for herniated discs available in Pakistan",
+              "provider": {
+                "@type": "MedicalClinic",
+                "name": "Dr. Yousuf Memon Clinics",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Depot Lines, Muhammad Ali Jinnah Rd Saddar",
+                  "addressLocality": "Karachi",
+                  "addressRegion": "Sindh",
+                  "addressCountry": "PK"
+                }
+              },
+              "medicalSpecialty": "Spine Treatment"
+            }
+          `}
+        </script>
       </Head>
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-700 to-emerald-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ozone Therapy for Disc Herniation</h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">A minimally invasive alternative for lasting back pain relief</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ozone Therapy for Disc Herniation in Pakistan</h1>
+          <p className="text-xl md:text-2xl max-w-3xl mx-auto">A non-surgical alternative for back pain relief available in Karachi, Lahore & Hyderabad</p>
         </div>
       </div>
 
@@ -40,9 +64,9 @@ const OzoneDiscTreatment = () => {
             {/* Overview */}
             <section className="mb-12">
               <div className="bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">About Ozone Disc Therapy</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">About Ozone Disc Therapy in Pakistan</h2>
                 <p className="text-gray-700 mb-6">
-                  Ozone therapy is an innovative, minimally invasive treatment that uses medical-grade ozone (O₃) to reduce inflammation and promote healing in herniated discs. This outpatient procedure can provide significant pain relief without the need for major surgery by targeting the root cause of disc-related pain.
+                  Ozone therapy is becoming increasingly popular in Pakistan as a minimally invasive treatment for herniated discs. At our clinics in Karachi, Lahore, and Hyderabad, we use medical-grade ozone (O₃) to reduce inflammation and promote healing in damaged spinal discs, offering patients an alternative to surgery.
                 </p>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -63,7 +87,7 @@ const OzoneDiscTreatment = () => {
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                           </svg>
                         </div>
-                        <span>May shrink herniated disc material</span>
+                        <span>May shrink herniated disc material pressing on nerves</span>
                       </li>
                       <li className="flex items-start">
                         <div className="bg-teal-100 text-teal-600 rounded-full p-1 mr-3">
@@ -71,36 +95,36 @@ const OzoneDiscTreatment = () => {
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                           </svg>
                         </div>
-                        <span>Promotes tissue oxygenation and healing</span>
+                        <span>Promotes tissue oxygenation and natural healing</span>
                       </li>
                     </ul>
                   </div>
                   <div className="bg-emerald-50 p-6 rounded-lg border-l-4 border-emerald-500">
-                    <h3 className="text-xl font-semibold text-emerald-700 mb-3">Ideal Candidates</h3>
+                    <h3 className="text-xl font-semibold text-emerald-700 mb-3">Available at Our Clinics</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start">
                         <div className="bg-emerald-100 text-emerald-600 rounded-full p-1 mr-3">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+                            <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                           </svg>
                         </div>
-                        <span>Patients with contained disc herniations</span>
+                        <span><strong>Karachi:</strong> Orthopaedic and Medical Institute (OMI)</span>
                       </li>
                       <li className="flex items-start">
                         <div className="bg-emerald-100 text-emerald-600 rounded-full p-1 mr-3">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+                            <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                           </svg>
                         </div>
-                        <span>Those who haven't responded to conservative care</span>
+                        <span><strong>Lahore:</strong> Ihsan Mumtaz Hospital</span>
                       </li>
                       <li className="flex items-start">
                         <div className="bg-emerald-100 text-emerald-600 rounded-full p-1 mr-3">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+                            <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                           </svg>
                         </div>
-                        <span>Patients seeking non-surgical options</span>
+                        <span><strong>Hyderabad:</strong> Isra Hospital</span>
                       </li>
                     </ul>
                   </div>
@@ -111,7 +135,7 @@ const OzoneDiscTreatment = () => {
             {/* Procedure */}
             <section className="mb-12">
               <div className="bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Treatment Process</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">Treatment Process in Pakistan</h2>
                 <div className="space-y-8">
                   <div className="flex items-start">
                     <div className="bg-teal-100 text-teal-800 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 mr-6 text-xl font-bold">
@@ -120,10 +144,10 @@ const OzoneDiscTreatment = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-800 mb-3">Preparation</h3>
                       <p className="text-gray-700 mb-4">
-                        You'll lie comfortably on an exam table. The skin over your spine is cleaned and numbed with local anesthesia. Imaging guidance (fluoroscopy or CT) is used to precisely locate the affected disc.
+                        At our Pakistan clinics, you'll lie comfortably on an exam table. The skin over your spine is cleaned and numbed with local anesthesia. We use advanced imaging guidance (fluoroscopy or CT) to precisely locate the affected disc.
                       </p>
                       <div className="bg-blue-50 p-4 rounded-lg">
-                        <p className="text-blue-700 text-sm"><strong>Note:</strong> No food restrictions before the procedure, but we recommend wearing comfortable clothing and arranging for someone to drive you home.</p>
+                        <p className="text-blue-700 text-sm"><strong>Note for Pakistan Patients:</strong> No food restrictions before the procedure, but we recommend wearing comfortable clothing and arranging for someone to drive you home.</p>
                       </div>
                     </div>
                   </div>
@@ -134,12 +158,12 @@ const OzoneDiscTreatment = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-800 mb-3">Ozone Injection</h3>
                       <p className="text-gray-700 mb-4">
-                        Using a thin needle under imaging guidance, a precise mixture of medical ozone and oxygen is injected directly into or around the herniated disc. The entire process typically takes 15-30 minutes.
+                        Using a thin needle under imaging guidance, our specialists inject a precise mixture of medical ozone and oxygen directly into or around the herniated disc. The entire process typically takes 15-30 minutes at our clinics.
                       </p>
                       <div className="grid md:grid-cols-2 gap-4">
                         <div className="bg-green-50 p-3 rounded-lg">
                           <h4 className="font-semibold text-green-700 mb-1">During Treatment</h4>
-                          <p className="text-gray-700 text-sm">Most patients feel only mild pressure during the injection.</p>
+                          <p className="text-gray-700 text-sm">Most Pakistan patients feel only mild pressure during the injection.</p>
                         </div>
                         <div className="bg-yellow-50 p-3 rounded-lg">
                           <h4 className="font-semibold text-yellow-700 mb-1">Ozone Concentration</h4>
@@ -153,9 +177,9 @@ const OzoneDiscTreatment = () => {
                       3
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-800 mb-3">Recovery</h3>
+                      <h3 className="text-xl font-semibold text-gray-800 mb-3">Recovery in Pakistan</h3>
                       <p className="text-gray-700 mb-4">
-                        After brief monitoring, most patients can go home the same day. You'll need someone to drive you. Mild soreness at the injection site is normal for 1-2 days.
+                        After brief monitoring at our clinic, most Pakistan patients can go home the same day. You'll need someone to drive you. Mild soreness at the injection site is normal for 1-2 days in our climate.
                       </p>
                       <div className="bg-purple-50 p-4 rounded-lg">
                         <h4 className="font-semibold text-purple-700 mb-2">Post-Treatment Care</h4>
@@ -205,7 +229,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Non-Surgical</h4>
-                        <p className="text-gray-700">No incisions or general anesthesia required</p>
+                        <p className="text-gray-700">No incisions or general anesthesia required - ideal for Pakistan patients seeking alternatives</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -216,7 +240,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Quick Recovery</h4>
-                        <p className="text-gray-700">Most resume normal activities within days</p>
+                        <p className="text-gray-700">Most resume normal activities within days - important for Pakistan's workforce</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -227,7 +251,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Pain Relief</h4>
-                        <p className="text-gray-700">Many experience significant improvement in symptoms</p>
+                        <p className="text-gray-700">Many Pakistan patients experience significant improvement in symptoms</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -238,7 +262,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Avoid Surgery</h4>
-                        <p className="text-gray-700">May help some patients avoid more invasive procedures</p>
+                        <p className="text-gray-700">May help Pakistan patients avoid more invasive and expensive procedures</p>
                       </div>
                     </li>
                   </ul>
@@ -250,7 +274,7 @@ const OzoneDiscTreatment = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold text-red-700">Considerations</h3>
+                    <h3 className="text-2xl font-semibold text-red-700">Considerations in Pakistan</h3>
                   </div>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -261,7 +285,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Temporary Discomfort</h4>
-                        <p className="text-gray-700">Mild pain at injection site (1-2 days)</p>
+                        <p className="text-gray-700">Mild pain at injection site (1-2 days) - manageable with common medications</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -272,7 +296,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Infection Risk</h4>
-                        <p className="text-gray-700">Very low with proper sterile technique</p>
+                        <p className="text-gray-700">Very low with our strict sterile techniques in Pakistan clinics</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -283,7 +307,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Variable Results</h4>
-                        <p className="text-gray-700">Effectiveness depends on individual factors</p>
+                        <p className="text-gray-700">Effectiveness depends on individual factors - we provide honest assessments</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -294,7 +318,7 @@ const OzoneDiscTreatment = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Not for All Cases</h4>
-                        <p className="text-gray-700">Severe herniations may require other treatments</p>
+                        <p className="text-gray-700">Severe herniations may require other treatments - we'll advise honestly</p>
                       </div>
                     </li>
                   </ul>
@@ -308,7 +332,7 @@ const OzoneDiscTreatment = () => {
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Clinical Evidence</h2>
                 <div className="space-y-6">
                   <p className="text-gray-700">
-                    Clinical studies suggest ozone therapy can be effective for disc herniation, with success rates ranging from 70-85% in appropriately selected patients. Many patients experience pain reduction within 2-4 weeks of treatment.
+                    Clinical studies suggest ozone therapy can be effective for disc herniation, with success rates ranging from 70-85% in appropriately selected patients. Many Pakistan patients at our clinics experience pain reduction within 2-4 weeks of treatment.
                   </p>
                   
                   <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
@@ -343,7 +367,7 @@ const OzoneDiscTreatment = () => {
                   
                   <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
                     <p className="text-yellow-700">
-                      <strong>Note:</strong> While promising, ozone therapy isn't right for everyone. Our specialists can help determine if it's appropriate for your specific condition through a comprehensive evaluation.
+                      <strong>Note for Pakistan Patients:</strong> While promising, ozone therapy isn't right for everyone. Dr. Yousuf Memon can help determine if it's appropriate for your specific condition through a comprehensive evaluation at any of our clinics.
                     </p>
                   </div>
                 </div>
@@ -353,7 +377,7 @@ const OzoneDiscTreatment = () => {
             {/* Patient Stories */}
             <section className="mb-12">
               <div className="bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Patient Experiences</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">Pakistan Patient Experiences</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <div className="flex items-center mb-4">
@@ -363,11 +387,18 @@ const OzoneDiscTreatment = () => {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-800">Michael T., 48</h4>
+                        <h4 className="font-semibold text-gray-800">Ahmed R., 42, Karachi</h4>
                         <p className="text-sm text-gray-600">L4-L5 disc herniation</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic">"After two ozone treatments, my sciatica pain reduced by about 80%. I could finally sleep through the night and return to work without constant pain medication."</p>
+                    <p className="text-gray-700 italic">"After two ozone treatments at Dr. Memon's clinic, my sciatica pain reduced by about 80%. I could finally sleep through the night and return to work without constant pain medication."</p>
+                    <div className="flex mt-3 text-yellow-400">
+                      {[...Array(5)].map((_, i) => (
+                        <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <div className="flex items-center mb-4">
@@ -377,16 +408,23 @@ const OzoneDiscTreatment = () => {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-800">Sarah K., 52</h4>
+                        <h4 className="font-semibold text-gray-800">Fatima S., 56, Lahore</h4>
                         <p className="text-sm text-gray-600">Cervical disc herniation</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic">"The ozone treatment helped my neck pain when nothing else did. I went from constant numbness in my arm to being able to garden and drive comfortably again."</p>
+                    <p className="text-gray-700 italic">"The ozone treatment at the Lahore clinic helped my neck pain when nothing else did. I went from constant numbness in my arm to being able to do household work comfortably again."</p>
+                    <div className="flex mt-3 text-yellow-400">
+                      {[...Array(5)].map((_, i) => (
+                        <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
                   </div>
                 </div>
                 <div className="mt-6 text-center">
                   <button className="text-teal-600 hover:text-teal-800 font-medium">
-                    Read more patient stories →
+                    Read more Pakistan patient stories →
                   </button>
                 </div>
               </div>
@@ -420,82 +458,48 @@ const OzoneDiscTreatment = () => {
                     <h4 className="font-semibold text-gray-700 mb-1">Treatment Series</h4>
                     <p className="text-gray-600">1-3 sessions typically needed</p>
                   </div>
-                 
+                  <div>
+                    <h4 className="font-semibold text-gray-700 mb-1">Cost in Pakistan</h4>
+                    <p className="text-gray-600">More affordable than surgery options</p>
+                  </div>
                 </div>
               </div>
 
-              {/* Candidate Criteria */}
+              {/* Clinic Locations */}
               <div className="bg-white rounded-xl shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Good Candidates</h3>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-teal-600 mr-2">•</span>
-                    <span>Contained disc herniations (non-sequestered)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-teal-600 mr-2">•</span>
-                    <span>Failed 6+ weeks of conservative treatment</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-teal-600 mr-2">•</span>
-                    <span>No severe spinal stenosis or instability</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-teal-600 mr-2">•</span>
-                    <span>No significant neurological deficits</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-teal-600 mr-2">•</span>
-                    <span>MRI-confirmed disc pathology matching symptoms</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Related Services */}
-              <div className="bg-white rounded-xl shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Alternative Treatments</h3>
-                <ul className="space-y-3">
-                  <li>
-                    <a href="#" className="text-teal-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Epidural Steroid Injections</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-teal-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Physical Therapy Programs</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-teal-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Chiropractic Care</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-teal-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Minimally Invasive Decompression</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-teal-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Regenerative Medicine Therapies</span>
-                    </a>
-                  </li>
-                </ul>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Our Clinic Locations</h3>
+                <div className="space-y-4">
+                  <div className="border-b pb-4">
+                    <h4 className="font-semibold text-gray-700">Karachi</h4>
+                    <p className="text-gray-600 text-sm">Orthopaedic and Medical Institute (OMI)</p>
+                    <p className="text-gray-600 text-sm">Depot Lines, Muhammad Ali Jinnah Rd Saddar</p>
+                    <p className="text-gray-600 text-sm">Mon & Thu | 2:00 PM - 4:00 PM</p>
+                    <a href="#" className="text-teal-600 text-sm hover:underline">View on Map →</a>
+                  </div>
+                  <div className="border-b pb-4">
+                    <h4 className="font-semibold text-gray-700">Lahore</h4>
+                    <p className="text-gray-600 text-sm">Ihsan Mumtaz Hospital</p>
+                    <p className="text-gray-600 text-sm">71-E Jauhar Town Maulana Shaukat Ali Road</p>
+                    <a href="#" className="text-teal-600 text-sm hover:underline">View on Map →</a>
+                  </div>
+                  <div className="border-b pb-4">
+                    <h4 className="font-semibold text-gray-700">Hyderabad</h4>
+                    <p className="text-gray-600 text-sm">Isra Hospital, Cath Lab Cardiology</p>
+                    <p className="text-gray-600 text-sm">Fri | 12:00 PM - 2:00 PM</p>
+                    <a href="#" className="text-teal-600 text-sm hover:underline">View on Map →</a>
+                  </div>
+                </div>
               </div>
 
               {/* CTA */}
               <div className="bg-gradient-to-r from-teal-600 to-emerald-700 rounded-xl p-6 text-white">
                 <h3 className="text-xl font-bold mb-4">Ready to Discuss Ozone Therapy?</h3>
-                <p className="mb-6 opacity-90">Our spine specialists can evaluate if this treatment is right for your disc herniation.</p>
+                <p className="mb-6 opacity-90">Dr. Yousuf Memon can evaluate if this treatment is right for your disc herniation at any of our Pakistan clinics.</p>
                 <button className="w-full bg-white text-teal-600 font-semibold py-3 px-4 rounded-lg hover:bg-teal-50 transition duration-300">
                   Schedule Consultation
                 </button>
-                <p className="text-sm mt-4 opacity-80 text-center">or call us at (555) 123-4567</p>
+                <p className="text-sm mt-4 opacity-80 text-center">or call us at <a href="tel:+923367889143" className="underline">+92 336-7889143</a></p>
+                <p className="text-sm mt-2 opacity-80 text-center"><a href="https://wa.me/923199246838" className="underline">Chat on WhatsApp</a></p>
               </div>
 
               {/* FAQ Preview */}
@@ -504,7 +508,7 @@ const OzoneDiscTreatment = () => {
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-gray-700">Is ozone therapy painful?</h4>
-                    <p className="text-gray-600 text-sm mt-1">Most patients report only mild discomfort during the injection, similar to other spinal injections.</p>
+                    <p className="text-gray-600 text-sm mt-1">Most Pakistan patients report only mild discomfort during the injection, similar to other spinal injections.</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-700">How soon will I see results?</h4>
@@ -514,6 +518,10 @@ const OzoneDiscTreatment = () => {
                     <h4 className="font-semibold text-gray-700">Are there any activity restrictions?</h4>
                     <p className="text-gray-600 text-sm mt-1">We recommend avoiding strenuous activity for 3-5 days after treatment.</p>
                   </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-700">Is it available in all Pakistan clinics?</h4>
+                    <p className="text-gray-600 text-sm mt-1">Yes, available at our Karachi, Lahore and Hyderabad locations.</p>
+                  </div>
                 </div>
                 <a href="#" className="text-teal-600 hover:underline text-sm mt-4 inline-block">View all FAQs →</a>
               </div>
@@ -521,6 +529,9 @@ const OzoneDiscTreatment = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+     
     </div>
   );
 };

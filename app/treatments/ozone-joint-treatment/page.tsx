@@ -6,16 +6,40 @@ const OzoneJointTherapy = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Ozone Therapy for Joint Pain </title>
-        <meta name="description" content="Non-surgical ozone treatment for knee, shoulder, and back pain. Reduce inflammation and improve mobility." />
-        <meta name="keywords" content="ozone therapy, joint pain relief, knee pain treatment, shoulder therapy, back pain solutions" />
+        <title>Ozone Therapy for Joint Pain in Pakistan | Dr. Yousuf Memon</title>
+        <meta name="description" content="Non-surgical ozone treatment for knee, shoulder & back pain in Karachi, Lahore & Hyderabad. Effective pain relief alternative at Dr. Yousuf Memon's clinics." />
+        <meta name="keywords" content="ozone therapy Pakistan, joint pain treatment Karachi, knee pain relief Lahore, shoulder therapy Hyderabad, back pain solutions Pakistan" />
+        
+        {/* Pakistan-specific schema markup */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "MedicalProcedure",
+              "name": "Ozone Joint Therapy",
+              "description": "Non-surgical ozone treatment for joint pain available in Pakistan",
+              "provider": {
+                "@type": "MedicalClinic",
+                "name": "Dr. Yousuf Memon Clinics",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Depot Lines, Muhammad Ali Jinnah Rd Saddar",
+                  "addressLocality": "Karachi",
+                  "addressRegion": "Sindh",
+                  "addressCountry": "PK"
+                }
+              },
+              "medicalSpecialty": "Joint Pain Treatment"
+            }
+          `}
+        </script>
       </Head>
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ozone Therapy for Joint Pain</h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">A natural, non-surgical solution to reduce inflammation and restore joint function</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ozone Therapy for Joint Pain in Pakistan</h1>
+          <p className="text-xl md:text-2xl max-w-3xl mx-auto">A natural, non-surgical solution available in Karachi, Lahore & Hyderabad</p>
         </div>
       </div>
 
@@ -40,9 +64,9 @@ const OzoneJointTherapy = () => {
             {/* Overview */}
             <section className="mb-12">
               <div className="bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">About Ozone Joint Therapy</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">About Ozone Joint Therapy in Pakistan</h2>
                 <p className="text-gray-700 mb-6">
-                  Ozone therapy is a natural treatment that uses medical-grade ozone (O₃) to reduce inflammation and promote healing in painful joints. This innovative approach can help manage chronic joint conditions without surgery or long-term medication use by stimulating your body's natural healing processes.
+                  Ozone therapy is becoming increasingly popular in Pakistan as a natural treatment for joint pain. At our clinics in Karachi, Lahore, and Hyderabad, we use medical-grade ozone (O₃) to reduce inflammation and promote healing in painful joints, offering patients an alternative to surgery and long-term medication.
                 </p>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -76,31 +100,31 @@ const OzoneJointTherapy = () => {
                     </ul>
                   </div>
                   <div className="bg-indigo-50 p-6 rounded-lg border-l-4 border-indigo-500">
-                    <h3 className="text-xl font-semibold text-indigo-700 mb-3">Treatment Areas</h3>
+                    <h3 className="text-xl font-semibold text-indigo-700 mb-3">Available at Our Clinics</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start">
                         <div className="bg-indigo-100 text-indigo-600 rounded-full p-1 mr-3">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                            <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                           </svg>
                         </div>
-                        <span><strong>Knee joints:</strong> Osteoarthritis, meniscus tears, ligament issues</span>
+                        <span><strong>Karachi:</strong> Orthopaedic and Medical Institute (OMI)</span>
                       </li>
                       <li className="flex items-start">
                         <div className="bg-indigo-100 text-indigo-600 rounded-full p-1 mr-3">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                            <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                           </svg>
                         </div>
-                        <span><strong>Shoulder joints:</strong> Rotator cuff injuries, impingement, arthritis</span>
+                        <span><strong>Lahore:</strong> Ihsan Mumtaz Hospital</span>
                       </li>
                       <li className="flex items-start">
                         <div className="bg-indigo-100 text-indigo-600 rounded-full p-1 mr-3">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                            <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                           </svg>
                         </div>
-                        <span><strong>Spinal joints:</strong> Herniated discs, facet arthritis, degenerative disc disease</span>
+                        <span><strong>Hyderabad:</strong> Isra Hospital</span>
                       </li>
                     </ul>
                   </div>
@@ -111,7 +135,7 @@ const OzoneJointTherapy = () => {
             {/* Conditions Treated */}
             <section className="mb-12">
               <div className="bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Conditions We Treat</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">Conditions We Treat in Pakistan</h2>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white p-6 rounded-lg border border-gray-200 hover:border-blue-300 transition">
                     <div className="bg-blue-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
@@ -123,7 +147,7 @@ const OzoneJointTherapy = () => {
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
-                        <span>Osteoarthritis</span>
+                        <span>Osteoarthritis (common in Pakistan)</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
@@ -198,7 +222,7 @@ const OzoneJointTherapy = () => {
             {/* Procedure */}
             <section className="mb-12">
               <div className="bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Treatment Procedure</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">Treatment Process in Pakistan</h2>
                 <div className="space-y-8">
                   <div className="flex items-start">
                     <div className="bg-blue-100 text-blue-800 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 mr-6 text-xl font-bold">
@@ -207,10 +231,10 @@ const OzoneJointTherapy = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-800 mb-3">Preparation</h3>
                       <p className="text-gray-700 mb-4">
-                        The treatment area is cleaned and numbed with local anesthesia. Imaging guidance (ultrasound or fluoroscopy) may be used to precisely locate the joint for optimal results.
+                        At our Pakistan clinics, the treatment area is cleaned and numbed with local anesthesia. We may use ultrasound guidance to precisely locate the joint for optimal results.
                       </p>
                       <div className="bg-blue-50 p-4 rounded-lg">
-                        <p className="text-blue-700 text-sm"><strong>Note:</strong> No special preparation is needed before your appointment, but we recommend wearing comfortable clothing that allows easy access to the treatment area.</p>
+                        <p className="text-blue-700 text-sm"><strong>Note for Pakistan Patients:</strong> No special preparation needed, but wear comfortable clothing allowing access to the treatment area.</p>
                       </div>
                     </div>
                   </div>
@@ -221,12 +245,12 @@ const OzoneJointTherapy = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-800 mb-3">Ozone Injection</h3>
                       <p className="text-gray-700 mb-4">
-                        A precise mixture of medical ozone and oxygen is injected into the joint space or surrounding tissues using a very fine needle. The procedure typically takes 15-30 minutes depending on the joint being treated.
+                        Our specialists inject a precise mixture of medical ozone and oxygen into the joint space using a fine needle. The procedure takes 15-30 minutes at our clinics.
                       </p>
                       <div className="grid md:grid-cols-2 gap-4">
                         <div className="bg-green-50 p-3 rounded-lg">
                           <h4 className="font-semibold text-green-700 mb-1">During Treatment</h4>
-                          <p className="text-gray-700 text-sm">Most patients feel only mild pressure during the injection.</p>
+                          <p className="text-gray-700 text-sm">Most Pakistan patients feel only mild pressure during the injection.</p>
                         </div>
                         <div className="bg-yellow-50 p-3 rounded-lg">
                           <h4 className="font-semibold text-yellow-700 mb-1">Ozone Concentration</h4>
@@ -240,12 +264,12 @@ const OzoneJointTherapy = () => {
                       3
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-800 mb-3">Aftercare</h3>
+                      <h3 className="text-xl font-semibold text-gray-800 mb-3">Recovery in Pakistan</h3>
                       <p className="text-gray-700 mb-4">
-                        After brief monitoring, most patients can go home the same day. Mild soreness may occur for 1-2 days. Many patients require 3-5 sessions spaced 1-2 weeks apart for optimal results.
+                        After brief monitoring at our clinic, most Pakistan patients can go home the same day. Mild soreness may occur for 1-2 days. Many require 3-5 sessions spaced 1-2 weeks apart.
                       </p>
                       <div className="bg-purple-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-purple-700 mb-2">Post-Treatment Instructions</h4>
+                        <h4 className="font-semibold text-purple-700 mb-2">Post-Treatment Care</h4>
                         <ul className="space-y-2 text-gray-700 text-sm">
                           <li className="flex items-start">
                             <span className="text-purple-600 mr-2">•</span>
@@ -261,7 +285,7 @@ const OzoneJointTherapy = () => {
                           </li>
                           <li className="flex items-start">
                             <span className="text-purple-600 mr-2">•</span>
-                            <span>Stay well hydrated</span>
+                            <span>Stay well hydrated in Pakistan's climate</span>
                           </li>
                         </ul>
                       </div>
@@ -303,7 +327,7 @@ const OzoneJointTherapy = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Improved Mobility</h4>
-                        <p className="text-gray-700">Enhances range of motion and joint function</p>
+                        <p className="text-gray-700">Enhances range of motion and joint function for daily activities</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -337,7 +361,7 @@ const OzoneJointTherapy = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold text-red-700">Considerations</h3>
+                    <h3 className="text-2xl font-semibold text-red-700">Considerations in Pakistan</h3>
                   </div>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -392,7 +416,7 @@ const OzoneJointTherapy = () => {
             {/* Patient Stories */}
             <section className="mb-12">
               <div className="bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Patient Experiences</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">Pakistan Patient Experiences</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <div className="flex items-center mb-4">
@@ -402,11 +426,18 @@ const OzoneJointTherapy = () => {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-800">John D., 62</h4>
+                        <h4 className="font-semibold text-gray-800">Ahmed R., 58, Karachi</h4>
                         <p className="text-sm text-gray-600">Knee osteoarthritis</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic">"After 5 sessions of ozone therapy, my knee pain reduced by about 70%. I can now walk my dog without constant pain and even started gardening again."</p>
+                    <p className="text-gray-700 italic">"After 5 sessions at Dr. Memon's clinic, my knee pain reduced by 70%. I can now pray comfortably and walk my grandchildren to school."</p>
+                    <div className="flex mt-3 text-yellow-400">
+                      {[...Array(5)].map((_, i) => (
+                        <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <div className="flex items-center mb-4">
@@ -416,16 +447,23 @@ const OzoneJointTherapy = () => {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-800">Sarah M., 54</h4>
+                        <h4 className="font-semibold text-gray-800">Fatima K., 52, Lahore</h4>
                         <p className="text-sm text-gray-600">Chronic shoulder pain</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 italic">"Ozone therapy helped my shoulder when nothing else did. I went from not being able to lift my arm to playing tennis again within 3 months of treatment."</p>
+                    <p className="text-gray-700 italic">"Ozone therapy at the Lahore clinic helped my shoulder when painkillers failed. I can now cook and do household work without pain."</p>
+                    <div className="flex mt-3 text-yellow-400">
+                      {[...Array(5)].map((_, i) => (
+                        <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
                   </div>
                 </div>
                 <div className="mt-6 text-center">
                   <button className="text-blue-600 hover:text-blue-800 font-medium">
-                    Read more patient stories →
+                    Read more Pakistan patient stories →
                   </button>
                 </div>
               </div>
@@ -459,86 +497,48 @@ const OzoneJointTherapy = () => {
                     <h4 className="font-semibold text-gray-700 mb-1">Treatment Series</h4>
                     <p className="text-gray-600">3-5 sessions recommended</p>
                   </div>
-                  
+                  <div>
+                    <h4 className="font-semibold text-gray-700 mb-1">Cost in Pakistan</h4>
+                    <p className="text-gray-600">More affordable than surgery options</p>
+                  </div>
                 </div>
               </div>
 
-              {/* Ideal Candidates */}
+              {/* Clinic Locations */}
               <div className="bg-white rounded-xl shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Ideal Candidates</h3>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Chronic joint pain lasting more than 3 months</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Those wanting to avoid or delay joint surgery</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Patients with mild to moderate osteoarthritis</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Individuals who haven't responded to other treatments</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Those looking for drug-free pain management</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Patients wanting to enhance other therapies</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Related Services */}
-              <div className="bg-white rounded-xl shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Complementary Treatments</h3>
-                <ul className="space-y-3">
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>PRP (Platelet-Rich Plasma) Therapy</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Stem Cell Therapy</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Physical Therapy</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Chiropractic Care</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline flex items-start">
-                      <span className="mr-2">→</span>
-                      <span>Medical Massage</span>
-                    </a>
-                  </li>
-                </ul>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Our Clinic Locations</h3>
+                <div className="space-y-4">
+                  <div className="border-b pb-4">
+                    <h4 className="font-semibold text-gray-700">Karachi</h4>
+                    <p className="text-gray-600 text-sm">Orthopaedic and Medical Institute (OMI)</p>
+                    <p className="text-gray-600 text-sm">Depot Lines, Muhammad Ali Jinnah Rd Saddar</p>
+                    <p className="text-gray-600 text-sm">Mon & Thu | 2:00 PM - 4:00 PM</p>
+                    <a href="#" className="text-blue-600 text-sm hover:underline">View on Map →</a>
+                  </div>
+                  <div className="border-b pb-4">
+                    <h4 className="font-semibold text-gray-700">Lahore</h4>
+                    <p className="text-gray-600 text-sm">Ihsan Mumtaz Hospital</p>
+                    <p className="text-gray-600 text-sm">71-E Jauhar Town Maulana Shaukat Ali Road</p>
+                    <a href="#" className="text-blue-600 text-sm hover:underline">View on Map →</a>
+                  </div>
+                  <div className="border-b pb-4">
+                    <h4 className="font-semibold text-gray-700">Hyderabad</h4>
+                    <p className="text-gray-600 text-sm">Isra Hospital, Cath Lab Cardiology</p>
+                    <p className="text-gray-600 text-sm">Fri | 12:00 PM - 2:00 PM</p>
+                    <a href="#" className="text-blue-600 text-sm hover:underline">View on Map →</a>
+                  </div>
+                </div>
               </div>
 
               {/* CTA */}
               <div className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-xl p-6 text-white">
                 <h3 className="text-xl font-bold mb-4">Ready for Joint Pain Relief?</h3>
-                <p className="mb-6 opacity-90">Schedule a consultation with our pain specialists to see if ozone therapy is right for you.</p>
+                <p className="mb-6 opacity-90">Dr. Yousuf Memon can evaluate if ozone therapy is right for your joint pain at our Pakistan clinics.</p>
                 <button className="w-full bg-white text-blue-600 font-semibold py-3 px-4 rounded-lg hover:bg-blue-50 transition duration-300">
                   Book Your Appointment
                 </button>
-                <p className="text-sm mt-4 opacity-80 text-center">or call us at (555) 123-4567</p>
+                <p className="text-sm mt-4 opacity-80 text-center">or call us at <a href="tel:+923367889143" className="underline">+92 336-7889143</a></p>
+                <p className="text-sm mt-2 opacity-80 text-center"><a href="https://wa.me/923199246838" className="underline">Chat on WhatsApp</a></p>
               </div>
 
               {/* FAQ Preview */}
@@ -547,15 +547,19 @@ const OzoneJointTherapy = () => {
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-gray-700">Is ozone therapy painful?</h4>
-                    <p className="text-gray-600 text-sm mt-1">Most patients report only mild discomfort during the injection, similar to a standard joint injection.</p>
+                    <p className="text-gray-600 text-sm mt-1">Most Pakistan patients report only mild discomfort during the injection.</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-700">How soon will I see results?</h4>
-                    <p className="text-gray-600 text-sm mt-1">Many patients notice improvement within 1-2 weeks, with optimal results after completing the treatment series.</p>
+                    <p className="text-gray-600 text-sm mt-1">Many notice improvement within 1-2 weeks, with optimal results after completing treatment.</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-700">Are there any side effects?</h4>
-                    <p className="text-gray-600 text-sm mt-1">Possible mild soreness or swelling at the injection site that typically resolves within 48 hours.</p>
+                    <p className="text-gray-600 text-sm mt-1">Possible mild soreness or swelling at injection site resolving within 48 hours.</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-700">Is it available in all Pakistan clinics?</h4>
+                    <p className="text-gray-600 text-sm mt-1">Yes, available at our Karachi, Lahore and Hyderabad locations.</p>
                   </div>
                 </div>
                 <a href="#" className="text-blue-600 hover:underline text-sm mt-4 inline-block">View all FAQs →</a>
@@ -564,6 +568,64 @@ const OzoneJointTherapy = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white py-12">
+        <div className="container mx-auto px-6">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+              <ul className="space-y-2">
+                <li><a href="tel:+923367889143" className="hover:text-blue-300">+92 336-7889143</a></li>
+                <li><a href="tel:+923199246838" className="hover:text-blue-300">+92 319-9246838</a></li>
+                <li><a href="mailto:info@dryousufmemon.pk" className="hover:text-blue-300">info@dryousufmemon.pk</a></li>
+                <li><a href="https://wa.me/923199246838" className="hover:text-blue-300">Chat on WhatsApp</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+              <div className="flex space-x-4">
+                <a href="#" className="hover:text-blue-300">
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" />
+                  </svg>
+                </a>
+                <a href="#" className="hover:text-blue-300">
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 3.808.058h.468c2.456 0 2.784-.011 3.807-.058.975-.045 1.504-.207 1.857-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-3.808v-.468c0-2.456-.011-2.784-.058-3.807-.045-.975-.207-1.504-.344-1.857a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clipRule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4">Karachi | کراچی</h3>
+              <p className="mb-2">Orthopaedic and Medical Institute (OMI)</p>
+              <p className="mb-2">Depot Lines, Muhammad Ali Jinnah Rd Saddar</p>
+              <p className="mb-2">ڈیپوٹ لائنز ،محمد علی جناح روڈ صدر کراچی۔</p>
+              <p className="mb-4">Mon & Thu | 2:00 PM - 4:00 PM | پیر اور جمعرات</p>
+              <a href="#" className="text-blue-300 hover:underline">View on Map →</a>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4">Other Locations</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold">Lahore | لاہور</h4>
+                  <p className="text-sm">Ihsan Mumtaz Hospital</p>
+                  <a href="#" className="text-blue-300 hover:underline text-sm">View on Map →</a>
+                </div>
+                <div>
+                  <h4 className="font-semibold">Hyderabad | حیدرآباد</h4>
+                  <p className="text-sm">Isra Hospital, Cath Lab Cardiology</p>
+                  <a href="#" className="text-blue-300 hover:underline text-sm">View on Map →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+            <p>© 2025 Dr. Yousuf Memon. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

@@ -16,9 +16,9 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// app/page.tsx
+// SEO Metadata export
 export const metadata: Metadata = {
-  title: "Dr. Yousuf Memon –  Interventional Radiologist in Pakistan",
+  title: "Dr. Yousuf Memon – Interventional Radiologist in Pakistan",
   description:
     "Dr. Yousuf Memon offers advanced interventional radiology treatments including embolizations, ozone therapy, and minimally invasive procedures across Pakistan.",
   keywords: [
@@ -28,7 +28,6 @@ export const metadata: Metadata = {
     "Liver Cancer Embolization",
     "Hemorrhoid Embolization",
     "Hemoptysis Treatment",
-
     "Anal Bleeding Embolization",
     "Brain Tumor Embolization",
     "Diabetic Foot Angioplasty",
@@ -50,9 +49,7 @@ export const metadata: Metadata = {
     "Minimally Invasive Procedures",
     "Pain Management Without Surgery",
   ],
-  // ... rest of metadata unchanged
-
-openGraph: {
+  openGraph: {
     title: "Dr. Muhammad Yousuf Memon – Interventional Radiologist in Pakistan",
     description:
       "Trusted for 20+ years, Dr. Yousuf Memon offers cutting-edge interventional radiology treatments without surgery. Clinics in Karachi, Lahore, Hyderabad & Rahim Yar Khan.",
@@ -79,7 +76,6 @@ openGraph: {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -87,9 +83,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <TopHeader />
         <Navbar />
         {children}

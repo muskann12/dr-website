@@ -6,7 +6,7 @@ const OzoneDryEyesSinusesWrinkles = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Ozone Therapy for Dry Eyes & Sinus in Pakistan | Natural Wrinkle Treatment</title>
+        <title>Ozone Therapy for Dry Eyes & Sinus in Whole Pakistan | Natural Wrinkle Treatment</title>
         <meta name="description" content="Best ozone therapy in Pakistan for dry eyes, chronic sinus issues & facial wrinkles. Safe, natural treatments available in Karachi, Lahore, Hyderabad & Rahim Yar Khan." />
         <meta name="keywords" content="ozone therapy Pakistan, dry eye treatment Karachi, sinus relief Lahore, facial rejuvenation Islamabad, natural skin treatments, Dr. Yousuf Memon" />
         

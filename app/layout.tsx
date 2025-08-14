@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import TopHeader from "./components/top";
+import WhatsappButton from "./components/WhatsappButton";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,43 +17,26 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// SEO Metadata export
+// ✅ SEO Metadata
 export const metadata: Metadata = {
-  title: "Dr. Yousuf Memon – Interventional Radiologist in Pakistan",
+  title: "Dr. Muhammad Yousuf Memon – Interventional Radiologist in Pakistan",
   description:
-    "Dr. Yousuf Memon offers advanced interventional radiology treatments including embolizations, ozone therapy, and minimally invasive procedures across Pakistan.",
+    "Trusted Interventional Radiologist in Pakistan. Dr. Yousuf Memon provides non-surgical treatments including embolization, angioplasty, ozone therapy, and minimally invasive procedures in Karachi, Lahore, Hyderabad & Rahim Yar Khan.",
   keywords: [
     "Dr. Yousuf Memon",
     "Interventional Radiologist Pakistan",
-    "Uterine Fibroid Embolization",
-    "Liver Cancer Embolization",
-    "Hemorrhoid Embolization",
-    "Hemoptysis Treatment",
-    "Anal Bleeding Embolization",
-    "Brain Tumor Embolization",
-    "Diabetic Foot Angioplasty",
-    "IVC Filter Placement DVT",
-    "PTC PTBD CBD Stenting",
-    "Permacath Placement Dialysis",
     "Ozone Therapy Pakistan",
-    "Ozone Treatment for Disc Herniation",
-    "Ozone Treatment for Joint Pain",
-    "Back Pain Ozone Therapy",
-    "Ozone for Dry Eyes & Face Wrinkles",
-    "Uterine Fibroids Treatment",
-    "Varicocele Treatment",
-    "Varicose Veins Embolization",
+    "Uterine Fibroid Embolization",
     "Disc Herniation Non-surgical Treatment",
-    "Hemorrhoids Non-surgical Treatment",
-    "Venous Leak Treatment",
-    "Vascular Specialist Pakistan",
+    "Varicocele & Varicose Veins Treatment",
+    "Diabetic Foot Angioplasty",
     "Minimally Invasive Procedures",
     "Pain Management Without Surgery",
   ],
   openGraph: {
-    title: "Dr. Muhammad Yousuf Memon – Interventional Radiologist in Pakistan",
+    title: "Dr. Yousuf Memon – Interventional Radiologist in Pakistan",
     description:
-      "Trusted for 20+ years, Dr. Yousuf Memon offers cutting-edge interventional radiology treatments without surgery. Clinics in Karachi, Lahore, Hyderabad & Rahim Yar Khan.",
+      "Non-surgical solutions for vascular diseases, fibroids, disc herniation & more. 20+ years of experience. Clinics in Karachi, Lahore, Hyderabad & Rahim Yar Khan.",
     url: "https://dryousufmemon.pk",
     siteName: "Dr. Yousuf Memon",
     images: [
@@ -68,26 +52,72 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Muhammad Yousuf Memon – Interventional Radiologist in Pakistan",
+    title: "Dr. Yousuf Memon – Interventional Radiologist in Pakistan",
     description:
-      "Non-surgical solutions for vascular issues, fibroids, disc herniation & more. Clinics in major cities. Trusted by thousands of patients.",
+      "Expert in minimally invasive treatments & ozone therapy. Book your appointment in Karachi, Lahore, Hyderabad & Rahim Yar Khan.",
     images: ["https://dryousufmemon.pk/images/doctor1.png"],
     site: "@dryousufmemon",
+  },
+  metadataBase: new URL("https://dryousufmemon.pk"),
+  alternates: {
+    canonical: "https://dryousufmemon.pk",
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
+  // ✅ Global JSON-LD Schema (Physician + Website)
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Dr. Muhammad Yousuf Memon",
+    url: "https://dryousufmemon.pk",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://dryousufmemon.pk/search?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  const physicianSchema = {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    name: "Dr. Muhammad Yousuf Memon",
+    image: "https://dryousufmemon.pk/images/doctor1.png",
+    description:
+      "Interventional Radiologist in Pakistan specializing in embolization, angioplasty, and ozone therapy. Clinics in Karachi, Hyderabad, Lahore & Rahim Yar Khan.",
+    telephone: ["+923367889143", "+923199246838"],
+    email: "info@dryousufmemon.pk",
+    url: "https://dryousufmemon.pk",
+  };
+
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="en" dir="ltr">
+      <head>
+        {/* ✅ Mobile-friendly viewport */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* ✅ Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([jsonLd, physicianSchema]),
+          }}
+        />
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         <TopHeader />
         <Navbar />
         {children}
         <Footer />
+        <WhatsappButton />
       </body>
     </html>
   );

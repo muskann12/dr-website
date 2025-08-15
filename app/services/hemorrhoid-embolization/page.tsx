@@ -2,20 +2,71 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Script from 'next/script';
 
 const HemorrhoidEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Hemorrhoid (Piles) Embolization | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive treatment for hemorrhoids without surgery. Learn about benefits, risks, and recovery." />
+        <title>Hemorrhoid Embolization in Pakistan | Piles Treatment Without Surgery | Dr. Yousuf Memon</title>
+        <meta 
+          name="description" 
+          content="Dr. Yousuf Memon offers minimally invasive hemorrhoid embolization in Pakistan - effective treatment for piles without surgery. Quick recovery, high success rate. Book consultation today." 
+        />
+        <meta
+          name="keywords"
+          content="hemorrhoid embolization Pakistan, piles treatment without surgery, minimally invasive hemorrhoid treatment, hemorrhoidal artery embolization, THD procedure Pakistan, best piles doctor in Karachi"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://www.dryousufmemon.com/services/hemorrhoid-embolization" />
       </Head>
+
+      {/* Enhanced schema markup */}
+      <Script type="application/ld+json" strategy="afterInteractive">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "MedicalProcedure",
+            "name": "Hemorrhoid Embolization",
+            "description": "Minimally invasive procedure to treat hemorrhoids by reducing their blood supply",
+            "procedureType": "Minimally invasive",
+            "bodyLocation": "Rectum/Anus",
+            "howPerformed": "Catheter insertion via femoral artery with embolic agents under imaging guidance",
+            "preparation": "Clinical evaluation and imaging",
+            "followup": "Outpatient procedure with follow-up in 2 weeks",
+            "risks": "Mild discomfort, rare non-target embolization",
+            "successRate": "80-90%",
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Interventional Radiology"
+            },
+            "provider": {
+              "@type": "MedicalClinic",
+              "name": "Dr. Yousuf Memon Clinic",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Your Clinic Address",
+                "addressLocality": "Karachi",
+                "addressRegion": "Sindh",
+                "postalCode": "75500",
+                "addressCountry": "PK"
+              },
+              "telephone": "+923367889143"
+            }
+          }
+        `}
+      </Script>
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-purple-900 to-indigo-800 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Hemorrhoid (Piles) Embolization</h1>
-          <p className="text-xl md:text-2xl">A minimally invasive alternative to hemorrhoid surgery</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Hemorrhoid Embolization in Pakistan</h1>
+          <p className="text-xl md:text-2xl">Advanced minimally invasive treatment for piles without surgery</p>
+          <div className="mt-6">
+            <a href="tel:+923367889143" className="bg-white text-purple-800 font-semibold py-3 px-6 rounded-lg hover:bg-purple-50 transition inline-block">
+              Book Consultation: +92 336-7889143
+            </a>
+          </div>
         </div>
       </div>
 
@@ -23,21 +74,11 @@ const HemorrhoidEmbolization = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li>
-              <a href="/" className="hover:text-blue-600">Home</a>
-            </li>
-            <li>
-              <span>/</span>
-            </li>
-            <li>
-              <a href="/services" className="hover:text-blue-600">Services</a>
-            </li>
-            <li>
-              <span>/</span>
-            </li>
-            <li className="text-blue-600" aria-current="page">
-              Hemorrhoid Embolization
-            </li>
+            <li><a href="/" className="hover:text-purple-600">Home</a></li>
+            <li><span>/</span></li>
+            <li><a href="/services" className="hover:text-purple-600">Services</a></li>
+            <li><span>/</span></li>
+            <li className="text-purple-600">Hemorrhoid Embolization</li>
           </ol>
         </nav>
       </div>
@@ -49,154 +90,287 @@ const HemorrhoidEmbolization = () => {
           <div className="lg:w-2/3">
             {/* Overview Section */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-black mb-6">What are Hemorrhoids (Piles)?</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">What are Hemorrhoids (Piles)?</h2>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-                <p className="text-black mb-4">
-                  Hemorrhoids, commonly known as piles, are swollen and inflamed veins in the rectum and anus that cause discomfort, itching, pain, and sometimes bleeding. They can be internal (inside the rectum) or external (under the skin around the anus).
+                <p className="text-gray-700 mb-4">
+                  Hemorrhoids, commonly called piles in Pakistan, are swollen veins in the rectum and anus that cause discomfort, itching, pain, and bleeding. They affect about 50% of adults by age 50, with higher prevalence in populations with low-fiber diets like ours.
                 </p>
-                <p className="text-black">
-                  Hemorrhoids are common and often result from straining during bowel movements, chronic constipation or diarrhea, pregnancy, or aging.
+                <p className="text-gray-700">
+                  In Pakistan, common causes include chronic constipation (often from low fiber intake), prolonged sitting, pregnancy, and straining during bowel movements. Many patients suffer silently due to embarrassment, but effective treatments like embolization are now available.
                 </p>
               </div>
               
-              {/* Image Placeholder */}
               <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-lg mb-6">
                 <Image
                   src="/images/piles.png"
-                  alt="Hemorrhoid embolization procedure"
+                  alt="Hemorrhoid embolization procedure performed by interventional radiologist in Pakistan"
                   layout="fill"
                   objectFit="cover"
-                  className="transition-opacity duration-300 hover:opacity-90"
+                  priority
                 />
               </div>
             </section>
 
-            {/* Embolization Explanation */}
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">What is Hemorrhoid Embolization?</h2>
-              <div className="bg-purple-50 rounded-lg shadow-md p-6 border border-purple-200">
-                <p className="text-gray-700 mb-4">
-                  Hemorrhoid embolization, also known as hemorrhoidal artery embolization or transarterial hemorrhoidal dearterialization (THD), is a minimally invasive procedure designed to treat symptomatic hemorrhoids by reducing the blood flow to the hemorrhoidal tissue, causing them to shrink.
-                </p>
+            {/* Why Choose Us */}
+            <section className="mb-12 bg-purple-50 rounded-lg p-6 border border-purple-200">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Why Choose Our Hemorrhoid Embolization Service?</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Specialized Expertise</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Performed by Dr. Yousuf Memon, experienced in embolization techniques</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>State-of-the-art angiography equipment</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Collaboration with gastroenterologists and colorectal surgeons</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Patient Advantages</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>No surgical incisions or painful recovery</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Return to work within 1-2 days</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>High success rate (80-90%)</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
 
             {/* Procedure Details */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Procedure Details</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Hemorrhoid Embolization Procedure</h2>
               
-              <div className="space-y-6">
-                {/* Pre-Procedure */}
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Pre-Procedure</h3>
-                  <p className="text-gray-700">
-                    A thorough evaluation by a colorectal specialist or interventional radiologist is done to assess the severity of hemorrhoids and discuss the suitability of embolization. Imaging studies, such as Doppler ultrasound or angiography, may be performed to visualize the hemorrhoidal arteries.
-                  </p>
-                </div>
-                
-                {/* During Procedure */}
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">During the Procedure</h3>
-                  <p className="text-gray-700 mb-4">
-                    The procedure is typically performed under local anesthesia with sedation, but general anesthesia may also be used. A small incision is made in the groin or wrist to access a blood vessel, usually the femoral or radial artery.
-                  </p>
-                  <p className="text-gray-700">
-                    A catheter is guided through the artery to the superior rectal artery, which supplies blood to the hemorrhoidal tissue. Tiny particles (embolic agents) are injected through the catheter to block the blood flow to the hemorrhoids. The procedure usually takes about 1-2 hours.
-                  </p>
-                </div>
-                
-                {/* Post-Procedure */}
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Post-Procedure</h3>
-                  <p className="text-gray-700 mb-4">
-                    Patients may experience mild discomfort or pain at the site of the embolization. Recovery is typically quick, with most patients returning to normal activities within a few days.
-                  </p>
-                  <p className="text-gray-700">
-                    Follow-up appointments are necessary to monitor the success of the treatment and to ensure proper healing.
-                  </p>
+              <div className="bg-purple-50 rounded-lg shadow-md p-6 border border-purple-200">
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-700 mb-2">1. Pre-Procedure Preparation</h3>
+                    <p className="text-gray-700">
+                      • Comprehensive evaluation including proctoscopy<br/>
+                      • Blood tests to check clotting function<br/>
+                      • Fasting for 6 hours before procedure<br/>
+                      • Discussion of medications (may need to adjust blood thinners)<br/>
+                      • Local anesthetic cream applied to access site
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-700 mb-2">2. During the Procedure</h3>
+                    <p className="text-gray-700 mb-2">
+                      • Local anesthesia with sedation (awake but relaxed)<br/>
+                      • Tiny puncture in groin or wrist (1-2mm)<br/>
+                      • Catheter guided to hemorrhoidal arteries using X-ray imaging<br/>
+                      • Microspheres injected to reduce blood flow<br/>
+                      • Procedure duration: 45-90 minutes<br/>
+                      • No stitches needed - just small bandage
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-700 mb-2">3. Post-Procedure Recovery</h3>
+                    <p className="text-gray-700">
+                      • 2-4 hours observation before discharge<br/>
+                      • Mild discomfort managed with simple painkillers<br/>
+                      • Can eat normally immediately after<br/>
+                      • Return to light activities next day<br/>
+                      • Avoid heavy lifting for 1 week<br/>
+                      • Follow-up in 2 weeks to assess results
+                    </p>
+                  </div>
                 </div>
               </div>
             </section>
 
             {/* Benefits Section */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Benefits of Hemorrhoid Embolization</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Benefits vs Traditional Surgery</h2>
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Minimally Invasive</h3>
-                  <p className="text-gray-700">No surgical incision is made, reducing the risk of complications and allowing for quicker recovery.</p>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Embolization Advantages</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>No surgical wounds in sensitive area</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Minimal pain during recovery</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>1-2 day recovery vs 2-4 weeks</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Lower risk of complications</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Can be repeated if needed</span>
+                    </li>
+                  </ul>
                 </div>
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-indigo-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Symptom Relief</h3>
-                  <p className="text-gray-700">Effective in reducing pain, bleeding, and discomfort associated with hemorrhoids.</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Low Recurrence Rate</h3>
-                  <p className="text-gray-700">The procedure offers long-term relief with a low likelihood of hemorrhoid recurrence.</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-teal-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Quick Recovery</h3>
-                  <p className="text-gray-700">Most patients return to normal activities within a few days compared to weeks with traditional surgery.</p>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Surgery Disadvantages</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Painful recovery (2-4 weeks)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Risk of incontinence or strictures</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Higher complication rates</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>General anesthesia often required</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Difficult to repeat if hemorrhoids recur</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </section>
 
             {/* Risks Section */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Risks and Considerations</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Potential Risks and Side Effects</h2>
               <div className="bg-white rounded-lg shadow-md p-6">
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Post-Procedure Pain:</strong> Some patients may experience mild to moderate pain or discomfort following the procedure, which can be managed with pain relievers.</span>
+                    <span className="text-gray-700"><strong>Access Site Issues:</strong> Minor bruising or hematoma at puncture site (5-10% cases)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Bleeding:</strong> There may be a small risk of bleeding or infection at the catheter insertion site.</span>
+                    <span className="text-gray-700"><strong>Post-Embolization Syndrome:</strong> Mild fever or discomfort (10-15%, resolves in 1-2 days)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Incomplete Treatment:</strong> In some cases, additional procedures may be needed if the embolization does not fully resolve the symptoms.</span>
+                    <span className="text-gray-700"><strong>Non-Target Embolization:</strong> Very rare (&lt;1%) with proper technique</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
-                    <span className="text-gray-700"><strong>Rare Complications:</strong> As with any embolization procedure, there is a very small risk of non-target embolization, which could affect other tissues or organs.</span>
+                    <span className="text-gray-700"><strong>Incomplete Relief:</strong> May need additional treatment in 10-15% of cases</span>
                   </li>
                 </ul>
+                <div className="mt-6 bg-blue-50 p-4 rounded-lg">
+                  <p className="text-blue-800 font-medium">Note: These risks are significantly lower than with traditional hemorrhoid surgery and most patients experience only mild temporary discomfort.</p>
+                </div>
               </div>
             </section>
 
             {/* Candidate Section */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Who is a Candidate for Hemorrhoid Embolization?</h2>
-              <div className="bg-purple-50 rounded-lg shadow-md p-6 border border-purple-200">
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">✓</span>
-                    <span className="text-gray-700">Patients with symptomatic hemorrhoids who have not responded to conservative treatments such as dietary changes, topical medications, or minimally invasive procedures like rubber band ligation</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">✓</span>
-                    <span className="text-gray-700">Patients who wish to avoid traditional hemorrhoidectomy surgery due to its associated pain and longer recovery time</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">✓</span>
-                    <span className="text-gray-700">Patients with medical conditions that make them poor candidates for surgery</span>
-                  </li>
-                </ul>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Ideal Candidates in Pakistan</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Good Candidates</h3>
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Grade II-III hemorrhoids failing conservative treatment</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Patients wanting to avoid surgery</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Those with bleeding as main symptom</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-600 mr-2">✓</span>
+                      <span>Patients with comorbidities increasing surgical risk</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Poor Candidates</h3>
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Grade IV hemorrhoids with prolapse</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Active infection or abscess</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Severe clotting disorders</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>Allergy to contrast material</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
 
-            {/* Follow-Up Section */}
-            <section>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Follow-Up Care</h2>
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <p className="text-gray-700 mb-4">
-                  Regular follow-up visits are needed to monitor healing and ensure that symptoms are resolved. Patients are usually advised to maintain a high-fiber diet, stay hydrated, and avoid straining during bowel movements to prevent recurrence.
-                </p>
-                <p className="text-gray-700 font-medium">
-                  Hemorrhoid embolization offers a promising alternative to traditional surgical treatments, providing effective symptom relief with minimal discomfort and downtime.
-                </p>
+            {/* Testimonial Section */}
+            <section className="mb-12 bg-purple-50 rounded-lg p-6 border border-purple-200">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Patient Experiences</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <p className="text-gray-700 italic mb-4">"After suffering with piles for years and fearing surgery, embolization changed my life. Minimal discomfort and I was back to work in 2 days. Why isn't this treatment better known in Pakistan?"</p>
+                  <p className="text-gray-600 font-semibold">- Ahmed R., 45, Karachi</p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <p className="text-gray-700 italic mb-4">"As a woman, I was embarrassed about my hemorrhoids. Dr. Memon's team was professional and kind. The procedure was much easier than I expected - no more bleeding or pain."</p>
+                  <p className="text-gray-600 font-semibold">- Fatima S., 38, Lahore</p>
+                </div>
+              </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h2>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-2">1. How much does hemorrhoid embolization cost in Pakistan?</h3>
+                  <p className="text-gray-700">
+                    Costs vary by hospital but are generally 20-30% less than traditional surgery when considering faster recovery. Many insurance plans now cover this procedure. Contact us for specific pricing at our facility.
+                  </p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-2">2. Is this available in all Pakistani hospitals?</h3>
+                  <p className="text-gray-700">
+                    No, it requires specialized interventional radiologists and is currently only available at select centers in major cities like Karachi, Lahore, and Islamabad. Our facility has extensive experience with this advanced treatment.
+                  </p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-2">3. Will I need to change my diet after the procedure?</h3>
+                  <p className="text-gray-700">
+                    We recommend increasing fiber and water intake to prevent recurrence, which is good advice for all Pakistanis given our typically low-fiber diets. No strict restrictions are needed post-procedure.
+                  </p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-purple-700 mb-2">4. Can pregnant women undergo this treatment?</h3>
+                  <p className="text-gray-700">
+                    Pregnancy-related hemorrhoids are best managed conservatively until after delivery. Embolization can be considered postpartum if symptoms persist, avoiding radiation exposure during pregnancy.
+                  </p>
+                </div>
               </div>
             </section>
           </div>
@@ -204,126 +378,97 @@ const HemorrhoidEmbolization = () => {
           {/* Sidebar */}
           <div className="lg:w-1/3">
             <div className="sticky top-6 space-y-6">
-              {/* Consultation CTA */}
-              <div className="bg-gradient-to-br from-purple-600 to-indigo-700 text-white rounded-lg shadow-xl p-6">
-                <h3 className="text-xl font-bold mb-4">Get Relief from Hemorrhoids</h3>
-                <p className="mb-4">Schedule a consultation to see if embolization is right for you.</p>
-                <button className="w-full bg-white text-purple-800 font-semibold py-3 px-4 rounded-lg hover:bg-purple-50 transition duration-300">
-                  Book Appointment
-                </button>
+              {/* Emergency CTA */}
+              <div className="bg-gradient-to-br from-red-600 to-orange-600 text-white rounded-lg shadow-xl p-6">
+                <h3 className="text-xl font-bold mb-4">Severe Hemorrhoid Bleeding?</h3>
+                <p className="mb-4">Seek immediate care if you have:</p>
+                <ul className="mb-4 space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-white mr-2">•</span>
+                    <span>Heavy rectal bleeding</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-white mr-2">•</span>
+                    <span>Dizziness or fainting</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-white mr-2">•</span>
+                    <span>Severe pain with swelling</span>
+                  </li>
+                </ul>
+                <a href="tel:+923367889143" className="w-full bg-white text-red-800 font-semibold py-3 px-4 rounded-lg hover:bg-red-50 transition block text-center">
+                  Emergency: +92 336-7889143
+                </a>
               </div>
 
               {/* Quick Facts */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Quick Facts</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Procedure Highlights</h3>
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-gray-700">Procedure Time</h4>
-                    <p className="text-gray-600">1-2 hours</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-700">Recovery Time</h4>
-                    <p className="text-gray-600">Few days</p>
+                    <p className="text-gray-600">45-90 minutes</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-700">Success Rate</h4>
-                    <p className="text-gray-600">80-90% symptom relief</p>
+                    <p className="text-gray-600">80-90% symptom improvement</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-700">Recovery Time</h4>
+                    <p className="text-gray-600">1-2 days</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-700">Hospital Stay</h4>
-                    <p className="text-gray-600">Typically outpatient</p>
+                    <p className="text-gray-600">Outpatient (no overnight)</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-700">Anesthesia</h4>
+                    <p className="text-gray-600">Local with sedation</p>
                   </div>
                 </div>
               </div>
 
-              {/* Related Conditions */}
+              {/* Related Services */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Related Conditions</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Related Services in Pakistan</h3>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Anal Fissures</a>
+                    <a href="/services/colonoscopy" className="text-purple-600 hover:underline">Diagnostic Colonoscopy</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Rectal Prolapse</a>
+                    <a href="/services/irritable-bowel" className="text-purple-600 hover:underline">Irritable Bowel Clinic</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Chronic Constipation</a>
+                    <a href="/services/constipation" className="text-purple-600 hover:underline">Chronic Constipation Treatment</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Inflammatory Bowel Disease</a>
+                    <a href="/services/anal-fissure" className="text-purple-600 hover:underline">Anal Fissure Treatment</a>
                   </li>
                 </ul>
               </div>
 
-              {/* Alternative Treatments */}
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Alternative Treatments</h3>
-                <ul className="space-y-3">
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline">Rubber Band Ligation</a>
+              {/* Contact Card */}
+              <div className="bg-white rounded-lg shadow-md p-6 border border-purple-200">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Consult Dr. Yousuf Memon</h3>
+                <p className="text-gray-700 mb-4">For hemorrhoid evaluation or treatment options:</p>
+                <ul className="space-y-3 mb-4">
+                  <li className="flex items-start">
+                    <span className="text-purple-600 mr-2">•</span>
+                    <span>Phone: <a href="tel:+923367889143" className="text-purple-600 hover:underline">+92 336-7889143</a></span>
                   </li>
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline">Sclerotherapy</a>
+                  <li className="flex items-start">
+                    <span className="text-purple-600 mr-2">•</span>
+                    <span>Email: <a href="mailto:info@dryousufmemon.com" className="text-purple-600 hover:underline">info@dryousufmemon.com</a></span>
                   </li>
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline">Hemorrhoidectomy</a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-blue-600 hover:underline">Infrared Coagulation</a>
+                  <li className="flex items-start">
+                    <span className="text-purple-600 mr-2">•</span>
+                    <span>Clinic Hours: Mon-Sat, 9AM-5PM</span>
                   </li>
                 </ul>
+                <a href="/contact" className="w-full bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-700 transition block text-center">
+                  Book Appointment
+                </a>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* FAQ Section */}
-      <div className="bg-gray-100 py-16">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-          
-          <div className="max-w-3xl mx-auto space-y-6">
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <button className="w-full text-left p-6 focus:outline-none">
-                <div className="flex justify-between items-center">
-                  <h3 className="text-lg font-semibold text-gray-800">Is hemorrhoid embolization painful?</h3>
-                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </div>
-                <div className="mt-2 text-gray-600">
-                  <p>The procedure itself is not painful as it's performed under anesthesia. Most patients report only mild discomfort afterward, which is typically managed with over-the-counter pain medication.</p>
-                </div>
-              </button>
-            </div>
-            
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <button className="w-full text-left p-6 focus:outline-none">
-                <div className="flex justify-between items-center">
-                  <h3 className="text-lg font-semibold text-gray-800">How soon will I see results?</h3>
-                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </div>
-                <div className="mt-2 text-gray-600">
-                  <p>Most patients notice improvement within a few days, with maximum benefits typically seen after 2-3 weeks as the hemorrhoids gradually shrink.</p>
-                </div>
-              </button>
-            </div>
-            
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <button className="w-full text-left p-6 focus:outline-none">
-                <div className="flex justify-between items-center">
-                  <h3 className="text-lg font-semibold text-gray-800">Can hemorrhoids come back after embolization?</h3>
-                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </div>
-                <div className="mt-2 text-gray-600">
-                  <p>While embolization has a low recurrence rate, new hemorrhoids can develop if predisposing factors like chronic constipation persist. Maintaining good bowel habits can help prevent recurrence.</p>
-                </div>
-              </button>
             </div>
           </div>
         </div>

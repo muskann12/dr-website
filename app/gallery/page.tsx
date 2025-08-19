@@ -1,4 +1,4 @@
-// pages/gallery.js
+// pages/gallery.tsx
 'use client'
 import React, { useState } from 'react';
 import Head from 'next/head';
@@ -7,7 +7,7 @@ import { FiX, FiChevronLeft, FiChevronRight, FiDownload } from 'react-icons/fi';
 
 const Gallery = () => {
   const [visibleItems, setVisibleItems] = useState(12);
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // 13 images from /gallery/event1.jpeg to /gallery/event13.jpeg
@@ -20,12 +20,12 @@ const Gallery = () => {
 
   const loadMore = () => setVisibleItems(prev => prev + 6);
 
-  const openImage = (src, index) => {
+  const openImage = (src: string, index: number) => {
     setSelectedImage(src);
     setCurrentIndex(index);
   };
 
-  const navigate = (direction) => {
+  const navigate = (direction: 'prev' | 'next') => {
     let newIndex;
     if (direction === 'prev') {
       newIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;

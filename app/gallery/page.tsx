@@ -3,216 +3,142 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import { FiX, FiChevronLeft, FiChevronRight, FiDownload } from 'react-icons/fi';
 
 const Gallery = () => {
-  const [activeFilter, setActiveFilter] = useState('all');
   const [visibleItems, setVisibleItems] = useState(12);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Gallery items data
-  const galleryItems = [
-    { id: 1, type: 'image', src: '/gallery/treatment-room.jpg', caption: 'State-of-the-art treatment facility', category: 'facility' },
-    { id: 2, type: 'image', src: '/gallery/doctor-patient.jpg', caption: 'Specialist consultation', category: 'treatments' },
-    { id: 3, type: 'image', src: '/gallery/before-after.jpg', caption: 'Visible results after 3 sessions', category: 'treatments' },
-    { id: 4, type: 'video', src: '/gallery/treatment-process.mp4', caption: 'Ozone therapy procedure', category: 'treatments' },
-    { id: 5, type: 'image', src: '/gallery/happy-patient.jpg', caption: 'Successful treatment results', category: 'treatments' },
-    { id: 6, type: 'image', src: '/gallery/equipment.jpg', caption: 'Medical-grade ozone generators', category: 'facility' },
-    { id: 7, type: 'image', src: '/gallery/team.jpg', caption: 'Certified therapy specialists', category: 'facility' },
-    { id: 8, type: 'video', src: '/gallery/testimonial.mp4', caption: 'Patient experience', category: 'treatments' },
-    { id: 9, type: 'image', src: '/gallery/facility.jpg', caption: 'Sterile treatment environment', category: 'facility' },
-    { id: 10, type: 'image', src: '/gallery/eye-treatment.jpg', caption: 'Dry eye treatment', category: 'treatments' },
-    { id: 11, type: 'image', src: '/gallery/sinus-treatment.jpg', caption: 'Chronic sinusitis treatment', category: 'treatments' },
-    { id: 12, type: 'video', src: '/gallery/facial.mp4', caption: 'Skin rejuvenation therapy', category: 'treatments' },
-    { id: 13, type: 'image', src: '/gallery/certificates.jpg', caption: 'Medical accreditations', category: 'facility' },
-    { id: 14, type: 'image', src: '/gallery/waiting-area.jpg', caption: 'Comfortable waiting area', category: 'facility' },
-    { id: 15, type: 'image', src: '/gallery/technology.jpg', caption: 'Precise ozone delivery', category: 'facility' },
-    { id: 16, type: 'image', src: '/gallery/consultation.jpg', caption: 'Detailed consultation', category: 'treatments' },
-    { id: 17, type: 'image', src: '/gallery/results.jpg', caption: 'Clinical results', category: 'treatments' },
-    { id: 18, type: 'image', src: '/gallery/relaxing.jpg', caption: 'Relaxing environment', category: 'facility' },
-  ];
+  // 13 images from /gallery/event1.jpeg to /gallery/event13.jpeg
+  const galleryItems = Array.from({ length: 13 }, (_, i) => ({
+    id: i + 1,
+    src: `/gallery/event${i + 1}.jpeg`,
+  }));
 
-  // Filter items based on active filter
-  const filteredItems = galleryItems.filter(item => {
-    if (activeFilter === 'all') return true;
-    if (activeFilter === 'images') return item.type === 'image';
-    if (activeFilter === 'videos') return item.type === 'video';
-    return item.category === activeFilter;
-  });
+  const itemsToShow = galleryItems.slice(0, visibleItems);
 
-  // Items to display with load more functionality
-  const itemsToShow = filteredItems.slice(0, visibleItems);
+  const loadMore = () => setVisibleItems(prev => prev + 6);
 
-  // Handle load more
-  const loadMore = () => {
-    setVisibleItems(prev => prev + 6);
+  const openImage = (src, index) => {
+    setSelectedImage(src);
+    setCurrentIndex(index);
+  };
+
+  const navigate = (direction) => {
+    let newIndex;
+    if (direction === 'prev') {
+      newIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+    } else {
+      newIndex = (currentIndex + 1) % galleryItems.length;
+    }
+    setSelectedImage(galleryItems[newIndex].src);
+    setCurrentIndex(newIndex);
   };
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Gallery | Our Clinic Name</title>
-        <meta name="description" content="View our treatment facility, team, and patient results through our gallery" />
+        <title>Gallery | Dr. Yousuf</title>
+        <meta name="description" content="Professional gallery of Dr. Yousuf" />
       </Head>
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-teal-800 to-teal-400 text-white py-20">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Clinic Gallery</h1>
-          <p className="text-xl md:text-2xl">Explore our facility, treatments, and patient experiences</p>
-        </div>
-      </div>
-
-      {/* Breadcrumbs */}
-      <div className="container mx-auto px-6 py-4">
-        <nav className="flex" aria-label="Breadcrumb">
-          <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-teal-600">Home</a></li>
-            <li><span>/</span></li>
-            <li className="text-blue-600">Gallery</li>
-          </ol>
-        </nav>
-      </div>
-
-      {/* Gallery Filters */}
-      <div className="container mx-auto px-6 py-6">
-        <div className="flex flex-wrap justify-center gap-3">
-          <button 
-            onClick={() => {
-              setActiveFilter('all');
-              setVisibleItems(12);
-            }}
-            className={`px-4 py-2 rounded-full transition ${
-              activeFilter === 'all' 
-                ? 'bg-teal-600 text-white' 
-                : 'bg-white border border-gray-300 hover:bg-gray-100'
-            }`}
-          >
-            All Media
-          </button>
-          <button 
-            onClick={() => {
-              setActiveFilter('images');
-              setVisibleItems(12);
-            }}
-            className={`px-4 py-2 rounded-full transition ${
-              activeFilter === 'images' 
-                ? 'bg-blue-600 text-white' 
-                : 'bg-white border border-gray-300 hover:bg-gray-100'
-            }`}
-          >
-            Images
-          </button>
-          <button 
-            onClick={() => {
-              setActiveFilter('videos');
-              setVisibleItems(12);
-            }}
-            className={`px-4 py-2 rounded-full transition ${
-              activeFilter === 'videos' 
-                ? 'bg-teal-600 text-white' 
-                : 'bg-white border border-gray-300 hover:bg-gray-100'
-            }`}
-          >
-            Videos
-          </button>
-          <button 
-            onClick={() => {
-              setActiveFilter('facility');
-              setVisibleItems(12);
-            }}
-            className={`px-4 py-2 rounded-full transition ${
-              activeFilter === 'facility' 
-                ? 'bg-blue-600 text-white' 
-                : 'bg-white border border-gray-300 hover:bg-gray-100'
-            }`}
-          >
-            Facility
-          </button>
-          <button 
-            onClick={() => {
-              setActiveFilter('treatments');
-              setVisibleItems(12);
-            }}
-            className={`px-4 py-2 rounded-full transition ${
-              activeFilter === 'treatments' 
-                ? 'bg-teal-600 text-white' 
-                : 'bg-white border border-gray-300 hover:bg-gray-100'
-            }`}
-          >
-            Treatments
-          </button>
+      <div className="relative bg-gradient-to-r from-blue-900 to-blue-600 text-white py-24">
+        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="container mx-auto px-6 text-center relative z-10">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Dr. Yousuf Gallery</h1>
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto">Capturing professional excellence and memorable moments</p>
         </div>
       </div>
 
       {/* Gallery Grid */}
-      <div className="container mx-auto px-6 py-8">
-        {itemsToShow.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {itemsToShow.map((item) => (
-              <div 
-                key={item.id} 
-                className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition duration-300"
-              >
-                <div className="aspect-w-4 aspect-h-3 bg-gray-200 relative">
-                  {item.type === 'image' ? (
-                    <Image
-                      src={item.src}
-                      alt={item.caption}
-                      fill
-                      className="object-cover w-full h-full transition duration-300 group-hover:scale-105"
-                    />
-                  ) : (
-                    <div className="relative w-full h-full">
-                      <video 
-                        src={item.src}
-                        className="object-cover w-full h-full"
-                        muted
-                        loop
-                        playsInline
-                        autoPlay
-                      />
-                    </div>
-                  )}
-                </div>
-                
-                {/* Caption Overlay - Always visible but more prominent on hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4">
-                  <div className="text-white transform translate-y-2 group-hover:translate-y-0 transition duration-300">
-                    <p className="font-medium text-sm sm:text-base">{item.caption}</p>
-                  </div>
-                </div>
-                
-                {/* Media Type Indicator */}
-                <div className="absolute top-3 right-3 bg-black/50 text-white rounded-full p-2">
-                  {item.type === 'image' ? (
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  ) : (
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  )}
+      <div className="container mx-auto px-4 sm:px-6 py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {itemsToShow.map((item, index) => (
+            <div
+              key={item.id}
+              className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl cursor-pointer transition-all duration-300 transform hover:-translate-y-1"
+              onClick={() => openImage(item.src, index)}
+            >
+              <div className="aspect-w-4 aspect-h-3 relative bg-gray-100">
+                <Image
+                  src={item.src}
+                  alt="Professional moment"
+                  fill
+                  className="object-cover w-full h-full transition duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                <div className="w-10 h-10 bg-white/90 rounded-full flex items-center justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
                 </div>
               </div>
-            ))}
-          </div>
-        ) : (
-          <div className="text-center py-12">
-            <p className="text-gray-500 text-lg">No items found for this filter</p>
-          </div>
-        )}
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Load More Button */}
-      {visibleItems < filteredItems.length && (
-        <div className="container mx-auto px-6 py-12 text-center">
-          <button 
+      {visibleItems < galleryItems.length && (
+        <div className="container mx-auto px-6 py-8 text-center">
+          <button
             onClick={loadMore}
-            className="px-8 py-3 bg-white border border-slate-600 text-blue-600 rounded-full hover:bg-blue-50 transition font-medium"
+            className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition-all duration-300 font-medium flex items-center mx-auto shadow-md hover:shadow-lg"
           >
             Load More
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+            </svg>
           </button>
+        </div>
+      )}
+
+      {/* Lightbox */}
+      {selectedImage && (
+        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
+          <button
+            onClick={() => setSelectedImage(null)}
+            className="absolute top-6 right-6 text-white text-3xl p-2 hover:bg-white/10 rounded-full transition"
+          >
+            <FiX size={28} />
+          </button>
+
+          <button
+            onClick={() => navigate('prev')}
+            className="absolute left-6 text-white p-3 hover:bg-white/10 rounded-full transition z-10"
+          >
+            <FiChevronLeft size={32} />
+          </button>
+
+          <div className="relative max-w-6xl w-full max-h-[90vh]">
+            <Image
+              src={selectedImage}
+              alt="Selected"
+              width={1200}
+              height={800}
+              className="object-contain w-full h-full rounded-lg"
+              priority
+            />
+          </div>
+
+          <button
+            onClick={() => navigate('next')}
+            className="absolute right-6 text-white p-3 hover:bg-white/10 rounded-full transition z-10"
+          >
+            <FiChevronRight size={32} />
+          </button>
+
+          <a 
+            href={selectedImage} 
+            download 
+            className="absolute bottom-6 right-6 bg-white/90 hover:bg-white text-blue-900 p-3 rounded-full shadow-lg transition"
+          >
+            <FiDownload size={24} />
+          </a>
         </div>
       )}
     </div>

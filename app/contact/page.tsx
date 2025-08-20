@@ -86,7 +86,7 @@ const ContactPage = (): JSX.Element => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8  bg-white">
       {/* ✅ Inject JSON-LD Schema */}
       <script
         type="application/ld+json"

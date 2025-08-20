@@ -132,8 +132,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Rahim Yar Khan */}
+        {/* Rahim Yar Khan & Peshawar */}
         <div className="space-y-6">
+          {/* Rahim Yar Khan */}
           <div className="bg-teal-800/30 p-4 rounded-lg hover:bg-teal-800/40 transition-colors">
             <h2 className="text-xl font-semibold mb-3 flex items-center gap-2">
               <FaMapMarkerAlt className="text-teal-300" />
@@ -148,6 +149,21 @@ export default function Footer() {
               <p className="font-medium">Sat | 12:00 PM - 5:00 PM | <span lang="ur">ہفتہ</span></p>
             </div>
             <a href="https://maps.google.com/?q=Diagnostic Interventional Radiology & Cardiac Center, Rahim Yar Khan" target="_blank" rel="noopener noreferrer" className="inline-block mt-2 text-teal-300 hover:text-teal-200 text-sm font-medium">
+              View on Map →
+            </a>
+          </div>
+
+          {/* Peshawar */}
+          <div className="bg-teal-800/30 p-4 rounded-lg hover:bg-teal-800/40 transition-colors">
+            <h2 className="text-xl font-semibold mb-3 flex items-center gap-2">
+              <FaMapMarkerAlt className="text-teal-300" />
+              <span>Peshawar | <span lang="ur">پشاور</span></span>
+            </h2>
+            <p className="font-medium">Mission Hospital</p>
+            <p className="text-teal-100" lang="ur">مشن ہسپتال</p>
+            <p>Outside Hilal Ahmar, Balding Dabgari Garden, Peshawar</p>
+            <p className="text-teal-100" lang="ur">ہلال احمر کے باہر، بالڈنگ ڈبگری گارڈن، پشاور</p>
+            <a href="https://maps.google.com/?q=Mission Hospital, Peshawar" target="_blank" rel="noopener noreferrer" className="inline-block mt-2 text-teal-300 hover:text-teal-200 text-sm font-medium">
               View on Map →
             </a>
           </div>

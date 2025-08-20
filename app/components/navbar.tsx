@@ -162,8 +162,8 @@ const Navbar = () => {
                   { href: "/treatments/ozone-joint-treatment", text: "Ozone Treatment for Joints: Knee, Shoulder, Backpain" },
                   { href: "/treatments/eye-treatment", text: "Ozone Treatment for Dry Eyes, Sinuses, Face Wrinkles" },
                   { href: "/treatments/venous-leak", text: "Venous Leak Treatment" },
-                  { href: "/treatments/varicose-veins", text: "Varicose Veins Treatment" },
-                  { href: "/treatments/varicocele-embolization", text: "Varicocele Treatment" }
+                 // { href: "/treatments/varicose-veins", text: "Varicose Veins Treatment" },
+                  { href: "/treatments/varicocele-embolization", text: "Varicocele Embolization" }
                 ].map((item, index) => (
                   <Link 
                     key={index}
@@ -308,8 +308,8 @@ const Navbar = () => {
                 { href: "/treatments/ozone-joint-treatment", text: "Ozone for Joints" },
                 { href: "/treatments/eye-treatment", text: "Ozone Treatment for Dry Eyes, Sinuses, Face Wrinkles" },
                 { href: "/treatments/venous-leak", text: "Venous Leak Treatment" },
-                { href: "/treatments/varicose-veins", text: "Varicose Veins Treatment" },
-                { href: "/treatments/varicocele-embolization", text: "Varicocele Treatment" }
+                //{ href: "/treatments/varicose-veins", text: "Varicose Veins Treatment" },
+                { href: "/treatments/varicocele-embolization", text: "Varicocele Embolization" }
               ].map((item, index) => (
                 <Link 
                   key={index}

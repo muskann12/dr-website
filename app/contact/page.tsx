@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Contact Dr. Yousuf Memon – Clinics in Karachi, Lahore, Hyderabad & Rahim Yar Khan",
+  title: "Contact Dr. Yousuf Memon – Clinics in Karachi, Lahore, Hyderabad, Rahim Yar Khan & Peshawar",
   description:
-    "Get in touch with Dr. Muhammad Yousuf Memon, Interventional Radiologist in Pakistan. Book appointments at OMI Karachi, Isra Hospital Hyderabad, Ihsan Mumtaz Hospital Lahore, or RYK Diagnostic Center.",
+    "Get in touch with Dr. Muhammad Yousuf Memon, Interventional Radiologist in Pakistan. Book appointments at OMI Karachi, Isra Hospital Hyderabad, Ihsan Mumtaz Hospital Lahore, RYK Diagnostic Center or Mission Hospital Peshawar.",
   keywords: [
     "Dr. Yousuf Memon Contact",
     "Book Appointment Dr Yousuf Memon",
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "Interventional Radiologist Lahore",
     "Interventional Radiologist Hyderabad",
     "Interventional Radiologist Rahim Yar Khan",
+    "Interventional Radiologist Peshawar",
     "Ozone Therapy Contact Pakistan",
     "Uterine Fibroid Embolization Doctor Pakistan",
     "Vascular Specialist Contact",
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Dr. Yousuf Memon – Clinics in Pakistan",
     description:
-      "Reach out to Dr. Muhammad Yousuf Memon for appointments at Karachi, Hyderabad, Lahore, and Rahim Yar Khan. Advanced Interventional Radiology & Ozone Therapy treatments.",
+      "Reach out to Dr. Muhammad Yousuf Memon for appointments at Karachi, Hyderabad, Lahore, Rahim Yar Khan and Peshawar. Advanced Interventional Radiology & Ozone Therapy treatments.",
     url: "https://dryousufmemon.pk/contact",
     siteName: "Dr. Yousuf Memon",
     locale: "en_PK",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact Dr. Yousuf Memon – Interventional Radiologist in Pakistan",
     description:
-      "Book your appointment with Dr. Yousuf Memon at clinics in Karachi, Hyderabad, Lahore & Rahim Yar Khan. Expert in minimally invasive procedures & ozone therapy.",
+      "Book your appointment with Dr. Yousuf Memon at clinics in Karachi, Hyderabad, Lahore, Rahim Yar Khan & Peshawar. Expert in minimally invasive procedures & ozone therapy.",
     site: "@dryousufmemon",
   },
   alternates: {
@@ -75,6 +76,12 @@ const ContactPage = (): JSX.Element => {
         streetAddress: "Near Govt. Technical College, Thali Road",
         addressCountry: "PK",
       },
+      {
+        "@type": "PostalAddress",
+        addressLocality: "Peshawar",
+        streetAddress: "Outside Hilal Ahmar, Balding Dabgari Garden",
+        addressCountry: "PK",
+      },
     ],
   };
 
@@ -95,7 +102,7 @@ const ContactPage = (): JSX.Element => {
         Dr. Muhammad Yousuf Memon is a leading Interventional Radiologist in
         Pakistan, offering advanced non-surgical treatments for vascular,
         neurological, and pain management conditions. You can book appointments
-        at clinics in Karachi, Hyderabad, Lahore, and Rahim Yar Khan.
+        at clinics in Karachi, Hyderabad, Lahore, Rahim Yar Khan, and Peshawar.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8">
@@ -171,6 +178,22 @@ const ContactPage = (): JSX.Element => {
             <p className="text-gray-600">
               <strong className="text-black">Timings:</strong> Sat | 12:00 PM -
               5:00 PM | ہفتہ
+            </p>
+          </div>
+
+          {/* Peshawar */}
+          <div className="bg-gray-200 p-6 rounded-lg shadow-md">
+            <h2 className="text-xl font-semibold mb-2 text-black">
+              Peshawar | پشاور
+            </h2>
+            <h3 className="text-lg font-medium mb-2 text-black">
+              Mission Hospital | مشن ہسپتال
+            </h3>
+            <p className="mb-2 text-black">
+              Outside Hilal Ahmar, Balding Dabgari Garden, Peshawar
+            </p>
+            <p className="mb-2 text-right text-black">
+              ہلال احمر کے باہر، بالڈنگ ڈبگری گارڈن، پشاور
             </p>
           </div>
 

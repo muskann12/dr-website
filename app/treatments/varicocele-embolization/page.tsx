@@ -6,28 +6,28 @@ const VaricoceleEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Varicocele Treatment by Dr. Yousuf Memon | Pakistan</title>
+        <title>3-D Precision Guided Varicocele Embolization by Dr. Yousuf Memon | Pakistan</title>
         <meta
           name="description"
-          content="Dr. Yousuf Memon provides varicocele treatment in Pakistan: Minimally invasive embolization and surgical options for male infertility, scrotal pain, and swelling. Consultation in Karachi, Lahore, Hyderabad, Islamabad & Rawalpindi."
+          content="Advanced 3-D Precision Guided Varicocele Embolization treatment for male infertility in Pakistan by Dr. Yousuf Memon. Safe, painless alternative to surgery with quick recovery."
         />
         <meta
           name="keywords"
-          content="varicocele treatment Pakistan, varicocele embolization Karachi, male infertility Pakistan, testicular vein treatment Hyderabad, varicocelectomy Lahore, Dr Yousuf Memon, varicocele surgery Islamabad"
+          content="varicocele treatment Pakistan, varicocele embolization, male infertility Pakistan, 3D precision guided treatment, Dr Yousuf Memon, varicocele without surgery, testicular pain treatment"
         />
         <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://www.yourdomain.com/treatments/varicocele-embolization" />
+        <link rel="canonical" href="https://www.dryousufmemon.com/treatments/varicocele-embolization" />
       </Head>
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-800 to-teal-600 text-white py-24">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Varicocele Treatment in Pakistan</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">3-D Precision Guided Varicocele Treatment</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            Minimally Invasive & Surgical Solutions by Dr. Yousuf Memon
+            Advanced Endovascular Solution for Male Infertility by Dr. Yousuf Memon
           </p>
           <p className="text-lg mt-4 max-w-3xl mx-auto">
-            Expert care for scrotal pain, swelling, and male infertility - available in Karachi, Lahore, Hyderabad, Islamabad, and Rawalpindi.
+            A safe, painless, and effective alternative to traditional surgery - available in Karachi, Lahore, Hyderabad, Islamabad, and Rawalpindi.
           </p>
         </div>
       </div>
@@ -39,27 +39,119 @@ const VaricoceleEmbolization = () => {
           {/* Main Column */}
           <div className="lg:w-2/3 space-y-12">
 
-            {/* About Section */}
+            {/* Introduction Section */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">What is Varicocele?</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Introduction</h2>
               <p className="text-gray-700 mb-4">
-                A varicocele is an enlargement of the veins within the scrotum, most commonly affecting the pampiniform plexus. The veins become dilated and twisted due to valve dysfunction, causing blood pooling in the testicles.
+                Male infertility is a growing concern worldwide, and one of the leading causes is Varicocele. This condition is a swelling of the veins inside the scrotum, similar to varicose veins in the legs. It disrupts normal blood flow, affects sperm production, and can ultimately cause difficulty in fathering children.
               </p>
-              <div className="mb-4">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Key points:</h3>
-                <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                  <li>Often compared to varicose veins in the legs</li>
-                  <li>More frequent on the left side due to the anatomical angle of the left testicular vein</li>
-                  <li>Can develop during puberty or early adulthood</li>
-                  <li>May lead to testicular pain, reduced fertility, or infertility</li>
-                </ul>
-              </div>
               <p className="text-gray-700">
-                Varicocele affects approximately 15% of men worldwide, but in Pakistan, awareness and treatment access remain limited, making early diagnosis vital.
+                Dr. Yousuf Memon, an expert in minimally invasive endovascular treatments, provides advanced 3-D Precision Guided Varicocele Embolization — a safe, painless, and effective alternative to traditional surgery.
               </p>
             </section>
 
-            {/* Types Section */}
+            {/* What is Varicocele Section */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">What is Varicocele?</h2>
+              <p className="text-gray-700 mb-4">
+                Varicocele occurs when the veins inside the scrotum become dilated and swollen. Normally, these veins carry deoxygenated blood from the testicles back to the heart, where it is re-oxygenated. In varicocele, this process is impaired, leading to blood pooling, heat build-up, and reduced sperm quality.
+              </p>
+              <div className="mb-4">
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">Key characteristics:</h3>
+                <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
+                  <li>Varicocele usually develops on the left side of the scrotum</li>
+                  <li>It can sometimes occur on both sides</li>
+                  <li>In some men, it may cause testicular enlargement or shrinkage</li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Symptoms Section */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Symptoms of Varicocele Male Infertility</h2>
+              <p className="text-gray-700 mb-4">
+                Many men with varicocele may not notice any symptoms, but common signs include:
+              </p>
+              <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
+                <li>Dull, aching pain in the scrotum (especially after standing for long periods)</li>
+                <li>Noticeable swelling or enlarged veins ("bag of worms" appearance)</li>
+                <li>Testicular heaviness or discomfort</li>
+                <li>Infertility or difficulty conceiving</li>
+              </ul>
+            </section>
+
+            {/* When to Visit Section */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">When Should You Visit Dr. Yousuf Memon?</h2>
+              <p className="text-gray-700 mb-4">
+                You should consult Dr. Yousuf Memon if you experience:
+              </p>
+              <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
+                <li>Persistent scrotal pain or discomfort</li>
+                <li>Swelling in the scrotum</li>
+                <li>Fertility issues (inability to conceive despite regular attempts)</li>
+                <li>Testicular shrinkage or reduced sperm quality on medical tests</li>
+              </ul>
+            </section>
+
+            {/* Causes Section */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Causes of Varicocele Male Infertility</h2>
+              <p className="text-gray-700 mb-4">
+                The exact cause is not always clear, but the condition occurs due to faulty valves in the veins, leading to backward blood flow. This raises the temperature in the scrotum and damages sperm production. This is why men with varicocele often become infertile — as sperm count, quality, and motility decrease significantly.
+              </p>
+            </section>
+
+            {/* Diagnosis Section */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Diagnosis of Varicocele</h2>
+              <p className="text-gray-700">
+                Dr. Yousuf Memon or his team will first perform a physical examination. If varicocele is suspected, an ultrasound scan is usually done to confirm the diagnosis and rule out other causes of scrotal swelling.
+              </p>
+            </section>
+
+            {/* Treatment Section */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">3-D Precision Guided Endovascular Treatment (Varicocele Embolization)</h2>
+              <p className="text-gray-700 mb-4">
+                Dr. Yousuf Memon specializes in 3-D Guided Endovascular Embolization, a modern and highly effective treatment for varicocele male infertility.
+              </p>
+              
+              <div className="mb-6">
+                <h3 className="text-2xl font-semibold text-gray-800 mb-4">Why This Treatment is Different?</h3>
+                <ul className="list-disc list-inside pl-5 space-y-3 text-gray-700">
+                  <li><strong>No Open Surgery</strong> – a tiny puncture is made, not a large incision</li>
+                  <li><strong>No General Anesthesia</strong> – only local anesthesia is used</li>
+                  <li><strong>No Side Effects</strong> – unlike conventional surgery</li>
+                  <li><strong>Quick Recovery</strong> – most patients resume normal activities within 24 hours</li>
+                  <li><strong>No Lifelong Medicines or Injections</strong> – once treated, no long-term medications are required</li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Why Choose Dr. Yousuf Memon */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Why Choose Dr. Yousuf Memon?</h2>
+              <ul className="list-disc list-inside pl-5 space-y-3 text-gray-700">
+                <li>Internationally trained in endovascular & minimally invasive procedures</li>
+                <li>Specialist in male infertility solutions</li>
+                <li>Uses the latest 3-D precision technology for accurate treatment</li>
+                <li>High success rate with minimal discomfort</li>
+              </ul>
+            </section>
+
+            {/* Final Thoughts */}
+            <section className="bg-white rounded-xl shadow-md p-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Final Thoughts</h2>
+              <p className="text-gray-700 mb-4">
+                Varicocele is a common yet treatable cause of male infertility. With 3-D Precision Guided Endovascular Embolization, men can achieve better sperm quality, improved fertility, and relief from scrotal discomfort — without the risks of open surgery.
+              </p>
+              <p className="text-gray-700">
+                If you are experiencing infertility or scrotal pain, consult Dr. Yousuf Memon for expert, minimally invasive treatment that ensures a faster, safer, and more effective recovery.
+              </p>
+            </section>
+
+            {/* Additional Information (from original page) */}
             <section className="bg-white rounded-xl shadow-md p-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Types of Varicocele</h2>
               <p className="text-gray-700 mb-4">
@@ -100,42 +192,6 @@ const VaricoceleEmbolization = () => {
                   </ul>
                 </div>
               </div>
-              <p className="text-gray-700 mt-4">
-                Understanding the type helps Dr. Memon customize treatment for maximum effectiveness.
-              </p>
-            </section>
-
-            {/* Symptoms Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Common Symptoms of Varicocele</h2>
-              <p className="text-gray-700 mb-4">
-                Symptoms vary from mild discomfort to significant fertility challenges:
-              </p>
-              <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                <li>Dull or sharp scrotal pain</li>
-                <li>Visible swelling or enlarged veins in the testicles</li>
-                <li>Heaviness or dragging sensation in the scrotum</li>
-                <li>Discomfort that worsens with standing, exercise, or heat</li>
-                <li>Reduced sperm quality or motility, impacting fertility</li>
-              </ul>
-              <p className="text-gray-700 mt-4">
-                While some men experience no symptoms, subtle changes in testicular size or sperm analysis often reveal the presence of varicocele.
-              </p>
-            </section>
-
-            {/* Causes Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Causes of Varicocele</h2>
-              <p className="text-gray-700 mb-4">
-                Varicocele develops primarily due to faulty valves in the scrotal veins, but multiple factors contribute:
-              </p>
-              <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                <li>Genetic predisposition or family history of varicose veins</li>
-                <li>Anatomical differences in vein pathways, especially on the left side</li>
-                <li>Increased abdominal pressure from heavy lifting or straining</li>
-                <li>Hormonal imbalances affecting testicular blood flow</li>
-                <li>Poor circulation or vein compression</li>
-              </ul>
             </section>
 
             {/* Fertility Impact Section */}
@@ -157,189 +213,6 @@ const VaricoceleEmbolization = () => {
               </p>
             </section>
 
-            {/* Diagnosis Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Diagnostic Approach</h2>
-              <p className="text-gray-700 mb-4">
-                Effective treatment begins with accurate diagnosis, which includes:
-              </p>
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="bg-teal-50 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-teal-800 mb-2">1. Physical Examination</h3>
-                  <p className="text-gray-700">Palpation of scrotal veins while standing and performing Valsalva maneuver</p>
-                </div>
-                <div className="bg-teal-50 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-teal-800 mb-2">2. Doppler Ultrasound</h3>
-                  <p className="text-gray-700">Detects vein diameter, blood reflux, and subclinical varicoceles</p>
-                </div>
-                <div className="bg-teal-50 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-teal-800 mb-2">3. Semen Analysis</h3>
-                  <p className="text-gray-700">Evaluates sperm count, motility, and morphology to determine fertility impact</p>
-                </div>
-                <div className="bg-teal-50 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-teal-800 mb-2">4. Hormonal Testing</h3>
-                  <p className="text-gray-700">Measures testosterone, FSH, and LH levels if required</p>
-                </div>
-              </div>
-              <p className="text-gray-700 mt-4">
-                Accurate diagnostics ensure personalized treatment plans for optimal outcomes.
-              </p>
-            </section>
-
-            {/* Treatment Options */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Treatment Options by Dr. Yousuf Memon</h2>
-              <p className="text-gray-700 mb-6">
-                Dr. Memon offers modern, evidence-based treatments, including minimally invasive embolization and microsurgical varicocelectomy.
-              </p>
-              
-              <div className="mb-8">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">1. Surgical Varicocelectomy</h3>
-                <p className="text-gray-700 mb-4">
-                  Surgical varicocelectomy is performed under anesthesia, involving ligation of affected veins to restore normal blood flow.
-                </p>
-                <div className="mb-4">
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Procedure Details:</h4>
-                  <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                    <li>Microsurgical approach minimizes tissue damage</li>
-                    <li>High success rate in symptom relief and fertility improvement</li>
-                    <li>Reduces risk of recurrence compared to traditional methods</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Benefits:</h4>
-                  <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                    <li>Long-term symptom relief</li>
-                    <li>Enhanced sperm quality and testicular function</li>
-                    <li>Safe and precise technique</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="mb-8">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">2. Minimally Invasive Embolization</h3>
-                <p className="text-gray-700 mb-4">
-                  Embolization is a catheter-based procedure, blocking refluxing veins using coils or a sclerosing agent.
-                </p>
-                <div className="mb-4">
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Advantages:</h4>
-                  <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                    <li>Minimally invasive, outpatient procedure</li>
-                    <li>Same-day treatment with minimal pain</li>
-                    <li>Rapid recovery, often within 1-2 days</li>
-                    <li>Excellent success rates with low recurrence</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Ideal for patients who:</h4>
-                  <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                    <li>Prefer faster recovery</li>
-                    <li>Avoid general anesthesia</li>
-                    <li>Require retreatment after surgery</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">3. Choosing the Right Treatment</h3>
-                <p className="text-gray-700">
-                  The choice depends on severity and grade of varicocele, symptoms and fertility goals, patient preference, and previous treatment history. Dr. Memon evaluates each patient and recommends the safest, most effective approach.
-                </p>
-              </div>
-            </section>
-
-            {/* Procedure Details */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Procedure Details</h2>
-              
-              <div className="mb-8">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">Step-by-Step: Embolization Procedure</h3>
-                <ol className="list-decimal list-inside pl-5 space-y-3 text-gray-700">
-                  <li><strong>Local Anesthesia:</strong> Patient comfort is prioritized</li>
-                  <li><strong>Catheter Insertion:</strong> Through a small vein in the groin or neck</li>
-                  <li><strong>Vein Mapping:</strong> Fluoroscopy guides the catheter to affected veins</li>
-                  <li><strong>Vein Occlusion:</strong> Coils or sclerosant block refluxing veins</li>
-                  <li><strong>Recovery:</strong> Minimal discomfort; patient usually resumes activities the same day</li>
-                </ol>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">Step-by-Step: Surgical Varicocelectomy</h3>
-                <ol className="list-decimal list-inside pl-5 space-y-3 text-gray-700">
-                  <li><strong>Anesthesia:</strong> General or spinal anesthesia used</li>
-                  <li><strong>Incision:</strong> Small incision above the scrotum</li>
-                  <li><strong>Vein Identification:</strong> Affected veins separated from arteries and lymphatics</li>
-                  <li><strong>Ligation:</strong> Affected veins tied off</li>
-                  <li><strong>Closure:</strong> Minimal scarring; outpatient or short-stay procedure</li>
-                </ol>
-              </div>
-            </section>
-
-            {/* Recovery Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Recovery and Post-Treatment Care</h2>
-              
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">Embolization Recovery:</h3>
-                <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                  <li>Normal activity resumes within 1-2 days</li>
-                  <li>Mild soreness or bruising may occur</li>
-                  <li>Follow-up imaging ensures vein closure</li>
-                </ul>
-              </div>
-
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">Surgical Recovery:</h3>
-                <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                  <li>Return to work in 1-2 weeks</li>
-                  <li>Light activity recommended initially</li>
-                  <li>Compression and supportive underwear aid healing</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">Lifestyle Tips:</h3>
-                <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                  <li>Avoid heavy lifting initially</li>
-                  <li>Moderate exercise to improve circulation</li>
-                  <li>Maintain healthy weight</li>
-                  <li>Follow-up semen analysis for fertility evaluation</li>
-                </ul>
-              </div>
-            </section>
-
-            {/* Untreated Effects */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Long-Term Effects if Untreated</h2>
-              <p className="text-gray-700 mb-4">
-                Untreated varicocele may lead to:
-              </p>
-              <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                <li>Testicular atrophy (shrinking of testicles)</li>
-                <li>Chronic scrotal pain</li>
-                <li>Progressive infertility</li>
-                <li>Increased risk of future varicocele complications</li>
-              </ul>
-              <p className="text-gray-700 mt-4">
-                Early intervention ensures long-term reproductive health and comfort.
-              </p>
-            </section>
-
-            {/* Testimonials */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Patient Testimonials</h2>
-              <div className="space-y-6">
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <p className="text-gray-700 italic mb-2">"After embolization with Dr. Memon, my scrotal pain disappeared and sperm count improved dramatically. The procedure was quick and painless."</p>
-                  <p className="text-teal-700 font-semibold">- Ali K., Karachi</p>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <p className="text-gray-700 italic mb-2">"Surgical varicocelectomy was precise and safe. Recovery was smooth, and I am now planning for my second child."</p>
-                  <p className="text-teal-700 font-semibold">- Farhan S., Lahore</p>
-                </div>
-              </div>
-            </section>
-
             {/* FAQ Section */}
             <section className="bg-white rounded-xl shadow-md p-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions (FAQs)</h2>
@@ -354,7 +227,7 @@ const VaricoceleEmbolization = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Q3: How long does recovery take?</h3>
-                  <p className="text-gray-700">A3: Embolization: 1-2 days; Surgery: 1-2 weeks</p>
+                  <p className="text-gray-700">A3: Most patients resume normal activities within 24 hours after embolization</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Q4: Will my fertility improve after treatment?</h3>
@@ -362,20 +235,9 @@ const VaricoceleEmbolization = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Q5: Can varicocele recur?</h3>
-                  <p className="text-gray-700">A5: Recurrence is rare, especially with modern embolization or microsurgery techniques.</p>
+                  <p className="text-gray-700">A5: Recurrence is rare, especially with modern embolization techniques.</p>
                 </div>
               </div>
-            </section>
-
-            {/* Conclusion */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Conclusion</h2>
-              <p className="text-gray-700 mb-4">
-                Varicocele is a common but treatable condition affecting comfort, testicular health, and male fertility. Advanced treatments by Dr. Yousuf Memon in Pakistan, including minimally invasive embolization and microsurgical varicocelectomy, offer safe, effective, and long-lasting solutions.
-              </p>
-              <p className="text-gray-700">
-                Early diagnosis, accurate assessment, and timely treatment prevent complications and improve reproductive outcomes. Men suffering from varicocele can regain comfort, confidence, and fertility under expert care.
-              </p>
             </section>
           </div>
 
@@ -404,19 +266,25 @@ const VaricoceleEmbolization = () => {
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Over 20 years in urology and interventional radiology</span>
+                  <span>Internationally trained in endovascular procedures</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Advanced minimally invasive techniques</span>
+                  <span>Specialist in male infertility solutions</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Personalized treatment plans</span>
+                  <span>Uses latest 3-D precision technology</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>High success rate with minimal discomfort</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -424,52 +292,41 @@ const VaricoceleEmbolization = () => {
                   </svg>
                   <span>Available in Karachi, Lahore, Hyderabad, Islamabad, Rawalpindi</span>
                 </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Proven improvement in pain relief and fertility</span>
-                </li>
               </ul>
             </div>
 
             <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Treatment Locations</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Treatment Benefits</h3>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Karachi</span>
+                  <span>No Open Surgery</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Lahore</span>
+                  <span>No General Anesthesia</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Hyderabad</span>
+                  <span>No Side Effects</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Islamabad</span>
+                  <span>Quick Recovery (within 24 hours)</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Rawalpindi</span>
+                  <span>No Lifelong Medicines or Injections</span>
                 </li>
               </ul>
             </div>

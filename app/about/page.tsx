@@ -169,7 +169,7 @@ const AboutPage = () => {
             </h3>
             <p className="text-gray-700 leading-relaxed">
               Dr. Memon practices in major cities including Karachi, Hyderabad,
-              Lahore and Rahim Yar Khan. He specializes in{" "}
+              Lahore, Peshawar and Rahim Yar Khan. He specializes in{" "}
               <strong>non-surgical treatments</strong> that avoid anesthesia,
               long hospital stays, and invasive surgery. Most procedures are{" "}
               <strong>day-care & outpatient</strong>, ensuring patient comfort

@@ -183,6 +183,12 @@ const Navbar = () => {
               Gallery
             </Link>
             <Link 
+              href="/youtube" 
+              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
+            >
+              Youtube
+            </Link>
+            <Link 
               href="/contact" 
               className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
             >
@@ -325,6 +331,7 @@ const Navbar = () => {
           
           {[
             { href: "/gallery", text: "Gallery" },
+            { href: "/youtube", text: "Youtube" },
             { href: "/contact", text: "Contact" }
           ].map((item, index) => (
             <Link 

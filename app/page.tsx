@@ -38,13 +38,13 @@ const HomePage = () => {
       title: "Brain Aneurysm Coiling Pakistan",
       description: "Endovascular coiling to prevent aneurysm rupture without open brain surgery. Neurointerventional radiology specialist.",
       icon: <FaHospital className="text-teal-500 text-2xl" />,
-      link: "/services/aneurysm-coiling"
+      link: "/"
     },
     {
       title: "Diabetic Foot Care Karachi",
       description: "Angioplasty and stenting to prevent amputations in diabetic patients. Vascular specialist in Pakistan.",
       icon: <FaClinicMedical className="text-teal-500 text-2xl" />,
-      link: "/services/diabetic-foot-care"
+      link: "/"
     }
   ];
 
@@ -68,7 +68,7 @@ const HomePage = () => {
       description: "A modern alternative therapy using your own ozonated blood to boost immunity and detoxify the body.",
       image: "/images/ozz.png",
       icon: <FaUserMd className="text-white text-3xl" />,
-      link: "/treatments/major-autohemotherapy"
+      link: "/"
     }
   ];
 

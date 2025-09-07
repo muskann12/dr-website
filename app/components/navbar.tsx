@@ -163,7 +163,8 @@ const Navbar = () => {
                   { href: "/treatments/eye-treatment", text: "Ozone Treatment for Dry Eyes, Sinuses, Face Wrinkles" },
                   { href: "/treatments/venous-leak", text: "Venous Leak Treatment" },
                  // { href: "/treatments/varicose-veins", text: "Varicose Veins Treatment" },
-                  { href: "/treatments/varicocele-embolization", text: "Varicocele Embolization" }
+                  { href: "/treatments/varicocele-embolization", text: "Varicocele Embolization" },
+                  { href: "/treatments/brain-aneurysm-coiling", text: "Brain Aneurysm Coiling" },
                 ].map((item, index) => (
                   <Link 
                     key={index}
@@ -315,7 +316,8 @@ const Navbar = () => {
                 { href: "/treatments/eye-treatment", text: "Ozone Treatment for Dry Eyes, Sinuses, Face Wrinkles" },
                 { href: "/treatments/venous-leak", text: "Venous Leak Treatment" },
                 //{ href: "/treatments/varicose-veins", text: "Varicose Veins Treatment" },
-                { href: "/treatments/varicocele-embolization", text: "Varicocele Embolization" }
+                { href: "/treatments/varicocele-embolization", text: "Varicocele Embolization" },
+                { href: "/treatments/brain-aneurysm-coiling", text: "Brain Aneurysm Coiling" },
               ].map((item, index) => (
                 <Link 
                   key={index}

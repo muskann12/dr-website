@@ -69,6 +69,7 @@ const BrainAneurysmCoiling = () => {
     []
   );
 
+  // Schema.org data
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "MedicalProcedure",

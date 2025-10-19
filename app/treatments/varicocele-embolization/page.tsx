@@ -22,7 +22,7 @@ const VaricoceleEmbolization = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-800 to-teal-600 text-white py-24">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">3-D Precision Guided Varicocele Treatment</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Varicocele Non Surgical Treatment in Pakistan</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             Advanced Endovascular Solution for Male Infertility by Dr. Yousuf Memon
           </p>

@@ -5,6 +5,8 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import TopHeader from "./components/top";
 import WhatsappButton from "./components/WhatsappButton";
+import Chatbot from "./components/chatbot";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -117,6 +119,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Chatbot/>
         <WhatsappButton />
       </body>
     </html>

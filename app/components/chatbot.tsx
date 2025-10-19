@@ -84,15 +84,15 @@ export default function Chatbot() {
       {/* Floating Chat Button - Moved to LEFT */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`fixed bottom-6 left-6 z-50 p-4 rounded-full shadow-2xl transition-all duration-300 ${
+        className={`fixed bottom-6 left-6 z-50 text-black p-4 rounded-full shadow-2xl transition-all duration-300 ${
           isOpen 
-            ? 'bg-gradient-to-br from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 rotate-90 scale-110' 
+            ? 'bg-gradient-to-br from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 rotate-90 scale-110 ' 
             : 'bg-gradient-to-br from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 hover:scale-110'
         } text-white group`}
       >
         {isOpen ? <X size={28} /> : <MessageCircle size={28} />}
         {!isOpen && (
-          <div className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">
+          <div className="absolute -top-2 text-black -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">
             AI
           </div>
         )}

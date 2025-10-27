@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { FaArrowRight, FaClinicMedical, FaHeartbeat, FaProcedures, FaPhone, FaCalendarAlt, FaUserMd, FaHospital, FaStethoscope, FaMedal, FaAward, FaRegHospital, FaPlay, FaGraduationCap, FaUniversity, FaCertificate, FaGlobe } from 'react-icons/fa';
+import { FaArrowRight, FaClinicMedical, FaHeartbeat, FaProcedures, FaPhone, FaCalendarAlt, FaUserMd, FaHospital, FaStethoscope, FaMedal, FaAward, FaRegHospital } from 'react-icons/fa';
 import Link from 'next/link';
 
 const HomePage = () => {
@@ -89,29 +89,6 @@ const HomePage = () => {
     "Peripheral Vascular Interventions",
     "Ozone Therapy Specialist in Pakistan",
     "Non-Surgical Disc Treatments Karachi"
-  ];
-
-  const qualifications = [
-    {
-      icon: <FaGraduationCap className="text-teal-600 text-2xl" />,
-      title: "MBBS Degree",
-      description: "Bachelor of Medicine, Bachelor of Surgery from prestigious medical institution"
-    },
-    {
-      icon: <FaUniversity className="text-teal-600 text-2xl" />,
-      title: "FRCR London",
-      description: "Fellowship of the Royal College of Radiologists, United Kingdom"
-    },
-    {
-      icon: <FaCertificate className="text-teal-600 text-2xl" />,
-      title: "International Training",
-      description: "Advanced training in interventional radiology from world-renowned medical centers"
-    },
-    {
-      icon: <FaGlobe className="text-teal-600 text-2xl" />,
-      title: "Global Experience",
-      description: "20+ years of practice across multiple countries with diverse patient populations"
-    }
   ];
 
   return (
@@ -280,11 +257,11 @@ const HomePage = () => {
                   <FaCalendarAlt className="mr-2" /> Book Appointment
                 </Link>
                 <Link
-                  href="#about"
+                  href="#services"
                   className="border-2 border-white text-white hover:bg-white/10 font-medium py-3 px-6 rounded-lg flex items-center transition"
-                  aria-label="Learn More About Dr. Yousuf Memon"
+                  aria-label="View Our Specialized Treatments"
                 >
-                  <FaPlay className="mr-2" /> Watch Video
+                  <FaArrowRight className="mr-2" /> View Treatments
                 </Link>
               </div>
             </div>
@@ -337,84 +314,8 @@ const HomePage = () => {
           </div>
         </section>
 
-        {/* About Section with Video */}
-<section id="about" className="py-20 bg-white" aria-label="About Dr. Yousuf Memon - Best Interventional Radiologist in Karachi">
-  <div className="container mx-auto px-4">
-    <div className="flex flex-col lg:flex-row gap-12 items-center">
-      <div className="lg:w-1/2">
-        <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-          {/* Video Container */}
-          <div className="relative aspect-video bg-gray-900">
-            <video 
-              className="w-full h-full object-cover"
-              controls
-              autoPlay
-              muted
-              aria-label="Introduction video of Dr. Yousuf Memon - Best Interventional Radiologist in Karachi"
-            >
-              <source src="/videos/Dr.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-      </div>
-
-      <div className="lg:w-1/2">
-        <div className="max-w-lg">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-            Meet Dr. Yousuf Memon - Karachi's Leading Interventional Radiologist
-          </h2>
-          <div className="w-24 h-1.5 bg-teal-500 mb-6 rounded-full" aria-hidden="true"></div>
-          
-          <p className="text-lg text-gray-600 mb-6">
-            With over <strong>20 years of specialized experience</strong> in interventional radiology, 
-            Dr. Yousuf Memon is recognized as one of Pakistan's foremost experts in minimally invasive treatments.
-          </p>
-          
-          <p className="text-gray-600 mb-8">
-            His international training and commitment to advancing medical care in Pakistan have made him 
-            the preferred choice for patients seeking safe, effective alternatives to traditional surgery.
-          </p>
-
-          {/* Qualifications */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {qualifications.map((qual, index) => (
-              <div key={index} className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
-                <div className="bg-teal-100 p-2 rounded-full flex-shrink-0">
-                  {qual.icon}
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800">{qual.title}</h4>
-                  <p className="text-sm text-gray-600">{qual.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="flex flex-wrap gap-4">
-            <Link
-              href="/about"
-              className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-3 px-6 rounded-lg flex items-center transition shadow-lg hover:shadow-xl"
-              aria-label="Learn more about Dr. Yousuf Memon's background and qualifications"
-            >
-              <FaUserMd className="mr-2" /> Full Profile
-            </Link>
-            <Link
-              href="#appointment"
-              className="border-2 border-teal-600 text-teal-600 hover:bg-teal-50 font-medium py-3 px-6 rounded-lg flex items-center transition"
-              aria-label="Book consultation with Dr. Yousuf Memon"
-            >
-              <FaCalendarAlt className="mr-2" /> Book Consultation
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
         {/* Services Section */}
-        <section className="py-20 bg-gray-50" id="services" aria-label="Specialized medical services in Karachi">
+        <section className="py-20 bg-white" id="services" aria-label="Specialized medical services in Karachi">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Specialized Treatments in Karachi</h2>
@@ -455,7 +356,7 @@ const HomePage = () => {
         </section>
 
         {/* Specializations Section */}
-        <section className="py-20 bg-white" aria-label="Dr. Yousuf Memon's areas of expertise in Pakistan">
+        <section className="py-20 bg-gray-50" aria-label="Dr. Yousuf Memon's areas of expertise in Pakistan">
           <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row gap-12 items-center">
               <div className="lg:w-1/2">
@@ -493,7 +394,7 @@ const HomePage = () => {
               </div>
 
               <div className="lg:w-1/2">
-                <div className="bg-gray-50 p-8 rounded-xl shadow-lg border border-gray-100" aria-label="Benefits of choosing minimally invasive treatments in Karachi">
+                <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100" aria-label="Benefits of choosing minimally invasive treatments in Karachi">
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Choose Our Treatments in Pakistan?</h3>
                   <div className="space-y-4">
                     <div className="flex items-start gap-4">
@@ -543,7 +444,7 @@ const HomePage = () => {
         </section>
 
         {/* Treatments Section */}
-        <section className="py-20 bg-gray-50" aria-label="Ozone therapy treatments in Karachi">
+        <section className="py-20 bg-white" aria-label="Ozone therapy treatments in Karachi">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-4">Advanced Ozone Therapy in Pakistan</h2>
             <p className="text-lg text-gray-600 text-center mb-16 max-w-2xl mx-auto">Non-surgical treatments for chronic pain, joint issues, and disc problems</p>

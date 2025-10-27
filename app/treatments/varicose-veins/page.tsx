@@ -8,95 +8,218 @@ export default function VaricoseVeins() {
     <div className="min-h-screen bg-gray-50">
       <Head>
         <title>
-          Varicose Veins Treatment in Pakistan | Minimally Invasive Laser
-          Procedure | Dr Yousuf Memon
+          Best Varicose Veins Treatment in Pakistan | Laser Procedure by Dr.
+          Yousuf Memon
         </title>
         <meta
           name="description"
-          content="Get advanced varicose veins treatment in Pakistan by Dr. Yousuf Memon. Minimally invasive, laser-based and painless procedures for effective vein care."
+          content="Looking for the best varicose veins treatment in Pakistan? Dr. Yousuf Memon offers advanced, painless and minimally invasive laser varicose vein treatment in Karachi, Pakistan. Quick recovery, safe & effective results."
         />
         <meta
           name="keywords"
-          content="Varicose veins treatment in Pakistan, laser varicose veins treatment, best doctor for varicose veins Karachi, minimally invasive vein procedure"
+          content="Varicose veins treatment in Pakistan, best varicose veins doctor Karachi, laser varicose veins treatment Pakistan, minimally invasive vein treatment, Dr Yousuf Memon, vascular specialist Pakistan"
+        />
+        <meta name="author" content="Dr. Yousuf Memon" />
+        <link
+          rel="canonical"
+          href="https://www.dryousufmemon.pk/treatments/varicose-veins"
+        />
+
+        {/* Open Graph SEO */}
+        <meta property="og:title" content="Best Varicose Veins Treatment in Pakistan | Laser Procedure by Dr. Yousuf Memon" />
+        <meta
+          property="og:description"
+          content="Get expert laser varicose veins treatment in Pakistan by Dr. Yousuf Memon. Safe, painless, and minimally invasive procedures with fast recovery."
+        />
+        <meta
+          property="og:image"
+          content="https://www.dryousufmemon.pk/images/varicose-veins.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.dryousufmemon.pk/treatments/varicose-veins"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_PK" />
+
+        {/* Twitter Card SEO */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Varicose Veins Treatment in Pakistan | Laser by Dr. Yousuf Memon"
+        />
+        <meta
+          name="twitter:description"
+          content="Minimally invasive, laser-based varicose veins treatment in Karachi, Pakistan. Safe, quick & effective."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dryousufmemon.pk/images/varicose-veins.jpg"
+        />
+
+        {/* Structured Data (JSON-LD Schema) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalWebPage",
+              name: "Varicose Veins Treatment in Pakistan",
+              description:
+                "Dr. Yousuf Memon provides advanced laser varicose veins treatment in Pakistan. Minimally invasive and painless vein care.",
+              url: "https://www.dryousufmemon.pk/treatments/varicose-veins",
+              mainEntity: {
+                "@type": "MedicalCondition",
+                name: "Varicose Veins",
+                alternateName: "Chronic Venous Insufficiency",
+                symptom: [
+                  "Swollen twisted veins",
+                  "Leg pain and heaviness",
+                  "Skin discoloration"
+                ],
+                possibleTreatment: {
+                  "@type": "MedicalTherapy",
+                  name: "Endovenous Laser Treatment (EVLT)"
+                }
+              },
+              author: {
+                "@type": "Person",
+                name: "Dr. Yousuf Memon",
+                jobTitle: "Interventional Radiologist",
+                url: "https://www.dryousufmemon.pk"
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "Dr. Yousuf Memon Clinic",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.dryousufmemon.pk/images/logo.png"
+                }
+              }
+            }),
+          }}
         />
       </Head>
 
-      {/* Header Section */}
+      {/* Hero Section */}
       <div className="relative bg-teal-900 text-white py-16 px-6 lg:px-20 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Varicose Veins Treatment in Pakistan
         </h1>
-        <p className="max-w-2xl mx-auto text-lg">
-          Advanced, painless and minimally invasive treatment options available
-          under the expertise of{" "}
-          <span className="font-semibold">Dr. Yousuf Memon</span>.
+        <p className="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed">
+          Experience the most advanced{" "}
+          <strong>laser varicose veins treatment</strong> in Pakistan with{" "}
+          <span className="font-semibold">Dr. Yousuf Memon</span> — a leading
+          interventional radiologist offering safe, painless and effective vein
+          solutions in Karachi.
         </p>
       </div>
 
-      {/* Content Section */}
+      {/* Main Content Section */}
       <div className="max-w-7xl mx-auto px-6 lg:px-20 py-12 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="text-2xl font-bold text-teal-900 mb-4">
+          <h2 className="text-3xl font-bold text-teal-900 mb-4">
             What Are Varicose Veins?
           </h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Varicose veins are swollen, twisted veins that usually appear on the
-            legs. They occur due to weak or damaged vein walls and valves. If
-            left untreated, they can cause pain, swelling, heaviness and even
-            skin ulcers.
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Varicose veins are enlarged, twisted veins that appear mostly on the
+            legs and feet due to poor blood circulation. When the vein valves
+            become weak or damaged, blood pools inside, causing visible swelling
+            and discomfort. If not treated, varicose veins can lead to serious
+            conditions like venous ulcers or blood clots.
           </p>
 
-          <h2 className="text-2xl font-bold text-teal-900 mb-4">
-            Symptoms of Varicose Veins
-          </h2>
-          <ul className="list-disc pl-5 text-gray-700 mb-4">
-            <li>Bulging, twisted veins visible on legs</li>
-            <li>Heaviness or pain in legs</li>
-            <li>Swelling, burning or throbbing</li>
-            <li>Skin discoloration around ankles</li>
+          <h3 className="text-2xl font-bold text-teal-900 mb-3">
+            Common Symptoms
+          </h3>
+          <ul className="list-disc pl-5 text-gray-700 mb-6">
+            <li>Swollen or bulging veins (blue or purple)</li>
+            <li>Heaviness, throbbing, or cramping in legs</li>
+            <li>Burning or itching sensation</li>
+            <li>Skin darkening near ankles</li>
+            <li>Restless legs or pain after standing</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-teal-900 mb-4">
-            Treatment by Dr. Yousuf Memon
-          </h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Dr. Yousuf Memon, an expert in minimally invasive vascular
-            procedures, provides advanced laser treatment for varicose veins in
-            Pakistan. This technique is safe, effective and does not require
-            open surgery. Patients experience less pain, quick recovery and
-            excellent cosmetic results.
+          <h3 className="text-2xl font-bold text-teal-900 mb-3">
+            Advanced Treatment by Dr. Yousuf Memon
+          </h3>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            <strong>Dr. Yousuf Memon</strong> specializes in{" "}
+            <em>Endovenous Laser Treatment (EVLT)</em> for varicose veins — a
+            modern, minimally invasive method that seals the affected veins using
+            laser energy. It’s a daycare procedure with no stitches, minimal
+            discomfort, and a fast recovery period. Patients can return to
+            normal activities the same day.
           </p>
 
-          <h2 className="text-2xl font-bold text-teal-900 mb-4">
-            Benefits of Laser Varicose Veins Treatment
-          </h2>
+          <h3 className="text-2xl font-bold text-teal-900 mb-3">
+            Why Choose Laser Treatment?
+          </h3>
           <ul className="list-disc pl-5 text-gray-700">
-            <li>Minimally invasive & painless</li>
-            <li>Quick recovery time</li>
-            <li>No hospitalization required</li>
-            <li>Safe & effective under expert care</li>
+            <li>Painless and minimally invasive</li>
+            <li>Quick recovery — walk-in, walk-out procedure</li>
+            <li>No general anesthesia required</li>
+            <li>Excellent cosmetic results</li>
+            <li>Performed by an experienced vascular expert</li>
           </ul>
         </div>
 
+        {/* Image Section */}
         <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-lg">
           <Image
             src="/images/varicose-veins.jpg"
-            alt="Varicose Veins Treatment in Pakistan"
+            alt="Laser Varicose Veins Treatment in Pakistan"
             layout="fill"
             objectFit="cover"
+            priority
           />
         </div>
       </div>
 
+      {/* Additional Info Section */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-20 pb-12">
+        <h3 className="text-2xl font-bold text-teal-900 mb-4">
+          Laser Varicose Veins Treatment Cost in Pakistan
+        </h3>
+        <p className="text-gray-700 mb-6">
+          The cost of varicose veins laser treatment in Pakistan varies based on
+          the condition’s severity and clinic location. At{" "}
+          <strong>Dr. Yousuf Memon’s Clinic in Karachi</strong>, we ensure
+          affordable and transparent pricing with world-class facilities and
+          personalized care.
+        </p>
+
+        <h4 className="text-xl font-semibold text-teal-900 mb-3">
+          Other Related Treatments:
+        </h4>
+        <ul className="list-disc pl-5 text-gray-700">
+          <li>
+            <a href="/treatments/hemorrhoids" className="text-teal-700 hover:underline">
+              Hemorrhoid Embolization
+            </a>
+          </li>
+          <li>
+            <a href="/treatments/varicocele" className="text-teal-700 hover:underline">
+              Varicocele Embolization
+            </a>
+          </li>
+          <li>
+            <a href="/treatments/uterine-fibroid-embolization" className="text-teal-700 hover:underline">
+              Uterine Fibroid Embolization (UFE)
+            </a>
+          </li>
+        </ul>
+      </div>
+
       {/* Call to Action */}
       <div className="bg-teal-800 text-white py-12 text-center">
-        <h2 className="text-2xl font-bold mb-4">
+        <h2 className="text-3xl font-bold mb-4">
           Book Your Varicose Veins Consultation Today
         </h2>
         <p className="max-w-2xl mx-auto mb-6">
-          Get rid of painful and unsightly varicose veins with the advanced
-          treatment offered by{" "}
-          <span className="font-semibold">Dr. Yousuf Memon</span> in Pakistan.
+          Take the first step toward healthy, pain-free legs with{" "}
+          <span className="font-semibold">Dr. Yousuf Memon</span>’s advanced
+          laser varicose veins treatment in Karachi, Pakistan.
         </p>
         <a
           href="/contact"
@@ -108,3 +231,4 @@ export default function VaricoseVeins() {
     </div>
   );
 }
+

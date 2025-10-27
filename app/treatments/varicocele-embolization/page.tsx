@@ -6,28 +6,74 @@ const VaricoceleEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>3-D Precision Guided Varicocele Embolization by Dr. Yousuf Memon | Pakistan</title>
+        <title>
+          Best Varicocele Embolization Treatment in Pakistan | Dr. Yousuf Memon – Karachi, Lahore, Islamabad, Peshawar, Hyderabad
+        </title>
+
         <meta
           name="description"
-          content="Advanced 3-D Precision Guided Varicocele Embolization treatment for male infertility in Pakistan by Dr. Yousuf Memon. Safe, painless alternative to surgery with quick recovery."
+          content="Looking for non-surgical varicocele treatment in Pakistan? Dr. Yousuf Memon offers advanced 3D Precision Guided Varicocele Embolization for male infertility. Safe, painless, and effective – available in Karachi, Lahore, Islamabad, Peshawar, Hyderabad, and Rawalpindi."
         />
+
         <meta
           name="keywords"
-          content="varicocele treatment Pakistan, varicocele embolization, male infertility Pakistan, 3D precision guided treatment, Dr Yousuf Memon, varicocele without surgery, testicular pain treatment"
+          content="varicocele treatment Pakistan, varicocele embolization Pakistan, male infertility doctor Pakistan, varicocele Karachi, varicocele Lahore, varicocele Islamabad, varicocele Peshawar, varicocele Hyderabad, varicocele Rawalpindi, Dr Yousuf Memon, testicular pain specialist, non surgical varicocele treatment"
         />
-        <meta name="robots" content="index,follow" />
+
+        <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.dryousufmemon.com/treatments/varicocele-embolization" />
+
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalProcedure",
+              "name": "Varicocele Embolization",
+              "alternateName": "3D Precision Guided Varicocele Embolization",
+              "medicalSpecialty": "Endovascular Surgery",
+              "procedureType": "Non-surgical treatment for male infertility",
+              "bodyLocation": "Scrotum, Testicular Veins",
+              "image": "https://www.dryousufmemon.com/images/varicocele-embolization.jpg",
+              "url": "https://www.dryousufmemon.com/treatments/varicocele-embolization",
+              "performer": {
+                "@type": "Physician",
+                "name": "Dr. Yousuf Memon",
+                "medicalSpecialty": "Endovascular & Interventional Radiology",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "PK",
+                  "addressRegion": "Sindh, Punjab, KPK",
+                  "addressLocality": "Karachi, Lahore, Islamabad, Peshawar, Hyderabad, Rawalpindi"
+                },
+                "telephone": "+92-336-7889143",
+                "url": "https://www.dryousufmemon.com"
+              },
+              "areaServed": [
+                "Karachi",
+                "Lahore",
+                "Islamabad",
+                "Peshawar",
+                "Hyderabad",
+                "Rawalpindi"
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-800 to-teal-600 text-white py-24">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Varicocele Non Surgical Treatment in Pakistan</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Non-Surgical Varicocele Treatment in Pakistan
+          </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            Advanced Endovascular Solution for Male Infertility by Dr. Yousuf Memon
+            3D Precision-Guided Endovascular Embolization by Dr. Yousuf Memon – the safest, most advanced solution for male infertility.
           </p>
           <p className="text-lg mt-4 max-w-3xl mx-auto">
-            A safe, painless, and effective alternative to traditional surgery - available in Karachi, Lahore, Hyderabad, Islamabad, and Rawalpindi.
+            Available in Karachi, Lahore, Islamabad, Peshawar, Hyderabad, and Rawalpindi.
           </p>
         </div>
       </div>
@@ -35,218 +81,145 @@ const VaricoceleEmbolization = () => {
       {/* Main Content */}
       <div className="container mx-auto px-6 py-16">
         <div className="flex flex-col lg:flex-row gap-12">
-          
+
           {/* Main Column */}
           <div className="lg:w-2/3 space-y-12">
 
-            {/* Introduction Section */}
+            {/* Introduction */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Introduction</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Introduction to Varicocele</h2>
               <p className="text-gray-700 mb-4">
-                Male infertility is a growing concern worldwide, and one of the leading causes is Varicocele. This condition is a swelling of the veins inside the scrotum, similar to varicose veins in the legs. It disrupts normal blood flow, affects sperm production, and can ultimately cause difficulty in fathering children.
+                A <strong>varicocele</strong> is a common condition that affects nearly 15–20% of men and is one of the leading causes of <strong>male infertility</strong>. It occurs when veins inside the scrotum (called the pampiniform plexus) become enlarged due to poor blood circulation. This causes heat buildup, reduces sperm quality, and impacts testosterone production.
               </p>
               <p className="text-gray-700">
-                Dr. Yousuf Memon, an expert in minimally invasive endovascular treatments, provides advanced 3-D Precision Guided Varicocele Embolization — a safe, painless, and effective alternative to traditional surgery.
+                <strong>Dr. Yousuf Memon</strong>, one of Pakistan’s leading endovascular specialists, offers <strong>3D Precision Guided Varicocele Embolization</strong> – a modern, painless, and non-surgical alternative to varicocele surgery. 
               </p>
             </section>
 
-            {/* What is Varicocele Section */}
+            {/* Causes */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">What is Varicocele?</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Causes of Varicocele</h2>
               <p className="text-gray-700 mb-4">
-                Varicocele occurs when the veins inside the scrotum become dilated and swollen. Normally, these veins carry deoxygenated blood from the testicles back to the heart, where it is re-oxygenated. In varicocele, this process is impaired, leading to blood pooling, heat build-up, and reduced sperm quality.
+                Varicoceles usually develop when the valves inside the veins that carry blood from the testicles to the heart do not function properly. This causes blood to flow backward, leading to dilation of veins and pooling of warm blood in the scrotum.
               </p>
-              <div className="mb-4">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Key characteristics:</h3>
-                <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                  <li>Varicocele usually develops on the left side of the scrotum</li>
-                  <li>It can sometimes occur on both sides</li>
-                  <li>In some men, it may cause testicular enlargement or shrinkage</li>
-                </ul>
-              </div>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>Weak or damaged vein valves</li>
+                <li>Compression of the spermatic vein</li>
+                <li>Genetic predisposition</li>
+                <li>Increased abdominal pressure (heavy lifting, obesity)</li>
+              </ul>
             </section>
 
-            {/* Symptoms Section */}
+            {/* Symptoms */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Symptoms of Varicocele Male Infertility</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Common Symptoms of Varicocele</h2>
               <p className="text-gray-700 mb-4">
-                Many men with varicocele may not notice any symptoms, but common signs include:
+                Many men do not notice symptoms initially, but as the condition progresses, typical signs may include:
               </p>
-              <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                <li>Dull, aching pain in the scrotum (especially after standing for long periods)</li>
-                <li>Noticeable swelling or enlarged veins ("bag of worms" appearance)</li>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>Dull, aching pain in the scrotum, especially after standing</li>
+                <li>Visible or palpable enlarged veins (“bag of worms” appearance)</li>
                 <li>Testicular heaviness or discomfort</li>
-                <li>Infertility or difficulty conceiving</li>
+                <li>Reduced sperm count or infertility</li>
+                <li>Testicular shrinkage in severe cases</li>
               </ul>
             </section>
 
-            {/* When to Visit Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">When Should You Visit Dr. Yousuf Memon?</h2>
-              <p className="text-gray-700 mb-4">
-                You should consult Dr. Yousuf Memon if you experience:
-              </p>
-              <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                <li>Persistent scrotal pain or discomfort</li>
-                <li>Swelling in the scrotum</li>
-                <li>Fertility issues (inability to conceive despite regular attempts)</li>
-                <li>Testicular shrinkage or reduced sperm quality on medical tests</li>
-              </ul>
-            </section>
-
-            {/* Causes Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Causes of Varicocele Male Infertility</h2>
-              <p className="text-gray-700 mb-4">
-                The exact cause is not always clear, but the condition occurs due to faulty valves in the veins, leading to backward blood flow. This raises the temperature in the scrotum and damages sperm production. This is why men with varicocele often become infertile — as sperm count, quality, and motility decrease significantly.
-              </p>
-            </section>
-
-            {/* Diagnosis Section */}
+            {/* Diagnosis */}
             <section className="bg-white rounded-xl shadow-md p-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Diagnosis of Varicocele</h2>
-              <p className="text-gray-700">
-                Dr. Yousuf Memon or his team will first perform a physical examination. If varicocele is suspected, an ultrasound scan is usually done to confirm the diagnosis and rule out other causes of scrotal swelling.
-              </p>
-            </section>
-
-            {/* Treatment Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">3-D Precision Guided Endovascular Treatment (Varicocele Embolization)</h2>
               <p className="text-gray-700 mb-4">
-                Dr. Yousuf Memon specializes in 3-D Guided Endovascular Embolization, a modern and highly effective treatment for varicocele male infertility.
+                Varicocele diagnosis is performed through a physical examination and confirmed by <strong>color Doppler ultrasound</strong>, which helps identify enlarged veins and impaired blood flow.
               </p>
-              
-              <div className="mb-6">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">Why This Treatment is Different?</h3>
-                <ul className="list-disc list-inside pl-5 space-y-3 text-gray-700">
-                  <li><strong>No Open Surgery</strong> – a tiny puncture is made, not a large incision</li>
-                  <li><strong>No General Anesthesia</strong> – only local anesthesia is used</li>
-                  <li><strong>No Side Effects</strong> – unlike conventional surgery</li>
-                  <li><strong>Quick Recovery</strong> – most patients resume normal activities within 24 hours</li>
-                  <li><strong>No Lifelong Medicines or Injections</strong> – once treated, no long-term medications are required</li>
-                </ul>
-              </div>
+              <p className="text-gray-700">
+                Dr. Memon’s clinic uses <strong>advanced imaging and 3D precision mapping</strong> to detect even subclinical (hidden) varicoceles accurately.
+              </p>
             </section>
 
-            {/* Why Choose Dr. Yousuf Memon */}
+            {/* Treatment */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Why Choose Dr. Yousuf Memon?</h2>
-              <ul className="list-disc list-inside pl-5 space-y-3 text-gray-700">
-                <li>Internationally trained in endovascular & minimally invasive procedures</li>
-                <li>Specialist in male infertility solutions</li>
-                <li>Uses the latest 3-D precision technology for accurate treatment</li>
-                <li>High success rate with minimal discomfort</li>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">3D Precision-Guided Varicocele Embolization – A Modern Solution</h2>
+              <p className="text-gray-700 mb-4">
+                Varicocele Embolization is a <strong>non-surgical, minimally invasive procedure</strong> performed by inserting a tiny catheter through a small puncture (usually in the groin). Using 3D X-ray imaging, the faulty veins are sealed using tiny coils, stopping backward blood flow and restoring healthy circulation.
+              </p>
+
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Advantages Over Surgery:</h3>
+              <ul className="list-disc list-inside text-gray-700 space-y-3">
+                <li><strong>No Open Surgery</strong> – No cuts or stitches</li>
+                <li><strong>No General Anesthesia</strong> – Only local numbing</li>
+                <li><strong>Quick Recovery</strong> – Back to normal life in 24 hours</li>
+                <li><strong>No Hospital Stay</strong> – Outpatient procedure</li>
+                <li><strong>Minimal Risk</strong> – No infection or scarring</li>
+                <li><strong>High Success Rate</strong> – Effective for improving sperm count & motility</li>
               </ul>
             </section>
 
-            {/* Final Thoughts */}
+            {/* Results & Recovery */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Final Thoughts</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Results and Recovery</h2>
               <p className="text-gray-700 mb-4">
-                Varicocele is a common yet treatable cause of male infertility. With 3-D Precision Guided Endovascular Embolization, men can achieve better sperm quality, improved fertility, and relief from scrotal discomfort — without the risks of open surgery.
+                Most patients experience <strong>improved sperm parameters within 3–6 months</strong> after embolization. Pain and swelling reduce significantly, and fertility outcomes improve naturally in the majority of cases.
               </p>
               <p className="text-gray-700">
-                If you are experiencing infertility or scrotal pain, consult Dr. Yousuf Memon for expert, minimally invasive treatment that ensures a faster, safer, and more effective recovery.
+                Patients are usually discharged the same day and can resume light work the next day. Full recovery is expected within 2–3 days.
               </p>
             </section>
 
-            {/* Additional Information (from original page) */}
+            {/* Why Choose Dr. Memon */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Types of Varicocele</h2>
-              <p className="text-gray-700 mb-4">
-                Varicoceles can be classified based on severity, palpability, and visibility:
-              </p>
-              
-              <div className="space-y-4">
-                <div className="border-l-4 border-teal-500 pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">1. Subclinical Varicocele</h3>
-                  <ul className="list-disc list-inside pl-5 space-y-1 text-gray-700">
-                    <li>Not visible or palpable</li>
-                    <li>Detected only through ultrasound imaging</li>
-                    <li>May not cause symptoms but can affect fertility</li>
-                  </ul>
-                </div>
-
-                <div className="border-l-4 border-teal-500 pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">2. Grade I Varicocele</h3>
-                  <ul className="list-disc list-inside pl-5 space-y-1 text-gray-700">
-                    <li>Small, palpable only during Valsalva maneuver</li>
-                    <li>Minimal symptoms but may affect sperm quality</li>
-                  </ul>
-                </div>
-
-                <div className="border-l-4 border-teal-500 pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">3. Grade II Varicocele</h3>
-                  <ul className="list-disc list-inside pl-5 space-y-1 text-gray-700">
-                    <li>Palpable without Valsalva maneuver</li>
-                    <li>May cause mild discomfort or scrotal heaviness</li>
-                  </ul>
-                </div>
-
-                <div className="border-l-4 border-teal-500 pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">4. Grade III Varicocele</h3>
-                  <ul className="list-disc list-inside pl-5 space-y-1 text-gray-700">
-                    <li>Visible bulging veins</li>
-                    <li>Often associated with pain, swelling, and fertility issues</li>
-                  </ul>
-                </div>
-              </div>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Why Choose Dr. Yousuf Memon?</h2>
+              <ul className="list-disc list-inside text-gray-700 space-y-3">
+                <li>Internationally trained endovascular & interventional radiologist</li>
+                <li>Specialist in male infertility and non-surgical varicocele solutions</li>
+                <li>Performs 3D-guided embolization in <strong>Karachi, Lahore, Islamabad, Peshawar, Hyderabad & Rawalpindi</strong></li>
+                <li>High success rate and patient satisfaction</li>
+                <li>State-of-the-art imaging and precision guidance technology</li>
+              </ul>
             </section>
 
-            {/* Fertility Impact Section */}
+            {/* FAQ */}
             <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">How Varicocele Impacts Male Fertility</h2>
-              <p className="text-gray-700 mb-4">
-                Varicocele is the most common correctable cause of male infertility, particularly in men with primary or secondary infertility.
-              </p>
-              <div className="mb-4">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Effects on sperm:</h3>
-                <ul className="list-disc list-inside pl-5 space-y-2 text-gray-700">
-                  <li>Increased testicular temperature, disrupting spermatogenesis</li>
-                  <li>Reduced sperm count and motility</li>
-                  <li>Abnormal sperm morphology</li>
-                </ul>
-              </div>
-              <p className="text-gray-700">
-                Studies show that treatment of varicocele significantly improves sperm quality in 60-80% of cases, enhancing the chances of natural conception.
-              </p>
-            </section>
-
-            {/* FAQ Section */}
-            <section className="bg-white rounded-xl shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions (FAQs)</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Q1: Can varicocele cause permanent infertility?</h3>
-                  <p className="text-gray-700">A1: Untreated varicocele may impair sperm production, but early treatment improves fertility outcomes.</p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Can varicocele cause permanent infertility?</h3>
+                  <p className="text-gray-700">
+                    If left untreated, varicocele can reduce sperm production permanently. Early embolization helps restore fertility and improves sperm quality.
+                  </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Q2: Is embolization painful?</h3>
-                  <p className="text-gray-700">A2: No, it's minimally invasive with local anesthesia, causing only minor discomfort.</p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Is the procedure painful?</h3>
+                  <p className="text-gray-700">No. It’s performed under local anesthesia with minimal discomfort.</p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Q3: How long does recovery take?</h3>
-                  <p className="text-gray-700">A3: Most patients resume normal activities within 24 hours after embolization</p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Where can I get treated?</h3>
+                  <p className="text-gray-700">
+                    Dr. Yousuf Memon provides Varicocele Embolization in Karachi, Lahore, Islamabad, Peshawar, Hyderabad, and Rawalpindi.
+                  </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Q4: Will my fertility improve after treatment?</h3>
-                  <p className="text-gray-700">A4: Yes, treatment improves sperm count, motility, and morphology in most patients.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Q5: Can varicocele recur?</h3>
-                  <p className="text-gray-700">A5: Recurrence is rare, especially with modern embolization techniques.</p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">When will fertility improve?</h3>
+                  <p className="text-gray-700">
+                    Most men notice improvement in sperm count and quality within 3–6 months after embolization.
+                  </p>
                 </div>
               </div>
             </section>
+
+            {/* Related Links */}
+            <p className="text-sm text-gray-600 mt-6">
+              Related treatments:{" "}
+              <a href="/treatments/fibroid-embolization" className="text-teal-600 underline">Fibroid Embolization</a> |{" "}
+              <a href="/treatments/dvt-treatment" className="text-teal-600 underline">DVT Treatment</a>
+            </p>
           </div>
 
           {/* Sidebar / CTA */}
           <div className="lg:w-1/3 space-y-8">
             <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-xl p-6 text-white">
-              <h3 className="text-xl font-bold mb-4">Book Your Consultation with Dr. Yousuf Memon</h3>
+              <h3 className="text-xl font-bold mb-4">Book Your Consultation</h3>
               <p className="mb-6 opacity-90">
-                Schedule an appointment to discuss the best varicocele treatment tailored for you.
+                Schedule your appointment today for advanced, non-surgical varicocele treatment by Dr. Yousuf Memon in Pakistan.
               </p>
               <button className="w-full bg-white text-teal-700 font-semibold py-3 px-4 rounded-lg hover:bg-teal-50 transition duration-300">
                 Book Appointment
@@ -258,81 +231,46 @@ const VaricoceleEmbolization = () => {
                 <a href="https://wa.me/923199246838" className="underline">Chat on WhatsApp</a>
               </p>
             </div>
-
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Why Choose Dr. Yousuf Memon?</h3>
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Internationally trained in endovascular procedures</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Specialist in male infertility solutions</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Uses latest 3-D precision technology</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>High success rate with minimal discomfort</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Available in Karachi, Lahore, Hyderabad, Islamabad, Rawalpindi</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Treatment Benefits</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>No Open Surgery</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>No General Anesthesia</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>No Side Effects</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Quick Recovery (within 24 hours)</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-teal-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>No Lifelong Medicines or Injections</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
+
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Can varicocele cause permanent infertility?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Untreated varicocele can impair sperm production, but early treatment with embolization improves fertility outcomes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is varicocele embolization painful?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, it’s a painless and minimally invasive procedure performed under local anesthesia."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where can I get varicocele embolization in Pakistan?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dr. Yousuf Memon offers 3D Guided Varicocele Embolization in Karachi, Lahore, Islamabad, Peshawar, Hyderabad, and Rawalpindi."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </div>
   );
 };

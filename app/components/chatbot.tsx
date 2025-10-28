@@ -9,6 +9,7 @@ import {
   Stethoscope,
   Shield,
   Zap,
+  Trash2,
 } from "lucide-react";
 
 interface Message {
@@ -95,18 +96,18 @@ export default function Chatbot() {
 
   return (
     <>
-      {/* Floating Button (Left Side) */}
+      {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`fixed bottom-6 left-6 z-50 p-4 rounded-full shadow-2xl transition-all duration-300 ${
+        className={`fixed bottom-6 left-6 z-50 p-4 rounded-full shadow-xl transition-all duration-300 ${
           isOpen
             ? "bg-gradient-to-br from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 rotate-90 scale-110"
-            : "bg-gradient-to-br from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 hover:scale-110"
+            : "bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 hover:scale-110 shadow-2xl"
         } text-white`}
       >
         {isOpen ? <X size={28} /> : <MessageCircle size={28} />}
         {!isOpen && (
-          <div className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">
+          <div className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full border-2 border-white font-medium">
             AI
           </div>
         )}
@@ -114,75 +115,78 @@ export default function Chatbot() {
 
       {/* Chat Box */}
       {isOpen && (
-        <div className="fixed bottom-24 left-6 z-40 w-80 sm:w-96 h-[500px] bg-white text-black rounded-2xl shadow-2xl border border-gray-200 flex flex-col">
+        <div className="fixed bottom-24 left-6 z-40 w-80 sm:w-96 h-[500px] bg-white rounded-2xl shadow-2xl border border-gray-200 flex flex-col overflow-hidden">
           {/* Header */}
-          <div className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-700 text-white p-4 rounded-t-2xl">
+          <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-4 rounded-t-2xl">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-3">
-                <div className="p-2 bg-white/20 rounded-full">
-                  <Stethoscope size={18} />
+                <div className="p-2 bg-white/20 rounded-xl backdrop-blur-sm">
+                  <Stethoscope size={20} className="text-white" />
                 </div>
                 <div>
-                  <h1 className="text-sm font-bold">Dr. Yousuf AI</h1>
-                  <div className="flex items-center space-x-1 text-blue-100 text-xs">
-                    <Zap size={10} className="text-yellow-300" />
-                    <span>AI Assistant</span>
+                  <h1 className="text-lg font-semibold">Dr. Yousuf AI</h1>
+                  <div className="flex items-center space-x-2 text-blue-100 text-sm">
+                    <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    <span>Online • AI Medical Assistant</span>
                   </div>
                 </div>
               </div>
-              <div className="flex items-center space-x-1">
+              <div className="flex items-center space-x-2">
                 <button
                   onClick={clearChat}
-                  className="p-1 hover:bg-white/20 rounded-lg text-xs"
+                  className="p-2 hover:bg-white/20 rounded-xl transition-colors duration-200"
                   title="Clear conversation"
                 >
-                  Clear
+                  <Trash2 size={16} />
                 </button>
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="p-1 hover:bg-white/20 rounded-lg"
+                  className="p-2 hover:bg-white/20 rounded-xl transition-colors duration-200"
                 >
-                  <X size={16} />
+                  <X size={18} />
                 </button>
               </div>
             </div>
           </div>
 
           {/* Messages */}
-          <div className="flex-1 p-3 overflow-y-auto bg-gradient-to-b from-gray-50 to-blue-50/30 text-black">
+          <div className="flex-1 p-4 overflow-y-auto bg-gray-50">
             {messages.length === 0 ? (
               <div className="text-center mt-8">
-                <div className="relative inline-block mb-3">
-                  <div className="p-3 bg-white rounded-2xl shadow-lg border border-blue-100">
-                    <Bot size={36} className="text-blue-500 mx-auto mb-1" />
-                  </div>
-                  <div className="absolute -top-1 -right-1 bg-gradient-to-r from-green-500 to-blue-500 text-white text-xs px-1.5 py-0.5 rounded-full animate-pulse">
-                    AI
+                <div className="relative inline-block mb-4">
+                  <div className="p-4 bg-white rounded-2xl shadow-lg border border-gray-200">
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Bot size={24} className="text-white" />
+                    </div>
                   </div>
                 </div>
-                <h3 className="font-bold text-base mb-1 text-black">
-                  Dr. Yousuf AI Assistanttt
+                <h3 className="font-semibold text-lg mb-2 text-gray-800">
+                  Dr. Yousuf AI Assistant
                 </h3>
-                <p className="text-xs mb-3 text-gray-700">
-                  I'm here to help with your medical questions
+                <p className="text-sm text-gray-600 mb-6 max-w-xs mx-auto">
+                  Your intelligent medical companion for reliable health information and guidance
                 </p>
-                <div className="grid grid-cols-2 gap-1 text-xs max-w-xs mx-auto">
-                  <div className="bg-white rounded p-1.5 border border-blue-100 text-[10px] text-black">
-                    💡 Health Tips
+                <div className="grid grid-cols-2 gap-3 text-sm max-w-xs mx-auto">
+                  <div className="bg-white rounded-xl p-3 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div className="text-blue-600 text-lg mb-1">💡</div>
+                    <span className="text-gray-700 font-medium">Health Tips</span>
                   </div>
-                  <div className="bg-white rounded p-1.5 border border-blue-100 text-[10px] text-black">
-                    🩺 Medical Info
+                  <div className="bg-white rounded-xl p-3 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div className="text-blue-600 text-lg mb-1">🩺</div>
+                    <span className="text-gray-700 font-medium">Medical Info</span>
                   </div>
-                  <div className="bg-white rounded p-1.5 border border-blue-100 text-[10px] text-black">
-                    📋 Symptoms
+                  <div className="bg-white rounded-xl p-3 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div className="text-blue-600 text-lg mb-1">📋</div>
+                    <span className="text-gray-700 font-medium">Symptoms</span>
                   </div>
-                  <div className="bg-white rounded p-1.5 border border-blue-100 text-[10px] text-black">
-                    ⚕️ Advice
+                  <div className="bg-white rounded-xl p-3 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div className="text-blue-600 text-lg mb-1">⚕️</div>
+                    <span className="text-gray-700 font-medium">Advice</span>
                   </div>
                 </div>
               </div>
             ) : (
-              <div className="space-y-3">
+              <div className="space-y-4">
                 {messages.map((msg, i) => (
                   <div
                     key={i}
@@ -191,59 +195,61 @@ export default function Chatbot() {
                     }`}
                   >
                     <div
-                      className={`max-w-[90%] rounded-2xl p-3 shadow-sm ${
+                      className={`max-w-[85%] rounded-2xl p-4 shadow-sm ${
                         msg.type === "user"
-                          ? "bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-br-none"
-                          : "bg-white border border-blue-100 text-black rounded-bl-none"
+                          ? "bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-br-md"
+                          : "bg-white border border-gray-200 text-gray-800 rounded-bl-md"
                       }`}
                     >
-                      <div className="flex items-start space-x-2">
+                      <div className="flex items-start space-x-3">
                         {msg.type === "bot" && (
-                          <div className="flex-shrink-0 mt-0.5">
-                            <div className="p-1 bg-blue-100 rounded-full">
-                              <Bot size={12} className="text-blue-600" />
+                          <div className="flex-shrink-0">
+                            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
+                              <Bot size={16} className="text-white" />
                             </div>
                           </div>
                         )}
-                        <p className="text-xs whitespace-pre-wrap leading-relaxed text-black">
-                          {msg.content}
-                        </p>
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm leading-relaxed whitespace-pre-wrap">
+                            {msg.content}
+                          </p>
+                          <p
+                            className={`text-xs mt-2 font-medium ${
+                              msg.type === "user" ? "text-blue-100" : "text-gray-500"
+                            }`}
+                          >
+                            {msg.timestamp.toLocaleTimeString([], {
+                              hour: "2-digit",
+                              minute: "2-digit",
+                            })}
+                          </p>
+                        </div>
                         {msg.type === "user" && (
-                          <div className="flex-shrink-0 mt-0.5">
-                            <div className="p-1 bg-blue-200 rounded-full">
-                              <User size={12} className="text-blue-700" />
+                          <div className="flex-shrink-0">
+                            <div className="w-8 h-8 bg-blue-200 rounded-full flex items-center justify-center">
+                              <User size={16} className="text-blue-700" />
                             </div>
                           </div>
                         )}
                       </div>
-                      <p
-                        className={`text-[10px] mt-2 font-medium ${
-                          msg.type === "user" ? "text-blue-200" : "text-gray-700"
-                        }`}
-                      >
-                        {msg.timestamp.toLocaleTimeString([], {
-                          hour: "2-digit",
-                          minute: "2-digit",
-                        })}
-                      </p>
                     </div>
                   </div>
                 ))}
                 {loading && (
-                  <div className="flex justify-start text-black">
-                    <div className="bg-white border border-blue-100 rounded-2xl p-3 shadow-sm">
-                      <div className="flex items-center space-x-2">
-                        <div className="p-1 bg-blue-100 rounded-full">
-                          <Bot size={12} className="text-blue-600" />
+                  <div className="flex justify-start">
+                    <div className="bg-white border border-gray-200 rounded-2xl p-4 shadow-sm max-w-[85%]">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
+                          <Bot size={16} className="text-white" />
                         </div>
-                        <div className="flex space-x-1">
-                          <div className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-bounce"></div>
+                        <div className="flex space-x-2">
+                          <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce"></div>
                           <div
-                            className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-bounce"
+                            className="w-2 h-2 bg-blue-400 rounded-full animate-bounce"
                             style={{ animationDelay: "0.1s" }}
                           ></div>
                           <div
-                            className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-bounce"
+                            className="w-2 h-2 bg-blue-400 rounded-full animate-bounce"
                             style={{ animationDelay: "0.2s" }}
                           ></div>
                         </div>
@@ -256,11 +262,11 @@ export default function Chatbot() {
             )}
           </div>
 
-          {/* Input */}
-          <div className="p-3 border-t border-blue-100 bg-white rounded-b-2xl text-black">
-            <div className="flex space-x-2">
+          {/* Input Area */}
+          <div className="border-t border-gray-200 bg-white p-4">
+            <div className="flex space-x-3">
               <textarea
-                className="flex-1 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 text-black resize-none text-xs bg-white placeholder-gray-600"
+                className="flex-1 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm text-gray-800 placeholder-gray-500 resize-none bg-white transition-all duration-200"
                 rows={2}
                 value={question}
                 onChange={(e) => setQuestion(e.target.value)}
@@ -271,18 +277,19 @@ export default function Chatbot() {
               <button
                 onClick={sendMessage}
                 disabled={loading || !question.trim()}
-                className="bg-gradient-to-br from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white p-3 rounded-xl transition-all duration-200 self-end"
+                className="bg-gradient-to-br from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 disabled:from-gray-400 disabled:to-gray-500 text-white p-3 rounded-xl transition-all duration-200 self-end disabled:cursor-not-allowed shadow-sm hover:shadow-md"
               >
-                <Send size={16} />
+                <Send size={18} />
               </button>
             </div>
-            <div className="flex items-center justify-center space-x-3 mt-2 text-[10px] text-black">
-              <div className="flex items-center space-x-1">
-                <Shield size={10} className="text-green-500" />
-                <span>Secure</span>
+            <div className="flex items-center justify-center space-x-4 mt-3 text-xs text-gray-600">
+              <div className="flex items-center space-x-1.5">
+                <Shield size={12} className="text-green-500" />
+                <span>Secure & Private</span>
               </div>
-              <div className="flex items-center space-x-1">
-                <Zap size={10} className="text-yellow-500" />
+              <div className="w-px h-3 bg-gray-300"></div>
+              <div className="flex items-center space-x-1.5">
+                <Zap size={12} className="text-yellow-500" />
                 <span>AI Powered</span>
               </div>
             </div>
@@ -292,4 +299,3 @@ export default function Chatbot() {
     </>
   );
 }
-

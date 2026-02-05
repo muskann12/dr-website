@@ -30,6 +30,7 @@ const BrainAneurysmCoiling = () => {
   );
   // ...existing code...
   const [openFaq, setOpenFaq] = useState(0);
+  const [activeId, setActiveId] = useState(sections[0].id);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

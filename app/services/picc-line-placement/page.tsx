@@ -7,7 +7,7 @@ const PICCLinePlacement = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>PICC Line Placement | Your Clinic Name</title>
+        <title>PICC Line Placement | Dr. Yousuf Memon Clinic</title>
         <meta name="description" content="Safe, long-term IV access for antibiotics, chemotherapy, and other treatments. Learn about PICC line placement and care." />
       </Head>
 

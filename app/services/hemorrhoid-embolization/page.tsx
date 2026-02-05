@@ -18,7 +18,20 @@ const HemorrhoidEmbolization = () => {
           content="hemorrhoid embolization Pakistan, piles treatment without surgery, minimally invasive hemorrhoid treatment, hemorrhoidal artery embolization, THD procedure Pakistan, best piles doctor in Karachi"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.dryousufmemon.com/services/hemorrhoid-embolization" />
+        <link rel="canonical" href="https://dryousufmemon.com/services/hemorrhoid-embolization" />
+
+        {/* Open Graph (Facebook/LinkedIn) */}
+        <meta property="og:title" content="Hemorrhoid Embolization in Pakistan | Dr. Yousuf Memon Clinic" />
+        <meta property="og:description" content="Minimally invasive piles treatment by Dr. Yousuf Memon. No surgery, quick recovery, high success rate. Book your consultation in Karachi, Pakistan." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://dryousufmemon.com/services/hemorrhoid-embolization" />
+        <meta property="og:image" content="https://dryousufmemon.com/images/hemorrhoid-embolization.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hemorrhoid Embolization in Pakistan | Dr. Yousuf Memon Clinic" />
+        <meta name="twitter:description" content="Painless, non-surgical hemorrhoid treatment by Dr. Yousuf Memon. Fast recovery, high success rate in Pakistan." />
+        <meta name="twitter:image" content="https://dryousufmemon.com/images/hemorrhoid-embolization.jpg" />
       </Head>
 
       {/* Enhanced schema markup */}

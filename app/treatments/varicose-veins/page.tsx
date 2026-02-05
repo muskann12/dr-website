@@ -22,7 +22,7 @@ export default function VaricoseVeins() {
         <meta name="author" content="Dr. Yousuf Memon" />
         <link
           rel="canonical"
-          href="https://www.dryousufmemon.pk/treatments/varicose-veins"
+          href="https://dryousufmemon.com/treatments/varicose-veins"
         />
 
         {/* Open Graph SEO */}
@@ -33,11 +33,11 @@ export default function VaricoseVeins() {
         />
         <meta
           property="og:image"
-          content="https://www.dryousufmemon.pk/images/varicose-veins.jpg"
+          content="https://dryousufmemon.com/images/varicose-veins.jpg"
         />
         <meta
           property="og:url"
-          content="https://www.dryousufmemon.pk/treatments/varicose-veins"
+          content="https://dryousufmemon.com/treatments/varicose-veins"
         />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_PK" />
@@ -54,7 +54,7 @@ export default function VaricoseVeins() {
         />
         <meta
           name="twitter:image"
-          content="https://www.dryousufmemon.pk/images/varicose-veins.jpg"
+          content="https://dryousufmemon.com/images/varicose-veins.jpg"
         />
 
         {/* Structured Data (JSON-LD Schema) */}
@@ -67,7 +67,7 @@ export default function VaricoseVeins() {
               name: "Varicose Veins Treatment in Pakistan",
               description:
                 "Dr. Yousuf Memon provides advanced laser varicose veins treatment in Pakistan. Minimally invasive and painless vein care.",
-              url: "https://www.dryousufmemon.pk/treatments/varicose-veins",
+              url: "https://dryousufmemon.com/treatments/varicose-veins",
               mainEntity: {
                 "@type": "MedicalCondition",
                 name: "Varicose Veins",
@@ -86,14 +86,14 @@ export default function VaricoseVeins() {
                 "@type": "Person",
                 name: "Dr. Yousuf Memon",
                 jobTitle: "Interventional Radiologist",
-                url: "https://www.dryousufmemon.pk"
+                url: "https://dryousufmemon.com"
               },
               publisher: {
                 "@type": "Organization",
                 name: "Dr. Yousuf Memon Clinic",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://www.dryousufmemon.pk/images/logo.png"
+                  url: "https://dryousufmemon.com/images/logo.png"
                 }
               }
             }),

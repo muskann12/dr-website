@@ -17,8 +17,16 @@ const IVCFilterDVT = () => {
           name="keywords"
           content="IVC filter Pakistan, DVT treatment Karachi, pulmonary embolism prevention, blood clot filter, minimally invasive vascular procedure, interventional radiology Pakistan"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.dryousufmemon.com/services/ivc-filter-dvt" />
+        <meta property="og:title" content="IVC Filter for DVT in Pakistan | Pulmonary Embolism Prevention | Dr. Yousuf Memon" />
+        <meta property="og:description" content="Prevent pulmonary embolism with IVC filter placement by Dr. Yousuf Memon. Safe, minimally invasive DVT treatment in Pakistan." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dryousufmemon.com/services/ivc-filter-placement" />
+        <meta property="og:image" content="https://www.dryousufmemon.com/gallery/images/ivc-filter-dvt.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="IVC Filter for DVT in Pakistan | Pulmonary Embolism Prevention | Dr. Yousuf Memon" />
+        <meta name="twitter:description" content="Get expert IVC filter placement for DVT in Pakistan. Book your procedure with Dr. Yousuf Memon, top interventional radiologist." />
+        <meta name="twitter:image" content="https://www.dryousufmemon.com/gallery/images/ivc-filter-dvt.jpg" />
+        <link rel="canonical" href="https://www.dryousufmemon.com/services/ivc-filter-placement" />
       </Head>
 
       {/* Enhanced schema markup */}

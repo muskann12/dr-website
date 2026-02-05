@@ -21,7 +21,7 @@ const VaricoceleEmbolization = () => {
         />
 
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.dryousufmemon.com/treatments/varicocele-embolization" />
+        <link rel="canonical" href="https://dryousufmemon.com/treatments/varicocele-embolization" />
 
         {/* Structured Data */}
         <script
@@ -35,8 +35,8 @@ const VaricoceleEmbolization = () => {
               "medicalSpecialty": "Endovascular Surgery",
               "procedureType": "Non-surgical treatment for male infertility",
               "bodyLocation": "Scrotum, Testicular Veins",
-              "image": "https://www.dryousufmemon.com/images/varicocele-embolization.jpg",
-              "url": "https://www.dryousufmemon.com/treatments/varicocele-embolization",
+              "image": "https://dryousufmemon.com/images/varicocele-embolization.jpg",
+              "url": "https://dryousufmemon.com/treatments/varicocele-embolization",
               "performer": {
                 "@type": "Physician",
                 "name": "Dr. Yousuf Memon",
@@ -48,7 +48,7 @@ const VaricoceleEmbolization = () => {
                   "addressLocality": "Karachi, Lahore, Islamabad, Peshawar, Hyderabad, Rawalpindi"
                 },
                 "telephone": "+92-336-7889143",
-                "url": "https://www.dryousufmemon.com"
+                "url": "https://dryousufmemon.com"
               },
               "areaServed": [
                 "Karachi",

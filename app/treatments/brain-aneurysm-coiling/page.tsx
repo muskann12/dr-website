@@ -77,7 +77,7 @@ const BrainAneurysmCoiling = () => {
     "description": "Endovascular brain aneurysm coiling treatment in Pakistan performed by Dr. Yousuf Memon, Interventional Radiologist.",
     "procedureType": "Minimally Invasive Endovascular Surgery",
     "howPerformed": "Catheter is inserted via groin, coils placed in aneurysm to seal it.",
-    "url": "https://yourdomain.com/treatments/brain-aneurysm-coiling",
+    "url": "https://dryousufmemon.com/treatments/brain-aneurysm-coiling",
     "provider": {
       "@type": "Physician",
       "name": "Dr. Yousuf Memon",
@@ -91,7 +91,7 @@ const BrainAneurysmCoiling = () => {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://yourdomain.com/treatments/brain-aneurysm-coiling"
+      "@id": "https://dryousufmemon.com/treatments/brain-aneurysm-coiling"
     }
   };
 
@@ -112,9 +112,9 @@ const BrainAneurysmCoiling = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yourdomain.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://yourdomain.com/treatments" },
-      { "@type": "ListItem", "position": 3, "name": "Brain Aneurysm Coiling", "item": "https://yourdomain.com/treatments/brain-aneurysm-coiling" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryousufmemon.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://dryousufmemon.com/treatments" },
+      { "@type": "ListItem", "position": 3, "name": "Brain Aneurysm Coiling", "item": "https://dryousufmemon.com/treatments/brain-aneurysm-coiling" }
     ]
   };
 

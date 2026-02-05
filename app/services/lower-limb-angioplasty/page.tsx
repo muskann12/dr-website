@@ -7,7 +7,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Lower Limb Angioplasty for Diabetic Foot | Your Clinic Name</title>
+        <title>Lower Limb Angioplasty for Diabetic Foot | Dr. Yousuf Memon Clinic</title>
         <meta name="description" content="Minimally invasive treatment to restore blood flow in diabetic foot patients. Learn about procedures, benefits, and risks." />
       </Head>
 

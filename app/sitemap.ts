@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://dryousufmemon.pk";
+  const baseUrl = "https://www.dryousufmemon.com";
 
   return [
     // 🏠 Main Pages
@@ -36,8 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/treatments/venous-leak`, lastModified: new Date() },
     { url: `${baseUrl}/treatments/ozone-disc-herniation`, lastModified: new Date() },
 
-    // 🆕 Manually Added New Pages (yeh tumhare do naye pages hain)
-    { url: `${baseUrl}/newpage1`, lastModified: new Date() },
-    { url: `${baseUrl}/newpage2`, lastModified: new Date() },
+    // 🆕 Latest Treatment Page
+    { url: `${baseUrl}/treatments/varicose-veins-latest`, lastModified: new Date() },
   ];
 }

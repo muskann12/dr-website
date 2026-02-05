@@ -33,7 +33,8 @@ const OzoneDryEyesSinusesWrinkles = () => {
               },
               "telephone": "+92-336-7889143",
               "openingHours": "Mo,Th 14:00-16:00",
-              "medicalSpecialty": "Ozone Therapy"
+              "medicalSpecialty": "Ozone Therapy",
+              "url": "https://dryousufmemon.com/treatments/eye-treatment"
             }
           `}
         </script>

@@ -29,7 +29,8 @@ const OzoneJointTherapy = () => {
                   "addressCountry": "PK"
                 }
               },
-              "medicalSpecialty": "Joint Pain Treatment"
+              "medicalSpecialty": "Joint Pain Treatment",
+              "url": "https://dryousufmemon.com/treatments/ozone-joint-treatment"
             }
           `}
         </script>

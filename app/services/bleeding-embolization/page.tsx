@@ -18,7 +18,20 @@ export default function GIBleedingEmbolization() {
           content="GI bleeding embolization Pakistan, gastrointestinal bleeding treatment Karachi, minimally invasive GI bleeding procedure, non-surgical treatment for GI bleed, severe rectal bleeding treatment, vomiting blood treatment options, best doctor for GI bleeding in Pakistan"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.dryousufmemon.com/services/gi-bleeding-embolization" />
+        <link rel="canonical" href="https://dryousufmemon.com/services/bleeding-embolization" />
+
+        {/* Open Graph (Facebook/LinkedIn) */}
+        <meta property="og:title" content="GI Bleeding Embolization in Pakistan | Dr. Yousuf Memon Clinic" />
+        <meta property="og:description" content="Life-saving, minimally invasive GI bleeding embolization by Dr. Yousuf Memon. Fast recovery, high success rate. Book emergency care in Karachi, Pakistan." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://dryousufmemon.com/services/bleeding-embolization" />
+        <meta property="og:image" content="https://dryousufmemon.com/images/gi-bleeding.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="GI Bleeding Embolization in Pakistan | Dr. Yousuf Memon Clinic" />
+        <meta name="twitter:description" content="Advanced GI bleeding embolization by Dr. Yousuf Memon. Non-surgical, fast recovery, emergency care in Pakistan." />
+        <meta name="twitter:image" content="https://dryousufmemon.com/images/gi-bleeding.jpg" />
       </Head>
 
       {/* Enhanced schema markup */}

@@ -17,7 +17,15 @@ const HemoptysisEmbolization = () => {
           name="keywords"
           content="hemoptysis treatment Pakistan, lung bleeding embolization, blood in sputum treatment, bronchial artery embolization, TB hemoptysis treatment, minimally invasive lung procedure"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Hemoptysis Embolization in Pakistan | Lung Bleeding Treatment | Dr. Yousuf Memon" />
+        <meta property="og:description" content="Stop severe lung bleeding with expert hemoptysis embolization by Dr. Yousuf Memon. Emergency care for TB, cancer, and bronchiectasis cases in Pakistan." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dryousufmemon.com/services/hemoptysis-embolization" />
+        <meta property="og:image" content="https://www.dryousufmemon.com/gallery/images/hemoptysis-embolization.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hemoptysis Embolization in Pakistan | Lung Bleeding Treatment | Dr. Yousuf Memon" />
+        <meta name="twitter:description" content="Life-saving hemoptysis embolization for lung bleeding. Book emergency treatment with Dr. Yousuf Memon, Pakistan's top IR specialist." />
+        <meta name="twitter:image" content="https://www.dryousufmemon.com/gallery/images/hemoptysis-embolization.jpg" />
         <link rel="canonical" href="https://www.dryousufmemon.com/services/hemoptysis-embolization" />
       </Head>
 

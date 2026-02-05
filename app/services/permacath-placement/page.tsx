@@ -7,7 +7,7 @@ const PermacathPlacement = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Permacath Placement for Dialysis | Your Clinic Name</title>
+        <title>Permacath Placement for Dialysis | Dr. Yousuf Memon Clinic</title>
         <meta name="description" content="Long-term dialysis access solution with Permacath placement. Learn about the procedure, benefits, and care." />
       </Head>
 

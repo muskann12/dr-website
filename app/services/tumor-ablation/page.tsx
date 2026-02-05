@@ -20,23 +20,23 @@ const MicrowaveAblation = () => {
         />
 
         {/* Open Graph (Facebook/LinkedIn) */}
-        <meta property="og:title" content="Microwave Tumor Ablation (MWA) in Pakistan" />
+        <meta property="og:title" content="Microwave Tumor Ablation in Pakistan | Dr. Yousuf Memon Clinic" />
         <meta
           property="og:description"
-          content="Learn how Microwave Ablation (MWA) offers precise, minimally invasive treatment for liver, breast, and thyroid tumors in Pakistan."
+          content="Microwave Tumor Ablation (MWA) by Dr. Yousuf Memon: advanced, minimally invasive treatment for liver, breast, thyroid, and kidney tumors in Pakistan. Fast recovery, high precision."
         />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://yourclinic.com/services/microwave-ablation" />
-        <meta property="og:image" content="https://yourclinic.com/images/microwave.png" />
+        <meta property="og:url" content="https://dryousufmemon.com/services/tumor-ablation" />
+        <meta property="og:image" content="https://dryousufmemon.com/images/microwave.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Microwave Tumor Ablation (MWA) in Pakistan" />
+        <meta name="twitter:title" content="Microwave Tumor Ablation in Pakistan | Dr. Yousuf Memon Clinic" />
         <meta
           name="twitter:description"
-          content="MWA is a safe, minimally invasive treatment for tumors. Effective for liver, thyroid, and breast cancers."
+          content="MWA by Dr. Yousuf Memon: safe, precise, and minimally invasive tumor treatment for liver, thyroid, and breast cancers in Pakistan."
         />
-        <meta name="twitter:image" content="https://yourclinic.com/images/microwave.png" />
+        <meta name="twitter:image" content="https://dryousufmemon.com/images/microwave.png" />
 
         {/* Structured Data (JSON-LD) */}
         <script
@@ -60,7 +60,7 @@ const MicrowaveAblation = () => {
               },
               publisher: {
                 "@type": "MedicalOrganization",
-                name: "Your Clinic Name",
+                name: "Dr. Yousuf Memon Clinic",
                 url: "https://yourclinic.com",
               },
             }),

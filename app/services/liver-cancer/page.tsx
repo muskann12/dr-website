@@ -7,8 +7,19 @@ const LiverCancerCirrhosis = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Liver Cancer & Cirrhosis Treatment (TACE) | Your Clinic Name</title>
-        <meta name="description" content="Specialized TACE treatment for hepatocellular carcinoma (HCC) in cirrhotic patients. Minimally invasive procedure to control tumor growth and improve survival." />
+        <title>Liver Cancer & Cirrhosis Treatment (TACE) | Dr. Yousuf Memon Clinic</title>
+        <meta name="description" content="Specialized TACE treatment for hepatocellular carcinoma (HCC) in cirrhotic patients. Minimally invasive procedure to control tumor growth and improve survival. Treated by Dr. Yousuf Memon, leading interventional radiologist in Pakistan." />
+        <meta name="keywords" content="liver cancer treatment Pakistan, TACE procedure, cirrhosis therapy, hepatocellular carcinoma, interventional radiology Karachi, Dr. Yousuf Memon" />
+        <meta property="og:title" content="Liver Cancer & Cirrhosis Treatment (TACE) | Dr. Yousuf Memon Clinic" />
+        <meta property="og:description" content="Get advanced TACE treatment for liver cancer and cirrhosis in Pakistan. Improve survival and quality of life with minimally invasive care by Dr. Yousuf Memon." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dryousufmemon.com/services/liver-cancer" />
+        <meta property="og:image" content="https://www.dryousufmemon.com/gallery/images/liver-cancer-tace.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Liver Cancer & Cirrhosis Treatment (TACE) | Dr. Yousuf Memon Clinic" />
+        <meta name="twitter:description" content="Specialized TACE for liver cancer and cirrhosis. Book a consultation with Dr. Yousuf Memon, Pakistan's leading interventional radiologist." />
+        <meta name="twitter:image" content="https://www.dryousufmemon.com/gallery/images/liver-cancer-tace.jpg" />
+        <link rel="canonical" href="https://www.dryousufmemon.com/services/liver-cancer" />
       </Head>
 
       {/* Hero Section */}

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Contact Dr. Yousuf Memon – Clinics in Pakistan",
     description:
       "Reach out to Dr. Muhammad Yousuf Memon for appointments at Karachi, Hyderabad, Lahore, Rahim Yar Khan and Peshawar. Advanced Interventional Radiology & Ozone Therapy treatments.",
-    url: "https://dryousufmemon.pk/contact",
+    url: "https://www.dryousufmemon.com/contact",
     siteName: "Dr. Yousuf Memon",
     locale: "en_PK",
     type: "website",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     site: "@dryousufmemon",
   },
   alternates: {
-    canonical: "https://dryousufmemon.pk/contact",
+    canonical: "https://www.dryousufmemon.com/contact",
   },
 };
 

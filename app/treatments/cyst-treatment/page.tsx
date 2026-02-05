@@ -20,7 +20,7 @@ export default function CystTreatment() {
         />
         <link
           rel="canonical"
-          href="https://yourdomain.com/treatments/cyst-treatment"
+          href="https://dryousufmemon.com/treatments/cyst-treatment"
         />
       </Head>
 

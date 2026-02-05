@@ -8,20 +8,20 @@ export default function UterineFibroidEmbolization() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Uterine Fibroid Embolization (UFE) — Non-surgical Fibroid Treatment in Pakistan",
-    "url": "https://dryousufmemon.pk/services/uterine-fibroid-embolization",
+    "url": "https://www.dryousufmemon.com/services/uterine-fibroid-embolization",
     "description": "Uterine Fibroid Embolization (UFE) offered by Dr. Yousuf Memon in Karachi, Lahore, Islamabad, Peshawar & Rahim Yar Khan. Minimally invasive fibroid treatment, fast recovery, uterus-preserving.",
     "inLanguage": "en",
     "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "https://dryousufmemon.pk/images/ufe-treatment.jpg",
+      "url": "https://www.dryousufmemon.com/gallery/images/ufe-treatment.jpg",
       "caption": "Uterine Fibroid Embolization — Non-surgical fibroid treatment in Pakistan"
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryousufmemon.pk/" },
-        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://dryousufmemon.pk/services" },
-        { "@type": "ListItem", "position": 3, "name": "Uterine Fibroid Embolization", "item": "https://dryousufmemon.pk/services/uterine-fibroid-embolization" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.dryousufmemon.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.dryousufmemon.com/services" },
+        { "@type": "ListItem", "position": 3, "name": "Uterine Fibroid Embolization", "item": "https://www.dryousufmemon.com/services/uterine-fibroid-embolization" }
       ]
     }
   };
@@ -38,12 +38,12 @@ export default function UterineFibroidEmbolization() {
     "followup": "Follow-up visits at 1 week, 1 month, 3 months and 6 months to monitor shrinkage and symptom improvement.",
     "outcome": "Reduction in fibroid size and symptoms; uterus preserved in most patients.",
     "bodyLocation": "Uterus",
-    "url": "https://dryousufmemon.pk/services/uterine-fibroid-embolization",
+    "url": "https://www.dryousufmemon.com/services/uterine-fibroid-embolization",
     "performer": {
       "@type": "Physician",
       "name": "Dr. Yousuf Memon",
       "medicalSpecialty": "Interventional Radiology",
-      "url": "https://dryousufmemon.pk"
+      "url": "https://www.dryousufmemon.com"
     }
   };
 
@@ -98,9 +98,9 @@ export default function UterineFibroidEmbolization() {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "name": "Dr. Yousuf Memon — Interventional Radiology Clinic",
-    "url": "https://dryousufmemon.pk",
-    "logo": "https://dryousufmemon.pk/images/logo.png",
-    "image": "https://dryousufmemon.pk/images/dr-yousuf-memon.jpg",
+    "url": "https://www.dryousufmemon.com",
+    "logo": "https://www.dryousufmemon.com/gallery/images/logo.png",
+    "image": "https://www.dryousufmemon.com/gallery/images/dr-yousuf-memon.jpg",
     "telephone": "+923367889143",
     "description": "Interventional radiology services including Uterine Fibroid Embolization (UFE) in Karachi, Lahore, Islamabad, Hyderabad & Rahim Yar Khan.",
     "address": {
@@ -140,15 +140,15 @@ export default function UterineFibroidEmbolization() {
         <meta name="description" content="Uterine Fibroid Embolization (UFE) in Pakistan — Karachi, Lahore, Islamabad, Peshawar & Rahim Yar Khan. Minimally invasive, uterus-preserving fibroid treatment by Dr. Yousuf Memon. Fast recovery, high symptom relief." />
         <meta name="keywords" content="UFE Pakistan, uterine fibroid embolization Karachi, fibroid treatment Lahore, non-surgical fibroid removal Islamabad, fibroid doctor Peshawar, UFE Rahim Yar Khan, Dr Yousuf Memon" />
         <meta name="author" content="Dr. Yousuf Memon" />
-        <link rel="canonical" href="https://dryousufmemon.pk/services/uterine-fibroid-embolization" />
-        <link rel="alternate" href="https://dryousufmemon.pk/services/uterine-fibroid-embolization" hrefLang="en" />
-        <link rel="alternate" href="https://dryousufmemon.pk/ur/services/uterine-fibroid-embolization" hrefLang="ur" />
+        <link rel="canonical" href="https://www.dryousufmemon.com/services/uterine-fibroid-embolization" />
+        <link rel="alternate" href="https://www.dryousufmemon.com/services/uterine-fibroid-embolization" hrefLang="en" />
+        <link rel="alternate" href="https://www.dryousufmemon.com/ur/services/uterine-fibroid-embolization" hrefLang="ur" />
 
         {/* Open Graph */}
         <meta property="og:title" content="Uterine Fibroid Embolization (UFE) — Non-surgical Fibroid Treatment in Pakistan" />
         <meta property="og:description" content="Get UFE in Karachi, Lahore, Islamabad, Peshawar & Rahim Yar Khan by Dr. Yousuf Memon. Minimally invasive treatment that preserves the uterus — fast recovery & proven results." />
-        <meta property="og:image" content="https://dryousufmemon.pk/images/ufe-treatment.jpg" />
-        <meta property="og:url" content="https://dryousufmemon.pk/services/uterine-fibroid-embolization" />
+        <meta property="og:image" content="https://www.dryousufmemon.com/gallery/images/ufe-treatment.jpg" />
+        <meta property="og:url" content="https://www.dryousufmemon.com/services/uterine-fibroid-embolization" />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_PK" />
         <meta property="og:site_name" content="Dr Yousuf Memon — Interventional Radiology" />
@@ -157,7 +157,7 @@ export default function UterineFibroidEmbolization() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Uterine Fibroid Embolization (UFE) in Pakistan — Dr. Yousuf Memon" />
         <meta name="twitter:description" content="Non-surgical UFE performed in Karachi, Lahore, Islamabad and more. Preserve your uterus and get relief from heavy bleeding, pain and bulk symptoms." />
-        <meta name="twitter:image" content="https://dryousufmemon.pk/images/ufe-treatment.jpg" />
+        <meta name="twitter:image" content="https://www.dryousufmemon.com/gallery/images/ufe-treatment.jpg" />
 
         {/* Structured Data */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />

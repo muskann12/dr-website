@@ -7,8 +7,19 @@ const InterventionalTreatments = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>IR Treatments for Tumors & Cysts | Your Clinic Name</title>
-        <meta name="description" content="Minimally invasive treatments for tumors and cysts using advanced interventional radiology techniques" />
+        <title>IR Treatments for Tumors & Cysts | Dr. Yousuf Memon Clinic</title>
+        <meta name="description" content="Minimally invasive treatments for tumors and cysts using advanced interventional radiology techniques by Dr. Yousuf Memon, top interventional radiologist in Pakistan." />
+        <meta name="keywords" content="meningioma treatment Pakistan, tumor ablation, cyst drainage, interventional radiology Karachi, Dr. Yousuf Memon, minimally invasive tumor treatment" />
+        <meta property="og:title" content="IR Treatments for Tumors & Cysts | Dr. Yousuf Memon Clinic" />
+        <meta property="og:description" content="Discover advanced, minimally invasive treatments for tumors and cysts. Book your procedure with Dr. Yousuf Memon, Pakistan's leading IR specialist." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dryousufmemon.com/services/meningioma-treatment" />
+        <meta property="og:image" content="https://www.dryousufmemon.com/gallery/images/ir-tumor-cyst-treatment.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="IR Treatments for Tumors & Cysts | Dr. Yousuf Memon Clinic" />
+        <meta name="twitter:description" content="Minimally invasive tumor and cyst treatments by Dr. Yousuf Memon. Safe, effective, and advanced IR care in Pakistan." />
+        <meta name="twitter:image" content="https://www.dryousufmemon.com/gallery/images/ir-tumor-cyst-treatment.jpg" />
+        <link rel="canonical" href="https://www.dryousufmemon.com/services/meningioma-treatment" />
       </Head>
 
       {/* Hero Section */}

@@ -29,7 +29,8 @@ const OzoneDiscTreatment = () => {
                   "addressCountry": "PK"
                 }
               },
-              "medicalSpecialty": "Spine Treatment"
+              "medicalSpecialty": "Spine Treatment",
+              "url": "https://dryousufmemon.com/treatments/ozone-disc-herniation"
             }
           `}
         </script>

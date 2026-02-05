@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://dryousufmemon.pk',
+  siteUrl: 'https://dryousufmemon.com',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: 'weekly',
@@ -35,4 +35,7 @@ module.exports = {
       },
     ],
   },
-}
+    additionalPaths: async (config) => [
+      await config.transform(config, '/treatments/varicose-veins-latest'),
+    ],
+  }

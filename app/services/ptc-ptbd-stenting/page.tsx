@@ -7,7 +7,7 @@ const PTCStenting = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>PTC, PTBD & CBD Stenting | Your Clinic Name</title>
+        <title>PTC, PTBD & CBD Stenting | Dr. Yousuf Memon Clinic</title>
         <meta name="description" content="Minimally invasive procedures for bile duct obstruction. Diagnosis and treatment with PTC, PTBD and CBD stenting." />
       </Head>
 

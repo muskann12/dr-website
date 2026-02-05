@@ -45,16 +45,16 @@ const VenousLeakEmbolization = () => {
     followup: "Follow-up visits at 1 week and 1–3 months to assess outcomes and healing.",
     outcome: "Improved erectile firmness and duration in carefully selected patients.",
     performer: { "@type": "Physician", name: "Dr. Yousuf Memon", medicalSpecialty: "Interventional Radiology" },
-    url: "https://yourdomain.com/treatments/venous-leak-embolization"
+    url: "https://dryousufmemon.com/treatments/venous-leak-embolization"
   };
 
   const breadcrumb = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yourdomain.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://yourdomain.com/treatments" },
-      { "@type": "ListItem", "position": 3, "name": "Venous Leak Embolization", "item": "https://yourdomain.com/treatments/venous-leak-embolization" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryousufmemon.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://dryousufmemon.com/treatments" },
+      { "@type": "ListItem", "position": 3, "name": "Venous Leak Embolization", "item": "https://dryousufmemon.com/treatments/venous-leak-embolization" }
     ]
   };
 

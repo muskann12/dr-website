@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-      },
+        },
+        fontDisplay: {
+          swap: true,
+        },
     },
   },
   plugins: [

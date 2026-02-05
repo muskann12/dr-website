@@ -7,7 +7,9 @@ const OzoneJointTherapy = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">Ozone Therapy for Joint Pain in Pakistan</h1>
-        <p className="text-gray-700 mb-6"><strong>Ozone Therapy for Joint Pain in Pakistan</strong> is a natural, non-surgical solution for knee, shoulder, and back pain. Dr. Yousuf Memon provides expert ozone therapy for fast pain relief nationwide.</p>
+        <p className="text-gray-700 mb-6">
+          <strong>Ozone Therapy for Joint Pain in Pakistan</strong> is a natural, non-surgical solution for knee, shoulder, and back pain. Dr. Yousuf Memon provides expert ozone therapy for fast pain relief nationwide. With ozone therapy for joint pain in Pakistan, patients benefit from a safe, effective, and minimally invasive treatment that promotes healing and restores mobility without surgery.
+        </p>
       </div>
       <Head>
         <title>Ozone Therapy for Joint Pain in Pakistan | Dr. Yousuf Memon</title>
@@ -40,11 +42,10 @@ const OzoneJointTherapy = () => {
         </script>
       </Head>
 
-      {/* Hero Section */}
+      {/* Hero Section (remove duplicate H1) */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ozone Therapy for Joint Pain in Pakistan</h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">A natural, non-surgical solution available in Karachi, Lahore & Hyderabad</p>
+          <p className="text-xl md:text-2xl max-w-3xl mx-auto font-bold mb-4">A natural, non-surgical solution available in Karachi, Lahore & Hyderabad</p>
         </div>
       </div>
 
@@ -52,9 +53,9 @@ const OzoneJointTherapy = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-blue-600 transition">Home</a></li>
+            <li><a href="/" className="hover:text-blue-600 transition">Dr. Yousuf Memon Home</a></li>
             <li><span className="text-gray-400">/</span></li>
-            <li><a href="/treatments" className="hover:text-blue-600 transition">Treatments</a></li>
+            <li><a href="/treatments" className="hover:text-blue-600 transition">Ozone & Joint Pain Treatments</a></li>
             <li><span className="text-gray-400">/</span></li>
             <li className="text-blue-600 font-medium">Ozone Joint Therapy</li>
           </ol>

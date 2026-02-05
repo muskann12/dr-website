@@ -25,7 +25,18 @@ const BrainAneurysmCoiling = () => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-blue-900 mb-4">Brain Aneurysm Coiling in Pakistan</h1>
-      <p className="text-gray-700 mb-6"><strong>Brain Aneurysm Coiling in Pakistan</strong> is a minimally invasive procedure for treating brain aneurysms. Dr. Yousuf Memon provides expert coiling for safe, effective results nationwide.</p>
+      <p className="text-gray-700 mb-6">
+        <strong>Brain Aneurysm Coiling in Pakistan</strong> is a minimally invasive procedure for treating brain aneurysms. Dr. Yousuf Memon provides expert coiling for safe and effective results nationwide. With advanced brain aneurysm coiling in Pakistan, patients benefit from a safer alternative to open surgery, faster recovery, and improved outcomes for brain health.
+      </p>
+      <nav className="flex" aria-label="Breadcrumb">
+        <ol className="flex items-center space-x-2 text-sm text-gray-600">
+          <li><a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a></li>
+          <li><span>/</span></li>
+          <li><a href="/treatments" className="hover:text-blue-600">Brain & Neurovascular Treatments</a></li>
+          <li><span>/</span></li>
+          <li className="text-blue-600">Brain Aneurysm Coiling</li>
+        </ol>
+      </nav>
     </div>
   );
   // ...existing code...

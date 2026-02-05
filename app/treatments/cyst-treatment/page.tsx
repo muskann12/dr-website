@@ -7,7 +7,9 @@ export default function CystTreatment() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-teal-900 mb-4">Cyst Treatment in Pakistan</h1>
-        <p className="text-gray-700 mb-6"><strong>Cyst Treatment in Pakistan</strong> is a safe, minimally invasive procedure for sebaceous, ovarian, and other cysts. Dr. Yousuf Memon provides expert cyst removal for fast, effective results nationwide.</p>
+        <p className="text-gray-700 mb-6">
+          <strong>Cyst Treatment in Pakistan</strong> is a safe, minimally invasive procedure for sebaceous, ovarian, and other types of cysts. Dr. Yousuf Memon provides expert cyst removal for fast and effective results nationwide. With advanced techniques, cyst treatment in Pakistan is now more comfortable and offers a quicker recovery, ensuring the best care for patients seeking cyst removal.
+        </p>
       </div>
       <Head>
         <title>
@@ -28,14 +30,10 @@ export default function CystTreatment() {
         />
       </Head>
 
-      {/* Hero Section */}
+      {/* Hero Section (remove duplicate H1) */}
       <section className="bg-teal-900 text-white py-16 px-6 text-center">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">
-          Cyst Treatment in Pakistan
-        </h1>
-        <p className="max-w-3xl mx-auto text-lg">
-          Expert diagnosis and safe removal of different types of cysts with
-          advanced minimally invasive methods by Dr. Yousuf Memon.
+        <p className="max-w-3xl mx-auto text-lg font-bold mb-4">
+          Expert diagnosis and safe removal of different types of cysts with advanced minimally invasive methods by Dr. Yousuf Memon.
         </p>
       </section>
 

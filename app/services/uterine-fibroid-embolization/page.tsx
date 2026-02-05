@@ -172,9 +172,9 @@ export default function UterineFibroidEmbolization() {
       {/* HERO */}
       <header className="bg-gradient-to-r from-blue-900 to-teal-700 text-white py-20">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+          <p className="text-3xl md:text-5xl font-extrabold leading-tight mb-4">
             Uterine Fibroid Embolization in Pakistan
-          </h1>
+          </p>
           <p className="text-lg md:text-xl max-w-3xl mb-6">
             Safe, minimally invasive uterine fibroid treatment by <strong>Dr. Yousuf Memon</strong>. Available in <strong>Karachi, Lahore, Islamabad, Peshawar</strong> and <strong>Rahim Yar Khan</strong>. Preserve your uterus and return to normal life quickly.
           </p>
@@ -190,9 +190,9 @@ export default function UterineFibroidEmbolization() {
       {/* Breadcrumb */}
       <nav className="max-w-6xl mx-auto px-6 py-4 text-sm text-gray-600" aria-label="breadcrumb">
         <ol className="flex gap-2">
-          <li><a href="/" className="hover:text-blue-800">Home</a></li>
+          <li><a href="/" className="hover:text-blue-800">Dr. Yousuf Memon Home</a></li>
           <li>/</li>
-          <li><a href="/services" className="hover:text-blue-800">Services</a></li>
+          <li><a href="/services" className="hover:text-blue-800">Uterine Fibroid & Women's Health Services</a></li>
           <li>/</li>
           <li className="text-blue-900 font-medium">Uterine Fibroid Embolization</li>
         </ol>

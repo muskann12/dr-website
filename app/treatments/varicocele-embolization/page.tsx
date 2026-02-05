@@ -7,7 +7,18 @@ const VaricoceleEmbolization = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">Varicocele Embolization in Pakistan</h1>
-        <p className="text-gray-700 mb-6"><strong>Varicocele Embolization in Pakistan</strong> is a non-surgical, minimally invasive treatment for male infertility. Dr. Yousuf Memon provides expert varicocele embolization for safe, effective results nationwide.</p>
+        <p className="text-gray-700 mb-6">
+          <strong>Varicocele Embolization in Pakistan</strong> is a non-surgical, minimally invasive treatment for male infertility. Dr. Yousuf Memon provides expert varicocele embolization for safe and effective results nationwide. With advanced techniques, varicocele embolization in Pakistan offers a painless solution, quick recovery, and improved fertility outcomes for men seeking the best care.
+        </p>
+        <nav className="flex" aria-label="Breadcrumb">
+          <ol className="flex items-center space-x-2 text-sm text-gray-600">
+            <li><a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a></li>
+            <li><span>/</span></li>
+            <li><a href="/treatments" className="hover:text-blue-600">Varicocele & Male Fertility Treatments</a></li>
+            <li><span>/</span></li>
+            <li className="text-blue-600">Varicocele Embolization</li>
+          </ol>
+        </nav>
       </div>
       <Head>
         <title>
@@ -70,10 +81,8 @@ const VaricoceleEmbolization = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-800 to-teal-600 text-white py-24">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Non-Surgical Varicocele Treatment in Pakistan
-          </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">
+          <p className="text-2xl md:text-3xl font-bold mb-4">
+            Non-Surgical Varicocele Treatment in Pakistan<br />
             3D Precision-Guided Endovascular Embolization by Dr. Yousuf Memon – the safest, most advanced solution for male infertility.
           </p>
           <p className="text-lg mt-4 max-w-3xl mx-auto">

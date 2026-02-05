@@ -8,7 +8,18 @@ export default function VaricoseVeins() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">Varicose Veins Treatment in Pakistan</h1>
-        <p className="text-gray-700 mb-6"><strong>Varicose Veins Treatment in Pakistan</strong> is a painless, minimally invasive laser procedure for varicose veins. Dr. Yousuf Memon provides expert treatment for fast, safe results nationwide.</p>
+        <p className="text-gray-700 mb-6">
+          <strong>Varicose Veins Treatment in Pakistan</strong> is a painless, minimally invasive laser procedure designed to treat varicose veins effectively. Dr. Yousuf Memon offers expert varicose veins treatment for fast, safe results across Pakistan. With advanced laser technology, patients experience quick recovery and improved comfort, making this one of the best options for varicose veins treatment in Pakistan.
+        </p>
+        <nav className="flex" aria-label="Breadcrumb">
+          <ol className="flex items-center space-x-2 text-sm text-gray-600">
+            <li><a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a></li>
+            <li><span>/</span></li>
+            <li><a href="/treatments" className="hover:text-blue-600">Varicose Veins & Vascular Treatments</a></li>
+            <li><span>/</span></li>
+            <li className="text-blue-600">Varicose Veins Treatment</li>
+          </ol>
+        </nav>
       </div>
       <Head>
         <title>
@@ -107,9 +118,6 @@ export default function VaricoseVeins() {
 
       {/* Hero Section */}
       <div className="relative bg-teal-900 text-white py-16 px-6 lg:px-20 text-center">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">
-          Varicose Veins Treatment in Pakistan
-        </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed">
           Experience the most advanced{" "}
           <strong>laser varicose veins treatment</strong> in Pakistan with{" "}
@@ -117,6 +125,7 @@ export default function VaricoseVeins() {
           interventional radiologist offering safe, painless and effective vein
           solutions in Karachi.
         </p>
+          <p className="max-w-3xl mx-auto text-lg font-bold mb-4">Advanced, painless laser varicose veins treatment in Karachi, Pakistan.</p>
       </div>
 
       {/* Main Content Section */}

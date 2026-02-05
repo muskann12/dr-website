@@ -25,8 +25,8 @@ const LiverCancerCirrhosis = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-900 to-blue-800 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Liver Cancer & Cirrhosis Treatment in Pakistan</h1>
-          <p className="text-xl md:text-2xl">Advanced TACE treatment for hepatocellular carcinoma (HCC)</p>
+          <p className="text-4xl md:text-5xl font-bold mb-4">Liver Cancer & Cirrhosis Treatment in Pakistan</p>
+          <p className="text-xl md:text-2xl font-bold mb-4">Advanced TACE treatment for hepatocellular carcinoma (HCC)</p>
         </div>
       </div>
 
@@ -35,13 +35,13 @@ const LiverCancerCirrhosis = () => {
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
             <li>
-              <a href="/" className="hover:text-blue-600">Home</a>
+              <a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a>
             </li>
             <li>
               <span>/</span>
             </li>
             <li>
-              <a href="/services" className="hover:text-blue-600">Services</a>
+              <a href="/services" className="hover:text-blue-600">Liver Cancer & Cirrhosis Services</a>
             </li>
             <li>
               <span>/</span>

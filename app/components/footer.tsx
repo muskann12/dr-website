@@ -13,6 +13,24 @@ export default function Footer() {
     >
       <meta itemProp="name" content="Dr. Yousuf Memon - Cardiologist & Interventional Radiologist" />
       <meta itemProp="url" content="https://dryousufmemon.pk" />
+      {/* Schema.org sameAs for social links */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Dr. Yousuf Memon - Cardiologist & Interventional Radiologist",
+            "url": "https://dryousufmemon.pk",
+            "sameAs": [
+              "https://www.facebook.com/share/15ynPLZRA9/",
+              "https://www.youtube.com/@Dr.YousufMemon",
+              "https://twitter.com/dr_yousuf_memon",
+              "https://www.linkedin.com/in/dr-yousuf-memon-b9208b362"
+            ]
+          })
+        }}
+      />
       
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         

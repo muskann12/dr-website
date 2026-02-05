@@ -1,9 +1,7 @@
 'use client';
-
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-
-const Navbar = () => {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [treatmentsOpen, setTreatmentsOpen] = useState(false);
@@ -39,6 +37,7 @@ const Navbar = () => {
     setServicesOpen(!servicesOpen);
     setTreatmentsOpen(false);
   };
+
   const toggleTreatments = (e: React.MouseEvent) => {
     e.stopPropagation();
     setTreatmentsOpen(!treatmentsOpen);
@@ -53,8 +52,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav 
+    <nav
       ref={navRef}
+      aria-label="Main navigation"
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled ? 'bg-white shadow-lg py-2' : 'bg-white/95 backdrop-blur-sm py-4'
       }`}
@@ -63,8 +63,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <Link 
-              href="/" 
+            <Link
+              href="/"
               className="text-2xl font-extrabold text-teal-700 hover:text-green-700 transition-colors"
               onClick={closeMobileMenu}
             >
@@ -73,38 +73,42 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            <Link 
-              href="/" 
-              className="text-gray-700 hover:text-teal-800font-medium transition-colors px-2 py-1 rounded"
-            >
-              Home
-            </Link>
-            <Link 
-              href="/about" 
-              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
-            >
-              About
-            </Link>
-            
+          <ul className="hidden md:flex items-center space-x-6 lg:space-x-8 list-none m-0 p-0">
+            <li>
+              <Link
+                href="/"
+                className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
+              >
+                About
+              </Link>
+            </li>
             {/* Services Dropdown */}
-            <div className="relative">
-              <button 
+            <li className="relative">
+              <button
                 className="text-gray-700 hover:text-teal-800 font-medium flex items-center px-2 py-1 rounded transition-colors"
                 onClick={toggleServices}
+                type="button"
               >
                 Services
-                <svg 
-                  className={`w-4 h-4 ml-1 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24" 
+                <svg
+                  className={`w-4 h-4 ml-1 transition-transform ${servicesOpen ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div 
+              <div
                 className={`absolute left-0 mt-2 w-72 bg-white rounded-lg shadow-xl py-2 z-50 transition-all duration-200 origin-top ${
                   servicesOpen ? 'scale-y-100 opacity-100' : 'scale-y-95 opacity-0 pointer-events-none'
                 }`}
@@ -124,7 +128,7 @@ const Navbar = () => {
                   { href: "/services/meningioma-treatment", text: "Treatment of Meningioma, Angiofibroma, Cysts, and Endometriotic Cysts" },
                   { href: "/services/picc-line-placement", text: "PICC Line Placement for Long-Term Antibiotics and Chemotherapy" }
                 ].map((item, index) => (
-                  <Link 
+                  <Link
                     key={index}
                     href={item.href}
                     className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-teal-800 transition-colors"
@@ -133,26 +137,26 @@ const Navbar = () => {
                   </Link>
                 ))}
               </div>
-            </div>
-            
+            </li>
             {/* Latest Treatment Dropdown */}
-            <div className="relative">
-              <button 
+            <li className="relative">
+              <button
                 className="text-gray-700 hover:text-teal-800 font-medium flex items-center px-2 py-1 rounded transition-colors"
                 onClick={toggleTreatments}
+                type="button"
               >
                 Latest Treatment
-                <svg 
-                  className={`w-4 h-4 ml-1 transition-transform ${treatmentsOpen ? 'rotate-180' : ''}`} 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24" 
+                <svg
+                  className={`w-4 h-4 ml-1 transition-transform ${treatmentsOpen ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div 
+              <div
                 className={`absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-xl py-2 z-50 transition-all duration-200 origin-top ${
                   treatmentsOpen ? 'scale-y-100 opacity-100' : 'scale-y-95 opacity-0 pointer-events-none'
                 }`}
@@ -166,7 +170,7 @@ const Navbar = () => {
                   { href: "/treatments/varicocele-embolization", text: "Varicocele Embolization" },
                   { href: "/treatments/brain-aneurysm-coiling", text: "Brain Aneurysm Coiling" },
                 ].map((item, index) => (
-                  <Link 
+                  <Link
                     key={index}
                     href={item.href}
                     className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-teal-800 transition-colors"
@@ -175,27 +179,32 @@ const Navbar = () => {
                   </Link>
                 ))}
               </div>
-            </div>
-            
-            <Link 
-              href="/gallery" 
-              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
-            >
-              Gallery
-            </Link>
-            <Link 
-              href="/youtube" 
-              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
-            >
-              Youtube
-            </Link>
-            <Link 
-              href="/contact" 
-              className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
-            >
-              Contact
-            </Link>
-          </div>
+            </li>
+            <li>
+              <Link
+                href="/gallery"
+                className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/youtube"
+                className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
+              >
+                Youtube
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className="text-gray-700 hover:text-teal-800 font-medium transition-colors px-2 py-1 rounded"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
@@ -349,6 +358,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;

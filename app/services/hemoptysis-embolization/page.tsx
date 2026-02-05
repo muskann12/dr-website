@@ -68,8 +68,8 @@ const HemoptysisEmbolization = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Hemoptysis Embolization in Pakistan</h1>
-          <p className="text-xl md:text-2xl">Life-saving minimally invasive treatment for severe lung bleeding</p>
+          <p className="text-4xl md:text-5xl font-bold mb-4">Hemoptysis Embolization in Pakistan</p>
+          <p className="text-xl md:text-2xl font-bold mb-4">Life-saving minimally invasive treatment for severe lung bleeding</p>
           <div className="mt-6">
             <a href="tel:+923367889143" className="bg-white text-blue-800 font-semibold py-3 px-6 rounded-lg hover:bg-blue-50 transition inline-block">
               Emergency Contact: +92 336-7889143
@@ -82,9 +82,9 @@ const HemoptysisEmbolization = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a></li>
             <li><span>/</span></li>
-            <li><a href="/services" className="hover:text-blue-600">Services</a></li>
+            <li><a href="/services" className="hover:text-blue-600">Lung Bleeding & Emergency IR Services</a></li>
             <li><span>/</span></li>
             <li className="text-blue-600">Hemoptysis Embolization</li>
           </ol>

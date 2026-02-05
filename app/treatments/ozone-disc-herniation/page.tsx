@@ -7,7 +7,9 @@ const OzoneDiscTreatment = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-teal-900 mb-4">Ozone Therapy for Disc Herniation in Pakistan</h1>
-        <p className="text-gray-700 mb-6"><strong>Ozone Therapy for Disc Herniation in Pakistan</strong> is a minimally invasive, non-surgical treatment for herniated discs. Dr. Yousuf Memon provides expert ozone therapy for back pain relief nationwide.</p>
+        <p className="text-gray-700 mb-6">
+          <strong>Ozone Therapy for Disc Herniation in Pakistan</strong> is a minimally invasive, non-surgical treatment for herniated discs. Dr. Yousuf Memon provides expert ozone therapy for back pain relief nationwide. This advanced ozone therapy for disc herniation in Pakistan helps patients avoid surgery, experience less pain, and recover faster, making it a leading choice for spine care.
+        </p>
       </div>
       <Head>
         <title>Ozone Therapy for Disc Herniation in Pakistan | Dr. Yousuf Memon</title>
@@ -40,11 +42,10 @@ const OzoneDiscTreatment = () => {
         </script>
       </Head>
 
-      {/* Hero Section */}
+      {/* Hero Section (remove duplicate H1) */}
       <div className="relative bg-gradient-to-r from-teal-700 to-emerald-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ozone Therapy for Disc Herniation in Pakistan</h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">A non-surgical alternative for back pain relief available in Karachi, Lahore & Hyderabad</p>
+          <p className="text-xl md:text-2xl max-w-3xl mx-auto font-bold mb-4">A non-surgical alternative for back pain relief available in Karachi, Lahore & Hyderabad</p>
         </div>
       </div>
 
@@ -52,9 +53,9 @@ const OzoneDiscTreatment = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-teal-600 transition">Home</a></li>
+            <li><a href="/" className="hover:text-teal-600 transition">Dr. Yousuf Memon Home</a></li>
             <li><span className="text-gray-400">/</span></li>
-            <li><a href="/treatments" className="hover:text-teal-600 transition">Treatments</a></li>
+            <li><a href="/treatments" className="hover:text-teal-600 transition">Ozone & Spine Treatments</a></li>
             <li><span className="text-gray-400">/</span></li>
             <li className="text-teal-600 font-medium">Ozone Disc Therapy</li>
           </ol>

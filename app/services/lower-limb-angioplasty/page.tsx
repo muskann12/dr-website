@@ -27,9 +27,9 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a></li>
             <li><span>/</span></li>
-            <li><a href="/services" className="hover:text-blue-600">Services</a></li>
+            <li><a href="/services" className="hover:text-blue-600">All Vascular & Diabetic Foot Services</a></li>
             <li><span>/</span></li>
             <li className="text-blue-600">Lower Limb Angioplasty for Diabetic Foot</li>
           </ol>

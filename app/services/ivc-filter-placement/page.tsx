@@ -71,8 +71,8 @@ const IVCFilterDVT = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">IVC Filter for DVT in Pakistan</h1>
-          <p className="text-xl md:text-2xl">Life-saving pulmonary embolism prevention when blood thinners can't be used</p>
+          <p className="text-4xl md:text-5xl font-bold mb-4">IVC Filter for DVT in Pakistan</p>
+          <p className="text-xl md:text-2xl font-bold mb-4">Life-saving pulmonary embolism prevention when blood thinners can't be used</p>
           <div className="mt-6">
             <a href="tel:+923367889143" className="bg-white text-blue-800 font-semibold py-3 px-6 rounded-lg hover:bg-blue-50 transition inline-block">
               Emergency Consultation: +92 336-7889143

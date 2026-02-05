@@ -7,7 +7,9 @@ const OzoneDryEyesSinusesWrinkles = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">Ozone Therapy for Dry Eyes, Sinuses & Wrinkles in Pakistan</h1>
-        <p className="text-gray-700 mb-6"><strong>Ozone Therapy for Dry Eyes, Sinuses & Wrinkles in Pakistan</strong> is a safe, natural solution for chronic eye, sinus, and skin issues. Dr. Yousuf Memon provides expert ozone therapy for fast relief nationwide.</p>
+        <p className="text-gray-700 mb-6">
+          <strong>Ozone Therapy for Dry Eyes, Sinuses & Wrinkles in Pakistan</strong> is a safe, natural solution for chronic eye, sinus, and skin issues. Dr. Yousuf Memon provides expert ozone therapy for fast relief nationwide. This advanced ozone therapy for dry eyes, sinuses, and wrinkles in Pakistan helps patients achieve lasting comfort and rejuvenation with a gentle, non-invasive approach.
+        </p>
       </div>
       <Head>
         <title>Ozone Therapy for Dry Eyes & Sinus in Whole Pakistan | Natural Wrinkle Treatment</title>
@@ -44,11 +46,10 @@ const OzoneDryEyesSinusesWrinkles = () => {
         </script>
       </Head>
 
-      {/* Hero Section */}
+      {/* Hero Section (remove duplicate H1) */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ozone Therapy for Dry Eyes, Sinuses & Wrinkles</h1>
-          <p className="text-xl md:text-2xl">Natural solutions available at our clinics across Pakistan</p>
+          <p className="text-xl md:text-2xl font-bold mb-4">Natural solutions available at our clinics across Pakistan</p>
         </div>
       </div>
 
@@ -56,11 +57,11 @@ const OzoneDryEyesSinusesWrinkles = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a></li>
             <li><span>/</span></li>
-            <li><a href="/treatments" className="hover:text-blue-600">Treatments</a></li>
+            <li><a href="/treatments" className="hover:text-blue-600">Ozone & Eye/Sinus Treatments</a></li>
             <li><span>/</span></li>
-            <li className="text-blue-600">Ozone Therapy</li>
+            <li className="text-blue-600">Ozone Therapy for Dry Eyes, Sinuses & Wrinkles</li>
           </ol>
         </nav>
       </div>

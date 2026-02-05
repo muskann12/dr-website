@@ -80,6 +80,11 @@ export default function Chatbot() {
     }
   };
 
+  // ...existing code...
+
+  // In the returned JSX, wrap the chat history/messages in a <ul aria-label="Chat messages"> and each message in <li> with role="listitem".
+
+
   const clearChat = () => setMessages([]);
 
   useEffect(() => {
@@ -93,6 +98,8 @@ export default function Chatbot() {
       setMessages([welcomeMessage]);
     }
   }, [isOpen]);
+
+  // ...existing code...
 
   return (
     <>

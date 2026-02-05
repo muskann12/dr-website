@@ -18,8 +18,8 @@ const PTCStenting = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-700 to-emerald-700 text-white py-16">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">PTC, PTBD & CBD Stenting</h1>
-          <p className="text-lg md:text-xl">Minimally invasive solutions for bile duct obstructions</p>
+          <p className="text-3xl md:text-4xl font-bold mb-4">PTC, PTBD & CBD Stenting</p>
+          <p className="text-lg md:text-xl font-bold mb-4">Minimally invasive solutions for bile duct obstructions</p>
         </div>
       </div>
 
@@ -27,9 +27,9 @@ const PTCStenting = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-teal-600">Home</a></li>
+            <li><a href="/" className="hover:text-teal-600">Dr. Yousuf Memon Home</a></li>
             <li><span>/</span></li>
-            <li><a href="/services" className="hover:text-teal-600">Services</a></li>
+            <li><a href="/services" className="hover:text-teal-600">Biliary & Liver Services</a></li>
             <li><span>/</span></li>
             <li className="text-teal-600">PTC/PTBD with Stenting</li>
           </ol>

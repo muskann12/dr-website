@@ -76,8 +76,8 @@ export default function GIBleedingEmbolization() {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-green-800 to-teal-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">GI Bleeding Embolization in Pakistan</h1>
-          <p className="text-xl md:text-2xl">Life-saving minimally invasive treatment for severe gastrointestinal bleeding</p>
+          <p className="text-4xl md:text-5xl font-bold mb-4">GI Bleeding Embolization in Pakistan</p>
+          <p className="text-xl md:text-2xl font-bold mb-4">Life-saving minimally invasive treatment for severe gastrointestinal bleeding</p>
           <div className="mt-6">
             <a href="tel:+923367889143" className="bg-white text-green-800 font-semibold py-3 px-6 rounded-lg hover:bg-green-50 transition inline-block">
               Emergency Contact: +92 336-7889143
@@ -89,12 +89,12 @@ export default function GIBleedingEmbolization() {
       {/* Breadcrumbs */}
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
-          <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-green-600">Home</a></li>
-            <li><span>/</span></li>
-            <li><a href="/services" className="hover:text-green-600">Services</a></li>
-            <li><span>/</span></li>
-            <li className="text-green-600">GI Bleeding Embolization</li>
+            <ol className="flex items-center space-x-2 text-sm text-gray-600">
+              <li><a href="/" className="hover:text-green-600">Dr. Yousuf Memon Home</a></li>
+              <li><span>/</span></li>
+              <li><a href="/services" className="hover:text-green-600">GI Bleeding & Emergency IR Services</a></li>
+              <li><span>/</span></li>
+              <li className="text-green-600">GI Bleeding Embolization</li>
           </ol>
         </nav>
       </div>

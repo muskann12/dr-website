@@ -25,8 +25,8 @@ const InterventionalTreatments = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Meningioma, Tumor & Cyst Treatment in Pakistan</h1>
-          <p className="text-xl md:text-2xl">Image-guided, minimally invasive solutions for tumors and cysts</p>
+          <p className="text-4xl md:text-5xl font-bold mb-4">Meningioma, Tumor & Cyst Treatment in Pakistan</p>
+          <p className="text-xl md:text-2xl font-bold mb-4">Image-guided, minimally invasive solutions for tumors and cysts</p>
         </div>
       </div>
 
@@ -34,9 +34,9 @@ const InterventionalTreatments = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
-            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><a href="/" className="hover:text-blue-600">Dr. Yousuf Memon Home</a></li>
             <li><span>/</span></li>
-            <li><a href="/services" className="hover:text-blue-600">Services</a></li>
+            <li><a href="/services" className="hover:text-blue-600">Tumor, Cyst & IR Services</a></li>
             <li><span>/</span></li>
             <li className="text-blue-600">IR Treatments</li>
           </ol>

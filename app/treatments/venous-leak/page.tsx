@@ -33,6 +33,16 @@ const VenousLeakEmbolization = () => {
       }
     ]
   };
+  // H1 and intro for SEO
+  // (Insert at the top of the return statement)
+  // ...existing code...
+  // Add this block inside the main return div, before other content
+  // <div className="max-w-3xl mx-auto px-4 py-8">
+  //   <h1 className="text-3xl font-bold text-blue-900 mb-4">Venous Leak Embolization in Pakistan</h1>
+  //   <p className="text-gray-700 mb-6">
+  //     <strong>Venous Leak Embolization in Pakistan</strong> is a minimally invasive procedure for treating venous leak. Dr. Yousuf Memon provides expert venous leak embolization for safe and effective results nationwide. With advanced venous leak embolization in Pakistan, patients benefit from a non-surgical solution, quick recovery, and improved quality of life.
+  //   </p>
+  // </div>
 
   const medicalProcedure = {
     "@context": "https://schema.org",
@@ -61,6 +71,12 @@ const VenousLeakEmbolization = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Venous Leak Embolization in Pakistan</h1>
+        <p className="text-gray-700 mb-6">
+          <strong>Venous Leak Embolization in Pakistan</strong> is a minimally invasive procedure for treating venous leak. Dr. Yousuf Memon provides expert venous leak embolization for safe and effective results nationwide. With advanced venous leak embolization in Pakistan, patients benefit from a non-surgical solution, quick recovery, and improved quality of life.
+        </p>
+      </div>
       <Head>
         <title>Venous Leak Embolization in Pakistan | Erectile Dysfunction Treatment — Dr Yousuf Memon</title>
         <meta name="description" content="Advanced venous leak embolization in Karachi & across Pakistan by Dr. Yousuf Memon. Minimally invasive, high success rates, confidential care for erectile dysfunction." />

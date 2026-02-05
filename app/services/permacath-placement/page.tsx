@@ -40,7 +40,8 @@ const PermacathPlacement = () => {
             {/* Overview */}
             <section className="mb-8">
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">About Permacath</h2>
+                  <h1 className="text-3xl font-bold text-gray-800 mb-4">What is Permacath Placement?</h1>
+                  <h2 className="text-2xl font-bold text-gray-800 mb-4">About Permacath</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-gray-700 mb-4">

@@ -7,8 +7,8 @@ const LiverCancerCirrhosis = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Liver Cancer & Cirrhosis Treatment (TACE) | Dr. Yousuf Memon Clinic</title>
-        <meta name="description" content="Specialized TACE treatment for hepatocellular carcinoma (HCC) in cirrhotic patients. Minimally invasive procedure to control tumor growth and improve survival. Treated by Dr. Yousuf Memon, leading interventional radiologist in Pakistan." />
+        <title>Liver Cancer & Cirrhosis Treatment in Pakistan | TACE by Dr. Yousuf Memon</title>
+        <meta name="description" content="Get advanced liver cancer and cirrhosis treatment in Pakistan with TACE. Dr. Yousuf Memon offers minimally invasive procedures for improved survival and quality of life in Karachi, Lahore, and nationwide." />
         <meta name="keywords" content="liver cancer treatment Pakistan, TACE procedure, cirrhosis therapy, hepatocellular carcinoma, interventional radiology Karachi, Dr. Yousuf Memon" />
         <meta property="og:title" content="Liver Cancer & Cirrhosis Treatment (TACE) | Dr. Yousuf Memon Clinic" />
         <meta property="og:description" content="Get advanced TACE treatment for liver cancer and cirrhosis in Pakistan. Improve survival and quality of life with minimally invasive care by Dr. Yousuf Memon." />
@@ -25,7 +25,7 @@ const LiverCancerCirrhosis = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-teal-900 to-blue-800 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Liver Cancer Due to Cirrhosis</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Liver Cancer & Cirrhosis Treatment in Pakistan</h1>
           <p className="text-xl md:text-2xl">Advanced TACE treatment for hepatocellular carcinoma (HCC)</p>
         </div>
       </div>
@@ -63,6 +63,9 @@ const LiverCancerCirrhosis = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Understanding Liver Cancer and Cirrhosis</h2>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <p className="text-gray-700 mb-4">
+                  <strong>Liver Cancer & Cirrhosis Treatment in Pakistan</strong> is now available with advanced TACE procedures by Dr. Yousuf Memon. These minimally invasive treatments help control tumor growth and improve survival for patients nationwide.
+                </p>
+                <p className="text-gray-700">
                   Liver cancer often develops in the context of liver cirrhosis, which is the scarring of the liver tissue due to chronic liver damage. Common causes of cirrhosis include chronic hepatitis B or C infections, long-term alcohol abuse, and non-alcoholic fatty liver disease (NAFLD).
                 </p>
                 <p className="text-gray-700">
@@ -259,16 +262,16 @@ const LiverCancerCirrhosis = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-4">Related Conditions</h3>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Hepatitis B & C</a>
+                    <a href="/services/hepatitis-b-c" className="text-blue-600 hover:underline">Learn about Hepatitis B & C</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Liver Cirrhosis</a>
+                    <a href="/services/liver-cirrhosis" className="text-blue-600 hover:underline">Liver Cirrhosis Information</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Non-Alcoholic Fatty Liver Disease</a>
+                    <a href="/services/fatty-liver" className="text-blue-600 hover:underline">Non-Alcoholic Fatty Liver Disease Details</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Portal Hypertension</a>
+                    <a href="/services/portal-hypertension" className="text-blue-600 hover:underline">Portal Hypertension Overview</a>
                   </li>
                 </ul>
               </div>
@@ -278,16 +281,16 @@ const LiverCancerCirrhosis = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-4">Other Treatment Options</h3>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Radiofrequency Ablation (RFA)</a>
+                    <a href="/services/rfa" className="text-blue-600 hover:underline">Radiofrequency Ablation (RFA) Treatment</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Yttrium-90 Radioembolization</a>
+                    <a href="/services/yttrium-90-radioembolization" className="text-blue-600 hover:underline">Yttrium-90 Radioembolization Info</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Liver Transplantation</a>
+                    <a href="/services/liver-transplant" className="text-blue-600 hover:underline">Liver Transplantation Services</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Systemic Therapies</a>
+                    <a href="/services/systemic-therapies" className="text-blue-600 hover:underline">Systemic Therapies for Liver Cancer</a>
                   </li>
                 </ul>
               </div>

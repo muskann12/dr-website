@@ -2,7 +2,13 @@ import React from 'react';
 import Head from 'next/head';
 
 const VenousLeakEmbolization = () => {
-  const faq = {
+  return (
+    <div className="max-w-3xl mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold text-blue-900 mb-4">Venous Leak Embolization in Pakistan</h1>
+      <p className="text-gray-700 mb-6"><strong>Venous Leak Embolization in Pakistan</strong> is a minimally invasive procedure for erectile dysfunction due to venous leak. Dr. Yousuf Memon provides expert embolization for improved outcomes nationwide.</p>
+    </div>
+  );
+  // ...existing code...
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [

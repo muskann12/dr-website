@@ -22,7 +22,13 @@ const sections = [
 ];
 
 const BrainAneurysmCoiling = () => {
-  const [activeId, setActiveId] = useState('overview');
+  return (
+    <div className="max-w-3xl mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold text-blue-900 mb-4">Brain Aneurysm Coiling in Pakistan</h1>
+      <p className="text-gray-700 mb-6"><strong>Brain Aneurysm Coiling in Pakistan</strong> is a minimally invasive procedure for treating brain aneurysms. Dr. Yousuf Memon provides expert coiling for safe, effective results nationwide.</p>
+    </div>
+  );
+  // ...existing code...
   const [openFaq, setOpenFaq] = useState(0);
 
   useEffect(() => {

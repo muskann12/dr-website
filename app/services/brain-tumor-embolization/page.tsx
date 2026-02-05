@@ -7,6 +7,10 @@ import Script from 'next/script';
 const BrainTumorEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Brain Tumor Embolization in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Brain Tumor Embolization in Pakistan</strong> is a minimally invasive procedure for safer brain tumor surgery. Dr. Yousuf Memon provides expert care for meningiomas, gliomas, and other tumors nationwide.</p>
+      </div>
       <Head>
         <title>Brain Tumor Embolization in Pakistan | Minimally Invasive Treatment | Dr. Yousuf Memon</title>
         <meta 
@@ -17,7 +21,6 @@ const BrainTumorEmbolization = () => {
           name="keywords"
           content="brain tumor embolization Pakistan, meningioma treatment Karachi, AVM embolization, minimally invasive brain procedure, neurointerventional radiology Pakistan, brain tumor treatment options"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.dryousufmemon.com/services/brain-tumor-embolization" />
       </Head>
 

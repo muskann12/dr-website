@@ -5,6 +5,10 @@ import Head from "next/head";
 export default function CystTreatment() {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-teal-900 mb-4">Cyst Treatment in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Cyst Treatment in Pakistan</strong> is a safe, minimally invasive procedure for sebaceous, ovarian, and other cysts. Dr. Yousuf Memon provides expert cyst removal for fast, effective results nationwide.</p>
+      </div>
       <Head>
         <title>
           Cyst Treatment in Pakistan | Minimally Invasive Cyst Removal | Dr

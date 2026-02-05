@@ -134,10 +134,10 @@ export default function UterineFibroidEmbolization() {
   return (
     <div className="min-h-screen bg-gray-50 leading-relaxed text-gray-800">
       <Head>
-        <title>Uterine Fibroid Embolization (UFE) — Non-surgical Fibroid Treatment in Pakistan | Dr. Yousuf Memon</title>
+        <title>Uterine Fibroid Embolization in Pakistan | Non-surgical Fibroid Treatment by Dr. Yousuf Memon</title>
 
         {/* Primary Meta */}
-        <meta name="description" content="Uterine Fibroid Embolization (UFE) in Pakistan — Karachi, Lahore, Islamabad, Peshawar & Rahim Yar Khan. Minimally invasive, uterus-preserving fibroid treatment by Dr. Yousuf Memon. Fast recovery, high symptom relief." />
+        <meta name="description" content="Get the best uterine fibroid embolization (UFE) in Pakistan. Dr. Yousuf Memon offers non-surgical, minimally invasive fibroid treatment for fast recovery and uterus preservation in Karachi, Lahore, Islamabad, Peshawar & Rahim Yar Khan." />
         <meta name="keywords" content="UFE Pakistan, uterine fibroid embolization Karachi, fibroid treatment Lahore, non-surgical fibroid removal Islamabad, fibroid doctor Peshawar, UFE Rahim Yar Khan, Dr Yousuf Memon" />
         <meta name="author" content="Dr. Yousuf Memon" />
         <link rel="canonical" href="https://www.dryousufmemon.com/services/uterine-fibroid-embolization" />
@@ -173,7 +173,7 @@ export default function UterineFibroidEmbolization() {
       <header className="bg-gradient-to-r from-blue-900 to-teal-700 text-white py-20">
         <div className="max-w-6xl mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-            Uterine Fibroid Embolization (UFE) — Non-surgical Fibroid Treatment in Pakistan
+            Uterine Fibroid Embolization in Pakistan
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mb-6">
             Safe, minimally invasive uterine fibroid treatment by <strong>Dr. Yousuf Memon</strong>. Available in <strong>Karachi, Lahore, Islamabad, Peshawar</strong> and <strong>Rahim Yar Khan</strong>. Preserve your uterus and return to normal life quickly.

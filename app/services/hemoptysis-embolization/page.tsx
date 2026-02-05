@@ -8,10 +8,10 @@ const HemoptysisEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Hemoptysis Embolization in Pakistan | Lung Bleeding Treatment | Dr. Yousuf Memon</title>
+        <title>Hemoptysis Embolization in Pakistan | Lung Bleeding Treatment by Dr. Yousuf Memon</title>
         <meta 
           name="description" 
-          content="Dr. Yousuf Memon offers life-saving hemoptysis embolization in Pakistan - minimally invasive treatment for severe lung bleeding. Effective for TB, bronchiectasis & lung cancer cases. Emergency services available." 
+          content="Get expert hemoptysis embolization in Pakistan for severe lung bleeding. Dr. Yousuf Memon offers minimally invasive, emergency treatment for TB, bronchiectasis, and lung cancer in Karachi, Lahore, and nationwide." 
         />
         <meta
           name="keywords"
@@ -101,6 +101,9 @@ const HemoptysisEmbolization = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">What is Hemoptysis (Blood in Sputum)?</h2>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <p className="text-gray-700 mb-4">
+                  <strong>Hemoptysis Embolization in Pakistan</strong> is a life-saving, minimally invasive treatment for severe lung bleeding. Dr. Yousuf Memon provides expert care for TB, bronchiectasis, and lung cancer cases nationwide.
+                </p>
+                <p className="text-gray-700">
                   Hemoptysis refers to coughing up blood from the lungs or airways, ranging from mild blood-streaked sputum to life-threatening massive hemorrhage. In Pakistan, common causes include tuberculosis (TB), bronchiectasis, and lung infections - conditions particularly prevalent in our population.
                 </p>
                 <p className="text-gray-700">

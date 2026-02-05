@@ -7,8 +7,8 @@ const InterventionalTreatments = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>IR Treatments for Tumors & Cysts | Dr. Yousuf Memon Clinic</title>
-        <meta name="description" content="Minimally invasive treatments for tumors and cysts using advanced interventional radiology techniques by Dr. Yousuf Memon, top interventional radiologist in Pakistan." />
+        <title>Meningioma, Tumor & Cyst Treatment in Pakistan | Minimally Invasive IR by Dr. Yousuf Memon</title>
+        <meta name="description" content="Get the best meningioma, tumor, and cyst treatment in Pakistan. Dr. Yousuf Memon offers minimally invasive interventional radiology procedures for safe, effective results in Karachi, Lahore, and nationwide." />
         <meta name="keywords" content="meningioma treatment Pakistan, tumor ablation, cyst drainage, interventional radiology Karachi, Dr. Yousuf Memon, minimally invasive tumor treatment" />
         <meta property="og:title" content="IR Treatments for Tumors & Cysts | Dr. Yousuf Memon Clinic" />
         <meta property="og:description" content="Discover advanced, minimally invasive treatments for tumors and cysts. Book your procedure with Dr. Yousuf Memon, Pakistan's leading IR specialist." />
@@ -25,7 +25,7 @@ const InterventionalTreatments = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Interventional Radiology Treatments</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Meningioma, Tumor & Cyst Treatment in Pakistan</h1>
           <p className="text-xl md:text-2xl">Image-guided, minimally invasive solutions for tumors and cysts</p>
         </div>
       </div>
@@ -110,7 +110,7 @@ const InterventionalTreatments = () => {
             {/* Condition-Specific Treatments */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8">Condition-Specific IR Treatments</h2>
-              
+              <p className="text-gray-700 mb-6"><strong>Meningioma, Tumor & Cyst Treatment in Pakistan</strong> is available with advanced interventional radiology procedures by Dr. Yousuf Memon. These treatments are minimally invasive and provide safe, effective results for patients nationwide.</p>
               {/* Meningioma */}
               <div className="bg-white rounded-lg shadow-md p-8 mb-10">
                 <div className="flex items-center mb-6">

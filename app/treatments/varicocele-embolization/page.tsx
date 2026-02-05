@@ -5,6 +5,10 @@ import Head from 'next/head';
 const VaricoceleEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Varicocele Embolization in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Varicocele Embolization in Pakistan</strong> is a non-surgical, minimally invasive treatment for male infertility. Dr. Yousuf Memon provides expert varicocele embolization for safe, effective results nationwide.</p>
+      </div>
       <Head>
         <title>
           Best Varicocele Embolization Treatment in Pakistan | Dr. Yousuf Memon – Karachi, Lahore, Islamabad, Peshawar, Hyderabad

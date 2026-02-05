@@ -6,6 +6,10 @@ import Image from 'next/image';
 const LowerLimbAngioplastyDiabeticFoot = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Lower Limb Angioplasty for Diabetic Foot in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Lower Limb Angioplasty for Diabetic Foot in Pakistan</strong> is a minimally invasive procedure to restore blood flow and prevent complications. Dr. Yousuf Memon provides expert angioplasty for diabetic foot patients nationwide.</p>
+      </div>
       <Head>
         <title>Lower Limb Angioplasty for Diabetic Foot | Dr. Yousuf Memon Clinic</title>
         <meta name="description" content="Minimally invasive treatment to restore blood flow in diabetic foot patients. Learn about procedures, benefits, and risks." />
@@ -14,7 +18,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Lower Limb Angioplasty for Diabetic Foot</h1>
+          <div className="text-4xl md:text-5xl font-bold mb-4">Lower Limb Angioplasty for Diabetic Foot</div>
           <p className="text-xl md:text-2xl">Restore blood flow to prevent complications and promote healing</p>
         </div>
       </div>
@@ -68,19 +72,19 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Purpose of Angioplasty in Diabetic Foot</h2>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">Improve Blood Flow</h3>
+                  <div className="text-xl font-semibold text-gray-800 mb-3">Improve Blood Flow</div>
                   <p className="text-gray-700">
                     Angioplasty helps increase blood flow to the foot and lower leg, promoting healing of ulcers and reducing the risk of infection and gangrene.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">Avoid Amputation</h3>
+                  <div className="text-xl font-semibold text-gray-800 mb-3">Avoid Amputation</div>
                   <p className="text-gray-700">
                     By restoring circulation, angioplasty can help prevent the need for amputation in severe cases of diabetic foot.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-600">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">Relieve Symptoms</h3>
+                  <div className="text-xl font-semibold text-gray-800 mb-3">Relieve Symptoms</div>
                   <p className="text-gray-700">
                     It can alleviate symptoms of PAD, such as pain, cramping, and difficulty walking.
                   </p>
@@ -94,7 +98,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
               <div className="bg-blue-50 rounded-lg shadow-md p-6 border border-blue-200">
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-700 mb-2">1. Pre-Procedure</h3>
+                    <div className="text-xl font-semibold text-blue-700 mb-2">1. Pre-Procedure</div>
                     <ul className="text-gray-700 space-y-2">
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
@@ -111,7 +115,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-700 mb-2">2. During Procedure</h3>
+                    <div className="text-xl font-semibold text-blue-700 mb-2">2. During Procedure</div>
                     <ul className="text-gray-700 space-y-2">
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
@@ -136,7 +140,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-700 mb-2">3. Post-Procedure</h3>
+                    <div className="text-xl font-semibold text-blue-700 mb-2">3. Post-Procedure</div>
                     <ul className="text-gray-700 space-y-2">
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
@@ -160,7 +164,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
             <section className="mb-12">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-green-600 mb-3">Benefits</h3>
+                  <div className="text-xl font-semibold text-green-600 mb-3">Benefits</div>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2">✓</span>
@@ -181,7 +185,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
                   </ul>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-red-600 mb-3">Risks and Considerations</h3>
+                  <div className="text-xl font-semibold text-red-600 mb-3">Risks and Considerations</div>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="text-red-500 mr-2">•</span>
@@ -235,7 +239,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
               <div className="bg-white rounded-lg shadow-md p-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-800 mb-3">Medical Monitoring</h3>
+                    <div className="text-xl font-semibold text-gray-800 mb-3">Medical Monitoring</div>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
@@ -252,7 +256,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-800 mb-3">Lifestyle Changes</h3>
+                    <div className="text-xl font-semibold text-gray-800 mb-3">Lifestyle Changes</div>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
@@ -282,7 +286,7 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
             <div className="sticky top-6 space-y-6">
               {/* Emergency CTA */}
               <div className="bg-gradient-to-br from-red-600 to-orange-600 text-white rounded-lg shadow-xl p-6">
-                <h3 className="text-xl font-bold mb-4">Diabetic Foot Emergency?</h3>
+                <div className="text-xl font-bold mb-4">Diabetic Foot Emergency?</div>
                 <p className="mb-4">Seek immediate care for:</p>
                 <ul className="mb-4 space-y-2">
                   <li className="flex items-start">
@@ -309,22 +313,22 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
 
               {/* Quick Facts */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Facts</h3>
+                <div className="text-xl font-bold text-gray-800 mb-4">Key Facts</div>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-gray-700">Procedure Time</h4>
+                    <div className="font-semibold text-gray-700">Procedure Time</div>
                     <p className="text-gray-600">1-2 hours</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Success Rate</h4>
+                    <div className="font-semibold text-gray-700">Success Rate</div>
                     <p className="text-gray-600">85-90% immediate success</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Hospital Stay</h4>
+                    <div className="font-semibold text-gray-700">Hospital Stay</div>
                     <p className="text-gray-600">Typically outpatient or 1 night</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Recovery Time</h4>
+                    <div className="font-semibold text-gray-700">Recovery Time</div>
                     <p className="text-gray-600">1-2 days to resume normal activities</p>
                   </div>
                 </div>
@@ -332,26 +336,26 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
 
               {/* Related Services */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Related Services</h3>
+                <div className="text-xl font-bold text-gray-800 mb-4">Related Services</div>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Diabetic Foot Care Clinic</a>
+                    <a href="/services/diabetic-foot-care" className="text-blue-600 hover:underline">Diabetic Foot Care Clinic Services</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Vascular Surgery</a>
+                    <a href="/services/vascular-surgery" className="text-blue-600 hover:underline">Vascular Surgery Information</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Wound Care Management</a>
+                    <a href="/services/wound-care" className="text-blue-600 hover:underline">Wound Care Management Details</a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">Diabetes Management Program</a>
+                    <a href="/services/diabetes-management" className="text-blue-600 hover:underline">Diabetes Management Program Overview</a>
                   </li>
                 </ul>
               </div>
 
               {/* Patient Stories */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Patient Success Stories</h3>
+                <div className="text-xl font-bold text-gray-800 mb-4">Patient Success Stories</div>
                 <div className="space-y-4">
                   <div className="border-l-4 border-blue-500 pl-4">
                     <p className="text-gray-600 italic">"After my angioplasty, the pain in my legs disappeared and my foot ulcer finally healed after months of struggling."</p>

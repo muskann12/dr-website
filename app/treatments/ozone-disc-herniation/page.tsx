@@ -5,6 +5,10 @@ import Head from 'next/head';
 const OzoneDiscTreatment = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-teal-900 mb-4">Ozone Therapy for Disc Herniation in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Ozone Therapy for Disc Herniation in Pakistan</strong> is a minimally invasive, non-surgical treatment for herniated discs. Dr. Yousuf Memon provides expert ozone therapy for back pain relief nationwide.</p>
+      </div>
       <Head>
         <title>Ozone Therapy for Disc Herniation in Pakistan | Dr. Yousuf Memon</title>
         <meta name="description" content="Non-surgical ozone treatment for herniated discs in Karachi, Lahore & Hyderabad. Effective pain relief alternative to surgery at Dr. Yousuf Memon's clinics." />

@@ -7,6 +7,10 @@ import Script from 'next/script';
 const IVCFilterDVT = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">IVC Filter Placement in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>IVC Filter Placement in Pakistan</strong> is a minimally invasive procedure to prevent life-threatening blood clots. Dr. Yousuf Memon provides expert filter placement and removal for DVT and clotting disorders nationwide.</p>
+      </div>
       <Head>
         <title>IVC Filter for DVT in Pakistan | Pulmonary Embolism Prevention | Dr. Yousuf Memon</title>
         <meta 

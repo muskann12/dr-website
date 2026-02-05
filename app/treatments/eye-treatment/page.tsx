@@ -5,6 +5,10 @@ import Head from 'next/head';
 const OzoneDryEyesSinusesWrinkles = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Ozone Therapy for Dry Eyes, Sinuses & Wrinkles in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Ozone Therapy for Dry Eyes, Sinuses & Wrinkles in Pakistan</strong> is a safe, natural solution for chronic eye, sinus, and skin issues. Dr. Yousuf Memon provides expert ozone therapy for fast relief nationwide.</p>
+      </div>
       <Head>
         <title>Ozone Therapy for Dry Eyes & Sinus in Whole Pakistan | Natural Wrinkle Treatment</title>
         <meta name="description" content="Best ozone therapy in Pakistan for dry eyes, chronic sinus issues & facial wrinkles. Safe, natural treatments available in Karachi, Lahore, Hyderabad & Rahim Yar Khan." />

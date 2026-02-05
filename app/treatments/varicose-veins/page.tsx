@@ -6,6 +6,10 @@ import Image from "next/image";
 export default function VaricoseVeins() {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Varicose Veins Treatment in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Varicose Veins Treatment in Pakistan</strong> is a painless, minimally invasive laser procedure for varicose veins. Dr. Yousuf Memon provides expert treatment for fast, safe results nationwide.</p>
+      </div>
       <Head>
         <title>
           Best Varicose Veins Treatment in Pakistan | Laser Procedure by Dr.

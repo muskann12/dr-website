@@ -21,9 +21,9 @@ const geistMono = localFont({
 
 // ✅ SEO Metadata
 export const metadata: Metadata = {
-  title: "Dr. Muhammad Yousuf Memon – Interventional Radiologist in Pakistan",
+  title: "Dr. Yousuf Memon | Interventional Radiologist Pakistan",
   description:
-    "Trusted Interventional Radiologist in Pakistan. Dr. Yousuf Memon provides non-surgical treatments including embolization, angioplasty, ozone therapy, and minimally invasive procedures in Karachi, Lahore, Hyderabad & Rahim Yar Khan.",
+    "Dr. Yousuf Memon is a leading interventional radiologist in Pakistan offering non-surgical treatments in Karachi, Lahore, Hyderabad & Rahim Yar Khan.",
   keywords: [
       "Dr. Yousuf Memon",
       "Interventional Radiologist Pakistan",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   },
     metadataBase: new URL("https://www.dryousufmemon.com"),
     alternates: {
-      canonical: "https://www.dryousufmemon.com",
+      canonical: "https://dryousufmemon.com/",
     },
   icons: {
     icon: "/favicon.ico",
@@ -102,8 +102,10 @@ export default function RootLayout({
   return (
     <html lang="en" dir="ltr">
       <head>
-        {/* ✅ Mobile-friendly viewport */}
+        {/* ✅ Single mobile-friendly viewport */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* ✅ Apple Touch Icon for iOS devices */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         {/* ✅ Structured Data */}
         <script
           type="application/ld+json"

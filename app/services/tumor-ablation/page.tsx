@@ -7,6 +7,10 @@ import Image from "next/image";
 const MicrowaveAblation = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Microwave Tumor Ablation (MWA) in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Microwave Tumor Ablation (MWA) in Pakistan</strong> is a minimally invasive treatment for liver, breast, thyroid, and kidney tumors. Dr. Yousuf Memon provides expert MWA for safe, precise tumor removal nationwide.</p>
+      </div>
       <Head>
         {/* Primary SEO */}
         <title>Microwave Tumor Ablation (MWA) in Pakistan | Minimally Invasive Tumor Treatment</title>

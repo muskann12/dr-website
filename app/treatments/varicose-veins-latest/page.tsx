@@ -8,8 +8,8 @@ const VaricoseVeinsLatest = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Latest Varicose Veins Treatments in Pakistan | Dr. Yousuf Memon</title>
-        <meta name="description" content="Discover the latest, minimally invasive treatments for varicose veins in Pakistan. Dr. Yousuf Memon offers advanced laser, radiofrequency, and sclerotherapy options for fast recovery and excellent results." />
+        <title>Varicose Veins Treatment in Pakistan | Latest Laser, RFA & Sclerotherapy by Dr. Yousuf Memon</title>
+        <meta name="description" content="Get the best varicose veins treatment in Pakistan with the latest laser ablation, radiofrequency ablation (RFA), and sclerotherapy. Dr. Yousuf Memon offers safe, minimally invasive procedures for fast recovery and long-lasting results in Karachi, Lahore, and nationwide." />
         <meta name="keywords" content="varicose veins treatment Pakistan, laser varicose veins, radiofrequency ablation, sclerotherapy, Dr. Yousuf Memon, minimally invasive veins treatment Karachi" />
         <meta property="og:title" content="Latest Varicose Veins Treatments in Pakistan | Dr. Yousuf Memon" />
         <meta property="og:description" content="Get rid of varicose veins with the latest laser, RFA, and sclerotherapy treatments by Dr. Yousuf Memon. Fast, safe, and effective solutions in Pakistan." />
@@ -59,7 +59,7 @@ const VaricoseVeinsLatest = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-purple-800 to-pink-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Latest Varicose Veins Treatments</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Varicose Veins Treatment in Pakistan</h1>
           <p className="text-xl md:text-2xl">Laser, RFA, and Sclerotherapy for Fast Recovery</p>
           <div className="flex justify-center mt-6">
             <Image
@@ -80,9 +80,9 @@ const VaricoseVeinsLatest = () => {
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
             <li><a href="/" className="hover:text-purple-600">Home</a></li>
             <li><span>/</span></li>
-            <li><a href="/treatments" className="hover:text-purple-600">Treatments</a></li>
+            <li><a href="/treatments" className="hover:text-purple-600">All Treatments</a></li>
             <li><span>/</span></li>
-            <li className="text-purple-600">Varicose Veins (Latest)</li>
+            <li className="text-purple-600">Latest Varicose Veins Treatment</li>
           </ol>
         </nav>
       </div>
@@ -95,7 +95,7 @@ const VaricoseVeinsLatest = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">What Are the Latest Treatments for Varicose Veins?</h2>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <p className="text-gray-700 mb-4">
-                  Modern varicose veins treatments are minimally invasive, require no major surgery, and offer fast recovery. The most advanced options include:
+                  <strong>Varicose Veins Treatment in Pakistan</strong> is now safer and more effective than ever. Modern treatments are minimally invasive, require no major surgery, and offer fast recovery. The most advanced options include:
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 mb-4">
                   <li><b>Laser Ablation (EVLA):</b> A thin laser fiber is inserted into the vein and heat energy closes the vein from inside.</li>
@@ -120,24 +120,24 @@ const VaricoseVeinsLatest = () => {
             <section className="mb-12">
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="font-semibold text-gray-800 mb-2">Is laser or RFA painful?</h3>
+                <div className="font-semibold text-gray-800 mb-2">Is laser or RFA painful?</div>
                 <p className="text-gray-700 mb-4">No, these procedures are done under local anesthesia and are virtually painless. Mild soreness may occur for a few days.</p>
-                <h3 className="font-semibold text-gray-800 mb-2">How soon can I walk after treatment?</h3>
+                <div className="font-semibold text-gray-800 mb-2">How soon can I walk after treatment?</div>
                 <p className="text-gray-700 mb-4">You can walk immediately after the procedure and resume normal activities within 1-2 days.</p>
-                <h3 className="font-semibold text-gray-800 mb-2">Are results permanent?</h3>
+                <div className="font-semibold text-gray-800 mb-2">Are results permanent?</div>
                 <p className="text-gray-700">Treated veins are permanently closed, but new veins can develop over time. Regular follow-up is advised.</p>
               </div>
             </section>
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Book a Consultation</h2>
               <p className="text-gray-700 mb-4">Contact Dr. Yousuf Memon for a personalized assessment and to discuss the best treatment option for your varicose veins.</p>
-              <a href="/contact" className="inline-block bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition">Book Appointment</a>
+              <a href="/contact" className="inline-block bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition">Contact Dr. Yousuf Memon</a>
             </section>
           </div>
           {/* Sidebar */}
           <div className="lg:w-1/3">
             <div className="bg-purple-50 rounded-lg shadow-md p-6 mb-8">
-              <h3 className="text-xl font-bold text-purple-700 mb-4">Why Choose Dr. Yousuf Memon?</h3>
+              <div className="text-xl font-bold text-purple-700 mb-4">Why Choose Dr. Yousuf Memon?</div>
               <ul className="list-disc pl-6 text-gray-700">
                 <li>Over 15 years of experience</li>
                 <li>Internationally trained IR specialist</li>
@@ -146,7 +146,7 @@ const VaricoseVeinsLatest = () => {
               </ul>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Contact Information</h3>
+              <div className="text-xl font-bold text-gray-800 mb-4">Contact Information</div>
               <p className="text-gray-700 mb-2">Phone: <a href="tel:+923367889143" className="text-purple-700 hover:underline">+92 336 7889143</a></p>
               <p className="text-gray-700 mb-2">Location: Karachi, Pakistan</p>
               <p className="text-gray-700">Email: <a href="mailto:dryousufmemon@gmail.com" className="text-purple-700 hover:underline">dryousufmemon@gmail.com</a></p>

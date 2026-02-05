@@ -5,6 +5,10 @@ import Head from 'next/head';
 const OzoneJointTherapy = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">Ozone Therapy for Joint Pain in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>Ozone Therapy for Joint Pain in Pakistan</strong> is a natural, non-surgical solution for knee, shoulder, and back pain. Dr. Yousuf Memon provides expert ozone therapy for fast pain relief nationwide.</p>
+      </div>
       <Head>
         <title>Ozone Therapy for Joint Pain in Pakistan | Dr. Yousuf Memon</title>
         <meta name="description" content="Non-surgical ozone treatment for knee, shoulder & back pain in Karachi, Lahore & Hyderabad. Effective pain relief alternative at Dr. Yousuf Memon's clinics." />

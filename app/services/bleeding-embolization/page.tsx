@@ -7,6 +7,10 @@ import Script from 'next/script';
 export default function GIBleedingEmbolization() {
   return (
     <>
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-blue-900 mb-4">GI Bleeding Embolization in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>GI Bleeding Embolization in Pakistan</strong> is a life-saving, minimally invasive procedure for severe gastrointestinal bleeding. Dr. Yousuf Memon provides expert care for ulcers, diverticulosis, and tumors nationwide.</p>
+      </div>
       <Head>
         <title>GI Bleeding Embolization in Pakistan | Minimally Invasive Treatment | Dr. Yousuf Memon</title>
         <meta
@@ -17,7 +21,6 @@ export default function GIBleedingEmbolization() {
           name="keywords"
           content="GI bleeding embolization Pakistan, gastrointestinal bleeding treatment Karachi, minimally invasive GI bleeding procedure, non-surgical treatment for GI bleed, severe rectal bleeding treatment, vomiting blood treatment options, best doctor for GI bleeding in Pakistan"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://dryousufmemon.com/services/bleeding-embolization" />
 
         {/* Open Graph (Facebook/LinkedIn) */}

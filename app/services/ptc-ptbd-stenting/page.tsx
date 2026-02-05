@@ -6,6 +6,10 @@ import Image from 'next/image';
 const PTCStenting = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-teal-900 mb-4">PTC, PTBD & CBD Stenting in Pakistan</h1>
+        <p className="text-gray-700 mb-6"><strong>PTC, PTBD & CBD Stenting in Pakistan</strong> are minimally invasive procedures for bile duct obstruction. Dr. Yousuf Memon provides expert diagnosis and stenting for safe, effective relief nationwide.</p>
+      </div>
       <Head>
         <title>PTC, PTBD & CBD Stenting | Dr. Yousuf Memon Clinic</title>
         <meta name="description" content="Minimally invasive procedures for bile duct obstruction. Diagnosis and treatment with PTC, PTBD and CBD stenting." />

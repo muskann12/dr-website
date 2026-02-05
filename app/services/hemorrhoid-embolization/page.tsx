@@ -8,16 +8,15 @@ const HemorrhoidEmbolization = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Hemorrhoid Embolization in Pakistan | Piles Treatment Without Surgery | Dr. Yousuf Memon</title>
+        <title>Hemorrhoid Embolization in Pakistan | Piles Treatment by Dr. Yousuf Memon</title>
         <meta 
           name="description" 
-          content="Dr. Yousuf Memon offers minimally invasive hemorrhoid embolization in Pakistan - effective treatment for piles without surgery. Quick recovery, high success rate. Book consultation today." 
+          content="Get the best hemorrhoid (piles) embolization in Pakistan. Dr. Yousuf Memon offers minimally invasive, non-surgical treatment for fast recovery and high success rate in Karachi, Lahore, and nationwide." 
         />
         <meta
           name="keywords"
           content="hemorrhoid embolization Pakistan, piles treatment without surgery, minimally invasive hemorrhoid treatment, hemorrhoidal artery embolization, THD procedure Pakistan, best piles doctor in Karachi"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://dryousufmemon.com/services/hemorrhoid-embolization" />
 
         {/* Open Graph (Facebook/LinkedIn) */}
@@ -106,6 +105,9 @@ const HemorrhoidEmbolization = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">What are Hemorrhoids (Piles)?</h2>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <p className="text-gray-700 mb-4">
+                  <strong>Hemorrhoid Embolization in Pakistan</strong> is a modern, minimally invasive treatment for piles. Dr. Yousuf Memon offers expert care for fast recovery and high success rates nationwide.
+                </p>
+                <p className="text-gray-700">
                   Hemorrhoids, commonly called piles in Pakistan, are swollen veins in the rectum and anus that cause discomfort, itching, pain, and bleeding. They affect about 50% of adults by age 50, with higher prevalence in populations with low-fiber diets like ours.
                 </p>
                 <p className="text-gray-700">
@@ -129,7 +131,7 @@ const HemorrhoidEmbolization = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Why Choose Our Hemorrhoid Embolization Service?</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Specialized Expertise</h3>
+                  <div className="text-xl font-semibold text-purple-700 mb-3">Specialized Expertise</div>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-purple-600 mr-2">✓</span>
@@ -146,7 +148,7 @@ const HemorrhoidEmbolization = () => {
                   </ul>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Patient Advantages</h3>
+                  <div className="text-xl font-semibold text-purple-700 mb-3">Patient Advantages</div>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-purple-600 mr-2">✓</span>
@@ -172,7 +174,7 @@ const HemorrhoidEmbolization = () => {
               <div className="bg-purple-50 rounded-lg shadow-md p-6 border border-purple-200">
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-xl font-semibold text-purple-700 mb-2">1. Pre-Procedure Preparation</h3>
+                    <div className="text-xl font-semibold text-purple-700 mb-2">1. Pre-Procedure Preparation</div>
                     <p className="text-gray-700">
                       • Comprehensive evaluation including proctoscopy<br/>
                       • Blood tests to check clotting function<br/>
@@ -182,7 +184,7 @@ const HemorrhoidEmbolization = () => {
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-purple-700 mb-2">2. During the Procedure</h3>
+                    <div className="text-xl font-semibold text-purple-700 mb-2">2. During the Procedure</div>
                     <p className="text-gray-700 mb-2">
                       • Local anesthesia with sedation (awake but relaxed)<br/>
                       • Tiny puncture in groin or wrist (1-2mm)<br/>
@@ -193,7 +195,7 @@ const HemorrhoidEmbolization = () => {
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-purple-700 mb-2">3. Post-Procedure Recovery</h3>
+                    <div className="text-xl font-semibold text-purple-700 mb-2">3. Post-Procedure Recovery</div>
                     <p className="text-gray-700">
                       • 2-4 hours observation before discharge<br/>
                       • Mild discomfort managed with simple painkillers<br/>
@@ -212,7 +214,7 @@ const HemorrhoidEmbolization = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Benefits vs Traditional Surgery</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Embolization Advantages</h3>
+                  <div className="text-xl font-semibold text-purple-700 mb-3">Embolization Advantages</div>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="text-purple-600 mr-2">✓</span>
@@ -237,7 +239,7 @@ const HemorrhoidEmbolization = () => {
                   </ul>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Surgery Disadvantages</h3>
+                  <div className="text-xl font-semibold text-purple-700 mb-3">Surgery Disadvantages</div>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="text-red-500 mr-2">•</span>
@@ -297,7 +299,7 @@ const HemorrhoidEmbolization = () => {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Ideal Candidates in Pakistan</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Good Candidates</h3>
+                  <div className="text-xl font-semibold text-purple-700 mb-3">Good Candidates</div>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="text-purple-600 mr-2">✓</span>
@@ -318,7 +320,7 @@ const HemorrhoidEmbolization = () => {
                   </ul>
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-xl font-semibold text-purple-700 mb-3">Poor Candidates</h3>
+                  <div className="text-xl font-semibold text-purple-700 mb-3">Poor Candidates</div>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="text-red-500 mr-2">•</span>
@@ -393,7 +395,7 @@ const HemorrhoidEmbolization = () => {
             <div className="sticky top-6 space-y-6">
               {/* Emergency CTA */}
               <div className="bg-gradient-to-br from-red-600 to-orange-600 text-white rounded-lg shadow-xl p-6">
-                <h3 className="text-xl font-bold mb-4">Severe Hemorrhoid Bleeding?</h3>
+                  <div className="text-xl font-bold mb-4">Severe Hemorrhoid Bleeding?</div>
                 <p className="mb-4">Seek immediate care if you have:</p>
                 <ul className="mb-4 space-y-2">
                   <li className="flex items-start">
@@ -416,26 +418,26 @@ const HemorrhoidEmbolization = () => {
 
               {/* Quick Facts */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Procedure Highlights</h3>
+                <div className="text-xl font-bold text-gray-800 mb-4">Procedure Highlights</div>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-gray-700">Procedure Time</h4>
+                    <div className="font-semibold text-gray-700">Procedure Time</div>
                     <p className="text-gray-600">45-90 minutes</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Success Rate</h4>
+                    <div className="font-semibold text-gray-700">Success Rate</div>
                     <p className="text-gray-600">80-90% symptom improvement</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Recovery Time</h4>
+                    <div className="font-semibold text-gray-700">Recovery Time</div>
                     <p className="text-gray-600">1-2 days</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Hospital Stay</h4>
+                    <div className="font-semibold text-gray-700">Hospital Stay</div>
                     <p className="text-gray-600">Outpatient (no overnight)</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Anesthesia</h4>
+                    <div className="font-semibold text-gray-700">Anesthesia</div>
                     <p className="text-gray-600">Local with sedation</p>
                   </div>
                 </div>
@@ -443,7 +445,7 @@ const HemorrhoidEmbolization = () => {
 
               {/* Related Services */}
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Related Services in Pakistan</h3>
+                <div className="text-xl font-bold text-gray-800 mb-4">Related Services in Pakistan</div>
                 <ul className="space-y-3">
                   <li>
                     <a href="/services/colonoscopy" className="text-purple-600 hover:underline">Diagnostic Colonoscopy</a>
@@ -462,7 +464,7 @@ const HemorrhoidEmbolization = () => {
 
               {/* Contact Card */}
               <div className="bg-white rounded-lg shadow-md p-6 border border-purple-200">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Consult Dr. Yousuf Memon</h3>
+                <div className="text-xl font-bold text-gray-800 mb-4">Consult Dr. Yousuf Memon</div>
                 <p className="text-gray-700 mb-4">For hemorrhoid evaluation or treatment options:</p>
                 <ul className="space-y-3 mb-4">
                   <li className="flex items-start">

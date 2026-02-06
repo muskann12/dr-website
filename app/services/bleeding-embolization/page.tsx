@@ -9,6 +9,9 @@ export default function GIBleedingEmbolization() {
     <>
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">GI Bleeding Embolization in Pakistan</h1>
+                <p className="text-gray-700 mb-6">
+                  GI Bleeding Embolization in Pakistan is a life-saving, minimally invasive procedure for patients with severe gastrointestinal bleeding. Dr. Yousuf Memon specializes in treating ulcers, diverticulosis, and tumors using this advanced technique, ensuring rapid recovery and high success rates.
+                </p>
         <p className="text-gray-700 mb-6"><strong>GI Bleeding Embolization in Pakistan</strong> is a life-saving, minimally invasive procedure for severe gastrointestinal bleeding. Dr. Yousuf Memon provides expert care for ulcers, diverticulosis, and tumors nationwide.</p>
       </div>
       <Head>

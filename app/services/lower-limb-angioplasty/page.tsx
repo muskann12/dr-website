@@ -8,6 +8,9 @@ const LowerLimbAngioplastyDiabeticFoot = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">Lower Limb Angioplasty for Diabetic Foot in Pakistan</h1>
+                <p className="text-gray-700 mb-6">
+                  Lower Limb Angioplasty for Diabetic Foot in Pakistan is a minimally invasive procedure to restore blood flow and prevent complications. Dr. Yousuf Memon provides expert angioplasty for diabetic foot patients, helping them avoid amputation and improve quality of life.
+                </p>
         <p className="text-gray-700 mb-6"><strong>Lower Limb Angioplasty for Diabetic Foot in Pakistan</strong> is a minimally invasive procedure to restore blood flow and prevent complications. Dr. Yousuf Memon provides expert angioplasty for diabetic foot patients nationwide.</p>
       </div>
       <Head>

@@ -15,6 +15,9 @@ const PermacathPlacement = () => {
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-16">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Permacath Placement for Dialysis</h1>
+                    <p className="text-gray-700 mb-6">
+                      Permacath Placement for Dialysis in Pakistan provides reliable long-term access for hemodialysis patients. Dr. Yousuf Memon ensures safe, expert placement for those needing ongoing dialysis treatment.
+                    </p>
           <p className="text-lg md:text-xl">Reliable long-term access for hemodialysis patients</p>
         </div>
       </div>

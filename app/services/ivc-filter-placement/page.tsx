@@ -9,6 +9,9 @@ const IVCFilterDVT = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">IVC Filter Placement in Pakistan</h1>
+                <p className="text-gray-700 mb-6">
+                  IVC Filter Placement in Pakistan is a vital, minimally invasive procedure to prevent life-threatening blood clots. Dr. Yousuf Memon specializes in IVC filter placement and removal for DVT and clotting disorders, ensuring patient safety and quick recovery.
+                </p>
         <p className="text-gray-700 mb-6"><strong>IVC Filter Placement in Pakistan</strong> is a minimally invasive procedure to prevent life-threatening blood clots. Dr. Yousuf Memon provides expert filter placement and removal for DVT and clotting disorders nationwide.</p>
       </div>
       <Head>

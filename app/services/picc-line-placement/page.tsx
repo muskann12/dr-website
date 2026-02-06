@@ -8,6 +8,9 @@ const PICCLinePlacement = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">PICC Line Placement in Pakistan</h1>
+                <p className="text-gray-700 mb-6">
+                  PICC Line Placement in Pakistan is a safe, long-term IV access procedure for antibiotics, chemotherapy, and other treatments. Dr. Yousuf Memon provides expert PICC line placement and care, ensuring comfort and safety for patients nationwide.
+                </p>
         <p className="text-gray-700 mb-6"><strong>PICC Line Placement in Pakistan</strong> is a safe, long-term IV access procedure for antibiotics, chemotherapy, and other treatments. Dr. Yousuf Memon provides expert PICC line placement and care nationwide.</p>
       </div>
       <Head>

@@ -9,6 +9,9 @@ const BrainTumorEmbolization = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-blue-900 mb-4">Brain Tumor Embolization in Pakistan</h1>
+                <p className="text-gray-700 mb-6">
+                  Brain Tumor Embolization in Pakistan is a cutting-edge, minimally invasive procedure that makes brain tumor surgery safer. Dr. Yousuf Memon offers this advanced treatment for meningiomas, gliomas, and other tumors, helping patients across the country achieve better outcomes.
+                </p>
         <p className="text-gray-700 mb-6"><strong>Brain Tumor Embolization in Pakistan</strong> is a minimally invasive procedure for safer brain tumor surgery. Dr. Yousuf Memon provides expert care for meningiomas, gliomas, and other tumors nationwide.</p>
       </div>
       <Head>

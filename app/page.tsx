@@ -228,6 +228,10 @@ const HomePage = () => {
               </h1>
 
               <p className="text-lg text-teal-100 mb-8 max-w-lg">
+                Minimally invasive treatments in Pakistan are transforming patient care. Dr. Yousuf Memon offers advanced, image-guided procedures for fibroids, varicose veins, and more—providing faster recovery and better outcomes than traditional surgery.
+              </p>
+
+              <p className="text-lg text-teal-100 mb-8 max-w-lg">
                 Advanced image-guided procedures for fibroids, varicose veins, and other conditions with faster recovery and better outcomes than traditional surgery.
               </p>
 
